@@ -1,0 +1,20 @@
+<odoo>
+    <record id="page_about_us" model="website.page">
+        <field name="name">Nosotros</field>
+        <field name="is_published" eval="True"/>
+        <field name="key">theme_pragmatic.page_about_us</field>
+        <field name="url">/nosotros</field>
+        <field name="type">qweb</field>
+        <field name="arch" type="xml">
+            <t t-name="theme_pragmatic.page_about_us">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure">
+
+                        <!-- Content -->
+
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+</odoo>

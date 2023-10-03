@@ -1,0 +1,108 @@
+<odoo>
+    <!-- Contact us -->
+    <delete model="website.menu" search="[('url','in', ['/', '/contactus']),
+    ('website_id', '=', 1)]"/>
+
+    <!-- Shop -->
+    <delete model="website.menu" search="[('url','in', ['/', '/shop']),
+    ('website_id', '=', 1)]"/>
+
+    <!--Menú Inicio-->
+    <record id="menu_home" model="website.menu">
+        <field name="name">Inicio</field>
+        <field name="url">/inicio-pragmatic</field>
+        <field name="parent_id" search="[
+            ('url', '=', '/default-main-menu'),
+            ('website_id', '=', 1)]"/>
+        <field name="website_id">1</field>
+        <field name="sequence" type="int">1</field>
+    </record>
+
+    <!--Menú Nosotros-->
+    <record id="menu_us" model="website.menu">
+        <field name="name">Nosotros</field>
+        <field name="url">/nosotros</field>
+        <field name="parent_id" search="[
+            ('url', '=', '/default-main-menu'),
+            ('website_id', '=', 1)]"/>
+        <field name="website_id">1</field>
+        <field name="sequence" type="int">2</field>
+    </record>
+
+
+    <!--Menú desplegable Servicios-->
+    <record id="menu_services" model="website.menu">
+        <field name="name">Servicios</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" search="[
+            ('url', '=', '/default-main-menu'),
+            ('website_id', '=', 1)]"/>
+        <field name="sequence" type="int">3</field>
+    </record>
+
+    <!--Menú Software ERP-->
+    <record id="menu_services_ERP" model="website.menu">
+        <field name="name">Software ERP</field>
+        <field name="url">/Software-ERP</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="theme_pragmatic.menu_services"/>
+        <field name="sequence" type="int">1</field>
+    </record>
+
+    <!--Menú Software CRM-->
+    <record id="menu_services_CRM" model="website.menu">
+        <field name="name">Software CRM</field>
+        <field name="url">/Software-CRM</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="theme_pragmatic.menu_services"/>
+        <field name="sequence" type="int">2</field>
+    </record>
+
+    <!--Menú Consultorías-->
+    <record id="menu_services_consultorias" model="website.menu">
+        <field name="name">Consultorías</field>
+        <field name="url">/consultorias</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="theme_pragmatic.menu_services"/>
+        <field name="sequence" type="int">3</field>
+    </record>
+
+     <!--Menú Monitoreo de Medios-->
+    <record id="menu_services_monitoreo" model="website.menu">
+        <field name="name">Monitoreo de Medios</field>
+        <field name="url">/monitoreo</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="theme_pragmatic.menu_services"/>
+        <field name="sequence" type="int">4</field>
+    </record>
+
+     <!--Menú Aplicaciones Móviles-->
+    <record id="menu_services_apps_moviles" model="website.menu">
+        <field name="name">Aplicaciones Móviles</field>
+        <field name="url">/apps-moviles</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="theme_pragmatic.menu_services"/>
+        <field name="sequence" type="int">5</field>
+    </record>
+
+     <!--Menú Desarrollos a la Medida-->
+    <record id="menu_services_desarrollos_medida" model="website.menu">
+        <field name="name">Desarrollos a la medida</field>
+        <field name="url">/desarrollo-medida</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="theme_pragmatic.menu_services"/>
+        <field name="sequence" type="int">6</field>
+    </record>
+
+
+    <!--Menú Contactanos-->
+    <record id="menu_services_desarrollos_medida" model="website.menu">
+        <field name="name">Contactanos</field>
+        <field name="url">/contactanos</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="theme_pragmatic.menu_services"/>
+        <field name="sequence" type="int">7</field>
+    </record>
+
+
+</odoo>

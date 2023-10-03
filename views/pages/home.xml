@@ -1,0 +1,181 @@
+<odoo>
+    <record id="website.homepage" model="ir.ui.view">
+        <field name="active" eval="False"/>
+    </record>
+
+
+    <record id="page_home" model="website.page">
+        <field name="name">Inicio</field>
+        <field name="is_published" eval="True"/>
+        <field name="key">theme_pragmatic.page_home</field>
+        <field name="url">/inicio-pragmatic</field>
+        <field name="type">qweb</field>
+        <field name="arch" type="xml">
+            <t t-name="theme_pragmatic.page_home">
+
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure">
+                        <link rel="stylesheet" href="/../static/src/scss/style_home.scss"/>
+
+                        <header class="portada">
+                            <div class="contenido">
+                                <h1>Soluciones Integrales TIC para las PYME</h1>
+                                <a href="#" class="boton">Ver vídeo</a>
+                            </div>
+                        </header>
+
+
+                        <div class="card-container">
+                            <div class="row">
+
+                                <div class="col-md-12">
+                                    <h1 class="title-1">¿En qué podemos ayudarte?</h1>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="ico-card">
+                                            <i class="fa fa-cogs" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Software ERP</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the
+                                                bulk of the card's content.
+                                            </p>
+                                            <div class="d-grid gap-2 d-md-block">
+                                                <button class="boton" type="button">Ver Más</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="ico-card">
+                                            <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Software CRM</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the
+                                                bulk of the card's content.
+                                            </p>
+                                            <div class="d-grid gap-2 d-md-block">
+                                                <button class="boton" type="button">Ver Más</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="ico-card">
+                                            <i class="fa fa-users" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Consultorías</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the
+                                                bulk of the card's content.
+                                            </p>
+                                            <div class="d-grid gap-2 d-md-block">
+                                                <button class="boton" type="button">Ver Más</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="ico-card">
+                                            <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Monitoreo de Medios</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the
+                                                bulk of the card's content.
+                                            </p>
+                                            <div class="d-grid gap-2 d-md-block">
+                                                <button class="boton" type="button">Ver Más</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="ico-card">
+                                            <i class="fa fa-mobile" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Aplicaciones Móviles</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the
+                                                bulk of the card's content.
+                                            </p>
+                                            <div class="d-grid gap-2 d-md-block">
+                                                <button class="boton" type="button">Ver Más</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="ico-card">
+                                            <i class="fa fa-code" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Desarrollos a la Medida</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the
+                                                bulk of the card's content.
+                                            </p>
+                                            <div class="d-grid gap-2 d-md-block">
+                                                <button class="boton" type="button">Ver Más</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="testimonial-carousel">
+                            <div class="testimonial-card">
+                                <img src="empresa1.jpg" alt="Empresa 1"/>
+                                <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Vestibulum bibendum euismod neque, nec gravida ligula.
+                                </p>
+                                <p class="testimonial-author">- Nombre del Cliente 1, Empresa 1</p>
+                            </div>
+                            <div class="testimonial-card">
+                                <img src="empresa2.jpg" alt="Empresa 2"/>
+                                <p class="testimonial-text">Aenean in lectus vel sem pretium hendrerit. Sed ut libero
+                                    quis libero hendrerit congue.
+                                </p>
+                                <p class="testimonial-author">- Nombre del Cliente 2, Empresa 2</p>
+                            </div>
+                            <!-- Agrega más tarjetas de testimonios aquí -->
+                        </div>
+
+
+                    </div>
+
+
+                </t>
+
+            </t>
+        </field>
+    </record>
+
+</odoo>

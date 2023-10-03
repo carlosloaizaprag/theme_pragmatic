@@ -1,0 +1,19 @@
+<odoo>
+    <template id="template_header_opt" inherit_id="website.snippet_options" name="Header Template - Option">
+        <xpath expr="//we-select[@data-variable='header-template']" position="inside">
+        <we-button title="pragmatic"
+            data-customize-website-views="theme_pragmatic.header"
+            data-customize-website-variable="'pragmatic'"  data-img="/theme_pragmatic/static/src/img/wbuilder/template_header_opt.svg"/>
+        </xpath>
+    </template>
+
+
+    <template id="template_header_opt" inherit_id="website.snippet_options" name="Footer Template - Option">
+       <xpath expr="//we-select[@data-variable='footer-template']" position="inside">
+          <we-button title="pragmatic"
+             data-customize-website-views="theme_pragmatic.footer"
+             data-customize-website-variable="'pragmatic'"
+             data-img="/theme_pragmatic/static/src/img/wbuilder/template_header_opt.svg"/>
+       </xpath>
+    </template>
+</odoo>
