@@ -1,0 +1,118 @@
+<odoo>
+    <record id="website.contactus" model="ir.ui.view">
+        <field name="active" eval="False"/>
+    </record>
+
+    <record id="page_blog" model="website.page">
+        <field name="name">Inicio</field>
+        <field name="is_published" eval="True"/>
+        <field name="key">theme_pragmatic.page_blog</field>
+        <field name="url">/blog</field>
+        <field name="type">qweb</field>
+        <field name="arch" type="xml">
+            <t t-name="theme_pragmatic.page_blog">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure">
+                        <link rel="stylesheet" href="/../static/src/scss/style_blog.scss"/>
+
+                        <!--<header class="front-page-blog">
+                            <div class="content-blog">
+                                <h2>Blog Pragmatic</h2>
+                                <h3>
+                                    En este espacio nuestro equipo comparte
+                                    <br />
+                                    su conocimiento para que todos se enriquezcan y estén actualizados periódicamente.
+                                </h3>
+                            </div>
+                        </header>
+
+                        <div class="card-container">
+                            <div class="row justify-content-center align-items-center">
+
+                                    <div class="card card-blog">
+                                        <div class="ico-card-blog">
+                                            <div class="card-badge">Soluciones</div>
+                                        </div>
+                                        <div class="card-body">
+                                            <a class="card-title-blog" href="#">SU PLATAFORMA DE SOPORTE EN TRANSFIRIENDO</a>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span>marzo 31, 2023</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card card-blog">
+                                        <div class="ico-card-blog">
+                                            <div class="card-badge">Soluciones</div>
+                                        </div>
+                                        <div class="card-body">
+                                            <a class="card-title-blog" href="#">SU PLATAFORMA DE SOPORTE EN TRANSFIRIENDO</a>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span>marzo 31, 2023</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card card-blog">
+                                        <div class="ico-card-blog">
+                                            <div class="card-badge">Soluciones</div>
+                                        </div>
+                                        <div class="card-body">
+                                            <a class="card-title-blog" href="#">SU PLATAFORMA DE SOPORTE EN TRANSFIRIENDO</a>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span>marzo 31, 2023</span>
+                                        </div>
+                                    </div>
+
+                                <div class="row justify-content-center align-items-center">
+
+                                    <div class="card card-blog">
+                                        <div class="ico-card-blog">
+                                            <div class="card-badge">Soluciones</div>
+                                        </div>
+                                        <div class="card-body">
+                                            <a class="card-title-blog" href="#">SU PLATAFORMA DE SOPORTE EN TRANSFIRIENDO</a>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span>marzo 31, 2023</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card card-blog">
+                                        <div class="ico-card-blog">
+                                            <div class="card-badge">Soluciones</div>
+                                        </div>
+                                        <div class="card-body">
+                                            <a class="card-title-blog" href="#">SU PLATAFORMA DE SOPORTE EN TRANSFIRIENDO</a>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span>marzo 31, 2023</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card card-blog">
+                                        <div class="ico-card-blog">
+                                            <div class="card-badge">Soluciones</div>
+                                        </div>
+                                        <div class="card-body">
+                                            <a class="card-title-blog" href="#">SU PLATAFORMA DE SOPORTE EN TRANSFIRIENDO</a>
+                                        </div>
+                                        <div class="card-footer">
+                                            <span>marzo 31, 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>-->
+
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+</odoo>

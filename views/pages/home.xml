@@ -8,7 +8,7 @@
         <field name="name">Inicio</field>
         <field name="is_published" eval="True"/>
         <field name="key">theme_pragmatic.page_home</field>
-        <field name="url">/inicio-pragmatic</field>
+        <field name="url">/home-pragmatic</field>
         <field name="type">qweb</field>
         <field name="arch" type="xml">
             <t t-name="theme_pragmatic.page_home">
@@ -17,25 +17,25 @@
                     <div id="wrap" class="oe_structure">
                         <link rel="stylesheet" href="/../static/src/scss/style_home.scss"/>
 
-                        <header class="portada">
-                            <div class="contenido">
+                        <header class="front-page">
+                            <div class="content">
                                 <h1>Soluciones Integrales TIC para las PYME</h1>
-                                <a href="#" class="boton">Ver vídeo</a>
+                                <h2>Somos un grupo empresarial de servicios Tecnológicos.</h2>
+                                <a href="#" class="video-button">Ver Video</a>
                             </div>
                         </header>
 
 
                         <div class="card-container">
-                            <div class="row">
+                            <div class="row justify-content-center align-items-center cards">
 
                                 <div class="col-md-12">
                                     <h1 class="title-1">¿En qué podemos ayudarte?</h1>
                                 </div>
 
-                                <div class="col-md-4">
                                     <div class="card">
                                         <div class="ico-card">
-                                            <i class="fa fa-cogs" aria-hidden="true"></i>
+                                            <i class="fa fa-cogs" aria-hidden="true" />
                                         </div>
                                         <div class="card-body">
                                             <h5 class="card-title">Software ERP</h5>
@@ -49,12 +49,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class="col-md-4">
                                     <div class="card">
                                         <div class="ico-card">
-                                            <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                                            <i class="fa fa-handshake-o" aria-hidden="true" />
                                         </div>
                                         <div class="card-body">
                                             <h5 class="card-title">Software CRM</h5>
@@ -68,12 +66,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class="col-md-4">
                                     <div class="card">
                                         <div class="ico-card">
-                                            <i class="fa fa-users" aria-hidden="true"></i>
+                                            <i class="fa fa-users" aria-hidden="true" />
                                         </div>
                                         <div class="card-body">
                                             <h5 class="card-title">Consultorías</h5>
@@ -87,12 +83,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class="col-md-4">
+                                <div class="row justify-content-center align-items-center">
+
                                     <div class="card">
                                         <div class="ico-card">
-                                            <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                            <i class="fa fa-bar-chart" aria-hidden="true" />
                                         </div>
                                         <div class="card-body">
                                             <h5 class="card-title">Monitoreo de Medios</h5>
@@ -106,12 +102,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class="col-md-4">
                                     <div class="card">
                                         <div class="ico-card">
-                                            <i class="fa fa-mobile" aria-hidden="true"></i>
+                                            <i class="fa fa-mobile" aria-hidden="true" />
                                         </div>
                                         <div class="card-body">
                                             <h5 class="card-title">Aplicaciones Móviles</h5>
@@ -125,12 +119,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class="col-md-4">
                                     <div class="card">
                                         <div class="ico-card">
-                                            <i class="fa fa-code" aria-hidden="true"></i>
+                                            <i class="fa fa-code" aria-hidden="true" />
                                         </div>
                                         <div class="card-body">
                                             <h5 class="card-title">Desarrollos a la Medida</h5>
@@ -145,27 +137,420 @@
                                         </div>
                                     </div>
                                 </div>
+
+
+
                             </div>
 
                         </div>
 
+                        <div class="carousel-header">
+                            <div class="col-md-12">
+                                <h5 class="title-2">+800 clientes a nivel nacional</h5>
+                                <h2 class="sub-title-1">Algunos de nuestros Clientes</h2>
+                            </div>
+                        </div>
 
-                        <div class="testimonial-carousel">
-                            <div class="testimonial-card">
-                                <img src="empresa1.jpg" alt="Empresa 1"/>
-                                <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Vestibulum bibendum euismod neque, nec gravida ligula.
-                                </p>
-                                <p class="testimonial-author">- Nombre del Cliente 1, Empresa 1</p>
+                        <div class="clients">
+                            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+                            <div class="swiper clientsSwiper">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide slide-clients">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-01-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slide-clients">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-02-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slide-clients">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-03-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slide-clients">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-04-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slide-clients">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-05-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slide-clients">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-06-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slide-clients">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-11-180x180-1.jpg" />
+                                  </div>
+                                    <div class="swiper-slide slide-clients">
+                                        <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-01-180x180-1.jpg" />
+                                    </div>
+                                  <div class="swiper-slide slide-clients">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-02-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slide-clients">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-03-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slide-clients">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-04-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slide-clients">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-05-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slide-clients">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-06-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slide-clients">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-11-180x180-1.jpg" />
+                                  </div>
+                                </div>
+                                <div class="swiper-button-next" />
+                                <div class="swiper-button-prev" />
+                                <div class="swiper-pagination" />
+                              </div>
+
+                            <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" />
+                            <script>
+                                var swiper = new Swiper(".clientsSwiper", {
+                                  rewind: true,
+                                  slidesPerView: 7,
+                                  loop: true,
+                                  spaceBetween: 0,
+                                  centeredSlides: false,
+                                  autoplay: {
+                                    delay: 6500,
+                                    disableOnInteraction: false,
+                                  },
+                                  pagination: {
+                                    el: ".swiper-pagination",
+                                    clickable: true,
+                                  },
+                                  navigation: {
+                                    nextEl: ".swiper-button-next",
+                                    prevEl: ".swiper-button-prev",
+                                  },
+                                });
+                              </script>
+                        </div>
+
+                        <div class="carousel-testimonials-header">
+                            <div class="col-md-12">
+                                <h2 class="title-3">Testimonios<br />Clientes</h2>
+                                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+                                <div class="swiper swiper-testimonials testimonialsSwiper">
+                                    <div class="swiper-wrapper">
+                                      <div class="swiper-slide slide-testimonials">
+                                          <img class="swiper-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/08/comfenalco-valle-delagente-logo.png" alt="" />
+                                          <p>Tienen muy buenos tiempos de respuesta y solución para incidentes y/o solicitudes presentadas, estamos contentos.</p>
+                                          <span><strong>Paola Guerrero Abello</strong></span>
+                                          <span>Profesional de Habilitación - Comfenalco Valle EPS</span>
+                                      </div>
+                                      <div class="swiper-slide slide-testimonials">
+                                          <img class="swiper-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/08/LogoHUSI_WEB.png" alt="" />
+                                          <p>Tienen muy buenos tiempos de respuesta y solución para incidentes y/o solicitudes presentadas, estamos contentos.</p>
+                                          <span><strong>Paola Guerrero Abello</strong></span>
+                                          <span>Profesional de Habilitación - Comfenalco Valle EPS</span>
+                                      </div>
+                                      <div class="swiper-slide slide-testimonials">
+                                          <img class="swiper-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/08/logo.png" alt="" />
+                                          <p>Tienen muy buenos tiempos de respuesta y solución para incidentes y/o solicitudes presentadas, estamos contentos.</p>
+                                          <span><strong>Paola Guerrero Abello</strong></span>
+                                          <span>Profesional de Habilitación - Comfenalco Valle EPS</span>
+                                      </div>
+                                      <div class="swiper-slide slide-testimonials">
+                                          <img class="swiper-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/08/LOGO1.png" alt="" />
+                                          <p>Tienen muy buenos tiempos de respuesta y solución para incidentes y/o solicitudes presentadas, estamos contentos.</p>
+                                          <span><strong>Paola Guerrero Abello</strong></span>
+                                          <span>Profesional de Habilitación - Comfenalco Valle EPS</span>
+                                      </div>
+                                    </div>
+                                    <div class="swiper-pagination" />
+                                  </div>
+
+                                <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" />
+
+                                <script>
+                                    var swiper = new Swiper(".testimonialsSwiper", {
+                                      spaceBetween: 30,
+                                      autoplay: {
+                                        delay: 5500,
+                                        disableOnInteraction: false,
+                                      },
+                                      pagination: {
+                                        el: ".swiper-pagination",
+                                        clickable: true,
+                                      },
+                                    });
+                                  </script>
                             </div>
-                            <div class="testimonial-card">
-                                <img src="empresa2.jpg" alt="Empresa 2"/>
-                                <p class="testimonial-text">Aenean in lectus vel sem pretium hendrerit. Sed ut libero
-                                    quis libero hendrerit congue.
-                                </p>
-                                <p class="testimonial-author">- Nombre del Cliente 2, Empresa 2</p>
+                        </div>
+
+                        <div class="home-carousel">
+                            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide slide-my"><img src="https://www.transfiriendo.com/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-26-at-10.37.09-AM.jpeg" /></div>
+                                  <div class="swiper-slide slide-my"><img src="https://www.transfiriendo.com/wp-content/uploads/2021/06/DSC_0764-scaled.jpg" /></div>
+                                  <div class="swiper-slide slide-my"><img src="https://www.transfiriendo.com/wp-content/uploads/2021/06/DSC_0557-scaled.jpg" /></div>
+                                  <div class="swiper-slide slide-my"><img src="https://www.transfiriendo.com/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-26-at-10.37.20-AM.jpeg" /></div>
+                                  <div class="swiper-slide slide-my"><img src="https://www.transfiriendo.com/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-26-at-10.37.09-AM.jpeg" /></div>
+                                  <div class="swiper-slide slide-my"><img src="https://www.transfiriendo.com/wp-content/uploads/2021/06/DSC_0764-scaled.jpg" /></div>
+                                  <div class="swiper-slide slide-my"><img src="https://www.transfiriendo.com/wp-content/uploads/2021/06/DSC_0557-scaled.jpg" /></div>
+                                  <div class="swiper-slide slide-my"><img src="https://www.transfiriendo.com/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-26-at-10.37.20-AM.jpeg" /></div>
+                                </div>
+                                <div class="swiper-button-next" />
+                                <div class="swiper-button-prev" />
+                                <div class="swiper-pagination" />
+                              </div>
+
+                            <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" />
+                            <script>
+                                var swiper = new Swiper(".mySwiper", {
+                                  rewind: true,
+                                  slidesPerView: 4,
+                                  loop: true,
+                                  spaceBetween: 0,
+                                  centeredSlides: false,
+                                  autoplay: {
+                                    delay: 3500,
+                                    disableOnInteraction: false,
+                                  },
+                                  pagination: {
+                                    el: ".swiper-pagination",
+                                    clickable: true,
+                                  },
+                                  navigation: {
+                                    nextEl: ".swiper-button-next",
+                                    prevEl: ".swiper-button-prev",
+                                  },
+                                });
+                              </script>
+                        </div>
+
+                        <div class="container-country parallax">
+                            <div class="container-country-elements">
+                                <div class="country-text">
+                                    <h5 class="sub-title-2">Unificando mercados en América Latina</h5>
+                                    <h2 class="text-1">Conformado por cuatro empresas con presencia en <span style="color:#03A63C">Colombia, Argentina y Ecuador</span></h2>
+                                </div>
+                                <div class="country-image">
+                                    <img class="country-image-1" src="https://www.transfiriendo.com/wp-content/uploads/2022/05/Mapa.png" alt="..." />
+                                </div>
                             </div>
-                            <!-- Agrega más tarjetas de testimonios aquí -->
+                        </div>
+
+                        <div class="about-home">
+                            <div class="about-home-images">
+                                <div class="about-home-images-1">
+                                    <!--<img src="https://www.transfiriendo.com/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-26-at-10.37.09-AM.jpeg" alt="" class="w-265 h-252"></img>
+                                    <img src="https://www.transfiriendo.com/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-26-at-10.37.20-AM.jpeg" alt="" class="w-265 h-252"></img>-->
+                                    <div class="about-image-1" />
+                                    <div class="about-image-2" />
+                                </div>
+                                <div class="about-home-images-2">
+                                    <!--<img src="https://www.transfiriendo.com/wp-content/uploads/2022/02/image-3.png" alt="" class="w-257 h-382"></img>-->
+                                    <div class="about-image-3" />
+                                </div>
+                            </div>
+                            <div class="about-home-text">
+                                <h6 class="about-company-text">Sobre nuestra compañía</h6>
+                                <h2 class="about-home-company">Pragmatic Ingenieria</h2>
+                                <p class="about-text">
+                                    Somos una empresa que facilita a las corporaciones la interacción de sus actores dentro de una cadena de valor.
+                                    <br />
+                                    <br />
+                                    Integramos procesos e información a través de soluciones tecnológicas innovadoras que ayudan a transitar el camino al consumidor final.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="figures-country parallax-2">
+                            <div class="figures-country-elements">
+                                <div class="figures-text">
+                                    <h6 class="sub-title-3">Sobre Nosotros</h6>
+                                    <h2 class="text-2">Nuestras Cifras</h2>
+                                    <div class="figures-content-1">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 37 39" fill="none" class="svg">
+                                                <path d="M18.5224 17.3694C17.7721 17.3694 17.1639 17.9408 17.1639 18.6458C17.1638 19.1554 17.4826 19.594 17.9423 19.7987V21.3502C17.9423 21.6512 18.202 21.8952 18.5223 21.8952C18.8427 21.8952 19.1024 21.6513 19.1024 21.3502V19.7987C19.5621 19.594 19.8809 19.1554 19.8809 18.6458C19.8809 17.9408 19.2727 17.3694 18.5224 17.3694Z" fill="#FF6611"></path><path d="M32.9979 8.31237C30.5009 7.38405 28.5191 5.67429 27.4174 3.49816C27.1178 2.90638 26.4701 2.52393 25.7674 2.52393H11.2325C10.5298 2.52393 9.88222 2.90631 9.58261 3.49816C8.48096 5.67429 6.49904 7.38405 4.00212 8.31237C3.30173 8.5727 2.84921 9.2 2.84921 9.9104V13.2318C2.84921 17.5858 4.20056 21.8868 6.75718 25.6701C9.33864 29.4904 13.0793 32.6831 17.5745 34.9029L17.6477 34.939C17.9146 35.0708 18.2073 35.1367 18.5 35.1367C18.7926 35.1367 19.0854 35.0708 19.3521 34.9391L19.4256 34.9029C23.9208 32.683 27.6614 29.4904 30.243 25.6701C32.7995 21.8867 34.1508 17.5857 34.1508 13.2318V9.9104C34.1508 9.19993 33.6982 8.5727 32.9979 8.31237ZM32.9908 13.2319C32.9908 17.3785 31.702 21.4776 29.2637 25.086C26.7906 28.7457 23.202 31.8068 18.8861 33.9382L18.8126 33.9744C18.6169 34.0712 18.3832 34.0711 18.1874 33.9744L18.1141 33.9383C13.7981 31.8069 10.2094 28.7458 7.73632 25.086C5.29798 21.4776 4.00912 17.3785 4.00912 13.2318V9.9104C4.00912 9.65006 4.17389 9.42055 4.42884 9.32579C7.19967 8.29569 9.40192 6.39231 10.63 3.96632C10.7384 3.75221 10.9749 3.61386 11.2324 3.61386H25.7674C26.025 3.61386 26.2614 3.75221 26.3698 3.96632C27.5981 6.39231 29.8004 8.29569 32.5711 9.32587C32.8261 9.42062 32.9908 9.65014 32.9908 9.91047V13.2319Z" fill="#FF6611"></path><path d="M35.906 18.4034C35.5935 18.337 35.283 18.5211 35.2124 18.8148C33.446 26.157 28.0661 32.5245 20.452 36.2846L18.6826 37.1584C18.5684 37.2147 18.432 37.2147 18.3177 37.1584L16.5483 36.2846C8.92233 32.5186 3.53972 26.1401 1.78067 18.7846C1.71054 18.491 1.40011 18.3064 1.08769 18.3724C0.775183 18.4384 0.578734 18.7299 0.64894 19.0235C2.48257 26.6914 8.08097 33.3344 16.0087 37.2492L17.7781 38.123C18.0042 38.2346 18.2521 38.2905 18.5002 38.2905C18.7481 38.2905 18.9962 38.2346 19.2223 38.1229L20.9917 37.2491C28.9069 33.3405 34.5025 26.709 36.3439 19.055C36.4144 18.7614 36.2184 18.4697 35.906 18.4034Z" fill="#FF6611"></path><path d="M35.6236 6.23544C32.5265 5.92844 30.0912 3.88596 29.7015 1.2686C29.5938 0.54534 28.9322 0 28.1627 0H8.83742C8.06794 0 7.4064 0.54534 7.2987 1.2686C6.90883 3.88603 4.47359 5.92844 1.37658 6.23544C0.591815 6.31321 0 6.93611 0 7.68427V13.5358C0 14.3861 0.0468835 15.2458 0.139377 16.091C0.170102 16.3715 0.421952 16.5803 0.71567 16.5803C0.73549 16.5803 0.755549 16.5793 0.775687 16.5774C1.09432 16.5466 1.32611 16.279 1.29332 15.9796C1.20488 15.1712 1.15999 14.3491 1.15999 13.5358V7.68427C1.15999 7.49842 1.3086 7.33801 1.49828 7.31924C5.12606 6.95966 7.98365 4.53361 8.44755 1.41959C8.47604 1.22851 8.63994 1.08986 8.83742 1.08986H28.1626C28.3601 1.08986 28.5241 1.22851 28.5525 1.41959C29.0163 4.53361 31.8739 6.95959 35.5017 7.31924C35.6914 7.33801 35.84 7.49842 35.84 7.68427V13.5358C35.84 14.3405 35.7961 15.1541 35.7095 15.9544C35.6771 16.2538 35.9092 16.5212 36.2278 16.5516C36.5463 16.5823 36.8311 16.364 36.8636 16.0646C36.9542 15.2279 37 14.3772 37 13.5358V7.68427C37.0001 6.93611 36.4083 6.31321 35.6236 6.23544Z" fill="#FF6611"></path><path d="M25.1432 13.6009H24.1896V10.9997C24.1896 8.06364 21.6473 5.67505 18.5222 5.67505C15.3973 5.67505 12.8549 8.06364 12.8549 10.9997V13.6009H11.9013C10.8842 13.6009 10.0567 14.3784 10.0567 15.334V23.1363C10.0567 24.0919 10.8842 24.8694 11.9013 24.8694H25.1432C26.1603 24.8694 26.9879 24.0919 26.9879 23.1363V15.334C26.9879 14.3784 26.1603 13.6009 25.1432 13.6009ZM14.015 10.9997C14.015 8.6647 16.0369 6.76498 18.5223 6.76498C21.0077 6.76498 23.0297 8.6647 23.0297 10.9997V13.6009H14.015V10.9997ZM25.8279 23.1363C25.8279 23.491 25.5207 23.7796 25.1432 23.7796H11.9013C11.5238 23.7796 11.2167 23.491 11.2167 23.1363V15.334C11.2167 14.9793 11.5239 14.6907 11.9013 14.6907H25.1432C25.5207 14.6907 25.8279 14.9793 25.8279 15.334V23.1363Z" fill="#FF6611"></path>
+                                            </svg>
+                                        </span>
+                                        <div>
+                                            <h5 class="figures-content-title">Transfiriendo Seguros</h5>
+                                            <p class="figures-content-p">
+                                                + 50.350 Puntos de venta
+                                                <br />
+                                                + 50.800 Usuarios en plataforma
+                                                <br />
+                                                + 4.752.000 Polizas expedidas y recaudadas anualmente
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="figures-content-2">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 37 39" fill="none" class="svg">
+                                                <path d="M18.5224 17.3694C17.7721 17.3694 17.1639 17.9408 17.1639 18.6458C17.1638 19.1554 17.4826 19.594 17.9423 19.7987V21.3502C17.9423 21.6512 18.202 21.8952 18.5223 21.8952C18.8427 21.8952 19.1024 21.6513 19.1024 21.3502V19.7987C19.5621 19.594 19.8809 19.1554 19.8809 18.6458C19.8809 17.9408 19.2727 17.3694 18.5224 17.3694Z" fill="#FF6611"></path><path d="M32.9979 8.31237C30.5009 7.38405 28.5191 5.67429 27.4174 3.49816C27.1178 2.90638 26.4701 2.52393 25.7674 2.52393H11.2325C10.5298 2.52393 9.88222 2.90631 9.58261 3.49816C8.48096 5.67429 6.49904 7.38405 4.00212 8.31237C3.30173 8.5727 2.84921 9.2 2.84921 9.9104V13.2318C2.84921 17.5858 4.20056 21.8868 6.75718 25.6701C9.33864 29.4904 13.0793 32.6831 17.5745 34.9029L17.6477 34.939C17.9146 35.0708 18.2073 35.1367 18.5 35.1367C18.7926 35.1367 19.0854 35.0708 19.3521 34.9391L19.4256 34.9029C23.9208 32.683 27.6614 29.4904 30.243 25.6701C32.7995 21.8867 34.1508 17.5857 34.1508 13.2318V9.9104C34.1508 9.19993 33.6982 8.5727 32.9979 8.31237ZM32.9908 13.2319C32.9908 17.3785 31.702 21.4776 29.2637 25.086C26.7906 28.7457 23.202 31.8068 18.8861 33.9382L18.8126 33.9744C18.6169 34.0712 18.3832 34.0711 18.1874 33.9744L18.1141 33.9383C13.7981 31.8069 10.2094 28.7458 7.73632 25.086C5.29798 21.4776 4.00912 17.3785 4.00912 13.2318V9.9104C4.00912 9.65006 4.17389 9.42055 4.42884 9.32579C7.19967 8.29569 9.40192 6.39231 10.63 3.96632C10.7384 3.75221 10.9749 3.61386 11.2324 3.61386H25.7674C26.025 3.61386 26.2614 3.75221 26.3698 3.96632C27.5981 6.39231 29.8004 8.29569 32.5711 9.32587C32.8261 9.42062 32.9908 9.65014 32.9908 9.91047V13.2319Z" fill="#FF6611"></path><path d="M35.906 18.4034C35.5935 18.337 35.283 18.5211 35.2124 18.8148C33.446 26.157 28.0661 32.5245 20.452 36.2846L18.6826 37.1584C18.5684 37.2147 18.432 37.2147 18.3177 37.1584L16.5483 36.2846C8.92233 32.5186 3.53972 26.1401 1.78067 18.7846C1.71054 18.491 1.40011 18.3064 1.08769 18.3724C0.775183 18.4384 0.578734 18.7299 0.64894 19.0235C2.48257 26.6914 8.08097 33.3344 16.0087 37.2492L17.7781 38.123C18.0042 38.2346 18.2521 38.2905 18.5002 38.2905C18.7481 38.2905 18.9962 38.2346 19.2223 38.1229L20.9917 37.2491C28.9069 33.3405 34.5025 26.709 36.3439 19.055C36.4144 18.7614 36.2184 18.4697 35.906 18.4034Z" fill="#FF6611"></path><path d="M35.6236 6.23544C32.5265 5.92844 30.0912 3.88596 29.7015 1.2686C29.5938 0.54534 28.9322 0 28.1627 0H8.83742C8.06794 0 7.4064 0.54534 7.2987 1.2686C6.90883 3.88603 4.47359 5.92844 1.37658 6.23544C0.591815 6.31321 0 6.93611 0 7.68427V13.5358C0 14.3861 0.0468835 15.2458 0.139377 16.091C0.170102 16.3715 0.421952 16.5803 0.71567 16.5803C0.73549 16.5803 0.755549 16.5793 0.775687 16.5774C1.09432 16.5466 1.32611 16.279 1.29332 15.9796C1.20488 15.1712 1.15999 14.3491 1.15999 13.5358V7.68427C1.15999 7.49842 1.3086 7.33801 1.49828 7.31924C5.12606 6.95966 7.98365 4.53361 8.44755 1.41959C8.47604 1.22851 8.63994 1.08986 8.83742 1.08986H28.1626C28.3601 1.08986 28.5241 1.22851 28.5525 1.41959C29.0163 4.53361 31.8739 6.95959 35.5017 7.31924C35.6914 7.33801 35.84 7.49842 35.84 7.68427V13.5358C35.84 14.3405 35.7961 15.1541 35.7095 15.9544C35.6771 16.2538 35.9092 16.5212 36.2278 16.5516C36.5463 16.5823 36.8311 16.364 36.8636 16.0646C36.9542 15.2279 37 14.3772 37 13.5358V7.68427C37.0001 6.93611 36.4083 6.31321 35.6236 6.23544Z" fill="#FF6611"></path><path d="M25.1432 13.6009H24.1896V10.9997C24.1896 8.06364 21.6473 5.67505 18.5222 5.67505C15.3973 5.67505 12.8549 8.06364 12.8549 10.9997V13.6009H11.9013C10.8842 13.6009 10.0567 14.3784 10.0567 15.334V23.1363C10.0567 24.0919 10.8842 24.8694 11.9013 24.8694H25.1432C26.1603 24.8694 26.9879 24.0919 26.9879 23.1363V15.334C26.9879 14.3784 26.1603 13.6009 25.1432 13.6009ZM14.015 10.9997C14.015 8.6647 16.0369 6.76498 18.5223 6.76498C21.0077 6.76498 23.0297 8.6647 23.0297 10.9997V13.6009H14.015V10.9997ZM25.8279 23.1363C25.8279 23.491 25.5207 23.7796 25.1432 23.7796H11.9013C11.5238 23.7796 11.2167 23.491 11.2167 23.1363V15.334C11.2167 14.9793 11.5239 14.6907 11.9013 14.6907H25.1432C25.5207 14.6907 25.8279 14.9793 25.8279 15.334V23.1363Z" fill="#FF6611"></path>
+                                            </svg>
+                                        </span>
+                                        <div>
+                                            <h5 class="figures-content-title">Transfiriendo Seguros</h5>
+                                            <p class="figures-content-p">
+                                                + 50.350 Puntos de venta
+                                                <br />
+                                                + 50.800 Usuarios en plataforma
+                                                <br />
+                                                + 4.752.000 Polizas expedidas y recaudadas anualmente
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="figures-content-3">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 37 39" fill="none" class="svg">
+                                                <path d="M18.5224 17.3694C17.7721 17.3694 17.1639 17.9408 17.1639 18.6458C17.1638 19.1554 17.4826 19.594 17.9423 19.7987V21.3502C17.9423 21.6512 18.202 21.8952 18.5223 21.8952C18.8427 21.8952 19.1024 21.6513 19.1024 21.3502V19.7987C19.5621 19.594 19.8809 19.1554 19.8809 18.6458C19.8809 17.9408 19.2727 17.3694 18.5224 17.3694Z" fill="#FF6611"></path><path d="M32.9979 8.31237C30.5009 7.38405 28.5191 5.67429 27.4174 3.49816C27.1178 2.90638 26.4701 2.52393 25.7674 2.52393H11.2325C10.5298 2.52393 9.88222 2.90631 9.58261 3.49816C8.48096 5.67429 6.49904 7.38405 4.00212 8.31237C3.30173 8.5727 2.84921 9.2 2.84921 9.9104V13.2318C2.84921 17.5858 4.20056 21.8868 6.75718 25.6701C9.33864 29.4904 13.0793 32.6831 17.5745 34.9029L17.6477 34.939C17.9146 35.0708 18.2073 35.1367 18.5 35.1367C18.7926 35.1367 19.0854 35.0708 19.3521 34.9391L19.4256 34.9029C23.9208 32.683 27.6614 29.4904 30.243 25.6701C32.7995 21.8867 34.1508 17.5857 34.1508 13.2318V9.9104C34.1508 9.19993 33.6982 8.5727 32.9979 8.31237ZM32.9908 13.2319C32.9908 17.3785 31.702 21.4776 29.2637 25.086C26.7906 28.7457 23.202 31.8068 18.8861 33.9382L18.8126 33.9744C18.6169 34.0712 18.3832 34.0711 18.1874 33.9744L18.1141 33.9383C13.7981 31.8069 10.2094 28.7458 7.73632 25.086C5.29798 21.4776 4.00912 17.3785 4.00912 13.2318V9.9104C4.00912 9.65006 4.17389 9.42055 4.42884 9.32579C7.19967 8.29569 9.40192 6.39231 10.63 3.96632C10.7384 3.75221 10.9749 3.61386 11.2324 3.61386H25.7674C26.025 3.61386 26.2614 3.75221 26.3698 3.96632C27.5981 6.39231 29.8004 8.29569 32.5711 9.32587C32.8261 9.42062 32.9908 9.65014 32.9908 9.91047V13.2319Z" fill="#FF6611"></path><path d="M35.906 18.4034C35.5935 18.337 35.283 18.5211 35.2124 18.8148C33.446 26.157 28.0661 32.5245 20.452 36.2846L18.6826 37.1584C18.5684 37.2147 18.432 37.2147 18.3177 37.1584L16.5483 36.2846C8.92233 32.5186 3.53972 26.1401 1.78067 18.7846C1.71054 18.491 1.40011 18.3064 1.08769 18.3724C0.775183 18.4384 0.578734 18.7299 0.64894 19.0235C2.48257 26.6914 8.08097 33.3344 16.0087 37.2492L17.7781 38.123C18.0042 38.2346 18.2521 38.2905 18.5002 38.2905C18.7481 38.2905 18.9962 38.2346 19.2223 38.1229L20.9917 37.2491C28.9069 33.3405 34.5025 26.709 36.3439 19.055C36.4144 18.7614 36.2184 18.4697 35.906 18.4034Z" fill="#FF6611"></path><path d="M35.6236 6.23544C32.5265 5.92844 30.0912 3.88596 29.7015 1.2686C29.5938 0.54534 28.9322 0 28.1627 0H8.83742C8.06794 0 7.4064 0.54534 7.2987 1.2686C6.90883 3.88603 4.47359 5.92844 1.37658 6.23544C0.591815 6.31321 0 6.93611 0 7.68427V13.5358C0 14.3861 0.0468835 15.2458 0.139377 16.091C0.170102 16.3715 0.421952 16.5803 0.71567 16.5803C0.73549 16.5803 0.755549 16.5793 0.775687 16.5774C1.09432 16.5466 1.32611 16.279 1.29332 15.9796C1.20488 15.1712 1.15999 14.3491 1.15999 13.5358V7.68427C1.15999 7.49842 1.3086 7.33801 1.49828 7.31924C5.12606 6.95966 7.98365 4.53361 8.44755 1.41959C8.47604 1.22851 8.63994 1.08986 8.83742 1.08986H28.1626C28.3601 1.08986 28.5241 1.22851 28.5525 1.41959C29.0163 4.53361 31.8739 6.95959 35.5017 7.31924C35.6914 7.33801 35.84 7.49842 35.84 7.68427V13.5358C35.84 14.3405 35.7961 15.1541 35.7095 15.9544C35.6771 16.2538 35.9092 16.5212 36.2278 16.5516C36.5463 16.5823 36.8311 16.364 36.8636 16.0646C36.9542 15.2279 37 14.3772 37 13.5358V7.68427C37.0001 6.93611 36.4083 6.31321 35.6236 6.23544Z" fill="#FF6611"></path><path d="M25.1432 13.6009H24.1896V10.9997C24.1896 8.06364 21.6473 5.67505 18.5222 5.67505C15.3973 5.67505 12.8549 8.06364 12.8549 10.9997V13.6009H11.9013C10.8842 13.6009 10.0567 14.3784 10.0567 15.334V23.1363C10.0567 24.0919 10.8842 24.8694 11.9013 24.8694H25.1432C26.1603 24.8694 26.9879 24.0919 26.9879 23.1363V15.334C26.9879 14.3784 26.1603 13.6009 25.1432 13.6009ZM14.015 10.9997C14.015 8.6647 16.0369 6.76498 18.5223 6.76498C21.0077 6.76498 23.0297 8.6647 23.0297 10.9997V13.6009H14.015V10.9997ZM25.8279 23.1363C25.8279 23.491 25.5207 23.7796 25.1432 23.7796H11.9013C11.5238 23.7796 11.2167 23.491 11.2167 23.1363V15.334C11.2167 14.9793 11.5239 14.6907 11.9013 14.6907H25.1432C25.5207 14.6907 25.8279 14.9793 25.8279 15.334V23.1363Z" fill="#FF6611"></path>
+                                            </svg>
+                                        </span>
+                                        <div>
+                                            <h5 class="figures-content-title">Transfiriendo Seguros</h5>
+                                            <p class="figures-content-p">
+                                                + 50.350 Puntos de venta
+                                                <br />
+                                                + 50.800 Usuarios en plataforma
+                                                <br />
+                                                + 4.752.000 Polizas expedidas y recaudadas anualmente
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="figures-content-4">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 37 39" fill="none" class="svg">
+                                                <path d="M18.5224 17.3694C17.7721 17.3694 17.1639 17.9408 17.1639 18.6458C17.1638 19.1554 17.4826 19.594 17.9423 19.7987V21.3502C17.9423 21.6512 18.202 21.8952 18.5223 21.8952C18.8427 21.8952 19.1024 21.6513 19.1024 21.3502V19.7987C19.5621 19.594 19.8809 19.1554 19.8809 18.6458C19.8809 17.9408 19.2727 17.3694 18.5224 17.3694Z" fill="#FF6611"></path><path d="M32.9979 8.31237C30.5009 7.38405 28.5191 5.67429 27.4174 3.49816C27.1178 2.90638 26.4701 2.52393 25.7674 2.52393H11.2325C10.5298 2.52393 9.88222 2.90631 9.58261 3.49816C8.48096 5.67429 6.49904 7.38405 4.00212 8.31237C3.30173 8.5727 2.84921 9.2 2.84921 9.9104V13.2318C2.84921 17.5858 4.20056 21.8868 6.75718 25.6701C9.33864 29.4904 13.0793 32.6831 17.5745 34.9029L17.6477 34.939C17.9146 35.0708 18.2073 35.1367 18.5 35.1367C18.7926 35.1367 19.0854 35.0708 19.3521 34.9391L19.4256 34.9029C23.9208 32.683 27.6614 29.4904 30.243 25.6701C32.7995 21.8867 34.1508 17.5857 34.1508 13.2318V9.9104C34.1508 9.19993 33.6982 8.5727 32.9979 8.31237ZM32.9908 13.2319C32.9908 17.3785 31.702 21.4776 29.2637 25.086C26.7906 28.7457 23.202 31.8068 18.8861 33.9382L18.8126 33.9744C18.6169 34.0712 18.3832 34.0711 18.1874 33.9744L18.1141 33.9383C13.7981 31.8069 10.2094 28.7458 7.73632 25.086C5.29798 21.4776 4.00912 17.3785 4.00912 13.2318V9.9104C4.00912 9.65006 4.17389 9.42055 4.42884 9.32579C7.19967 8.29569 9.40192 6.39231 10.63 3.96632C10.7384 3.75221 10.9749 3.61386 11.2324 3.61386H25.7674C26.025 3.61386 26.2614 3.75221 26.3698 3.96632C27.5981 6.39231 29.8004 8.29569 32.5711 9.32587C32.8261 9.42062 32.9908 9.65014 32.9908 9.91047V13.2319Z" fill="#FF6611"></path><path d="M35.906 18.4034C35.5935 18.337 35.283 18.5211 35.2124 18.8148C33.446 26.157 28.0661 32.5245 20.452 36.2846L18.6826 37.1584C18.5684 37.2147 18.432 37.2147 18.3177 37.1584L16.5483 36.2846C8.92233 32.5186 3.53972 26.1401 1.78067 18.7846C1.71054 18.491 1.40011 18.3064 1.08769 18.3724C0.775183 18.4384 0.578734 18.7299 0.64894 19.0235C2.48257 26.6914 8.08097 33.3344 16.0087 37.2492L17.7781 38.123C18.0042 38.2346 18.2521 38.2905 18.5002 38.2905C18.7481 38.2905 18.9962 38.2346 19.2223 38.1229L20.9917 37.2491C28.9069 33.3405 34.5025 26.709 36.3439 19.055C36.4144 18.7614 36.2184 18.4697 35.906 18.4034Z" fill="#FF6611"></path><path d="M35.6236 6.23544C32.5265 5.92844 30.0912 3.88596 29.7015 1.2686C29.5938 0.54534 28.9322 0 28.1627 0H8.83742C8.06794 0 7.4064 0.54534 7.2987 1.2686C6.90883 3.88603 4.47359 5.92844 1.37658 6.23544C0.591815 6.31321 0 6.93611 0 7.68427V13.5358C0 14.3861 0.0468835 15.2458 0.139377 16.091C0.170102 16.3715 0.421952 16.5803 0.71567 16.5803C0.73549 16.5803 0.755549 16.5793 0.775687 16.5774C1.09432 16.5466 1.32611 16.279 1.29332 15.9796C1.20488 15.1712 1.15999 14.3491 1.15999 13.5358V7.68427C1.15999 7.49842 1.3086 7.33801 1.49828 7.31924C5.12606 6.95966 7.98365 4.53361 8.44755 1.41959C8.47604 1.22851 8.63994 1.08986 8.83742 1.08986H28.1626C28.3601 1.08986 28.5241 1.22851 28.5525 1.41959C29.0163 4.53361 31.8739 6.95959 35.5017 7.31924C35.6914 7.33801 35.84 7.49842 35.84 7.68427V13.5358C35.84 14.3405 35.7961 15.1541 35.7095 15.9544C35.6771 16.2538 35.9092 16.5212 36.2278 16.5516C36.5463 16.5823 36.8311 16.364 36.8636 16.0646C36.9542 15.2279 37 14.3772 37 13.5358V7.68427C37.0001 6.93611 36.4083 6.31321 35.6236 6.23544Z" fill="#FF6611"></path><path d="M25.1432 13.6009H24.1896V10.9997C24.1896 8.06364 21.6473 5.67505 18.5222 5.67505C15.3973 5.67505 12.8549 8.06364 12.8549 10.9997V13.6009H11.9013C10.8842 13.6009 10.0567 14.3784 10.0567 15.334V23.1363C10.0567 24.0919 10.8842 24.8694 11.9013 24.8694H25.1432C26.1603 24.8694 26.9879 24.0919 26.9879 23.1363V15.334C26.9879 14.3784 26.1603 13.6009 25.1432 13.6009ZM14.015 10.9997C14.015 8.6647 16.0369 6.76498 18.5223 6.76498C21.0077 6.76498 23.0297 8.6647 23.0297 10.9997V13.6009H14.015V10.9997ZM25.8279 23.1363C25.8279 23.491 25.5207 23.7796 25.1432 23.7796H11.9013C11.5238 23.7796 11.2167 23.491 11.2167 23.1363V15.334C11.2167 14.9793 11.5239 14.6907 11.9013 14.6907H25.1432C25.5207 14.6907 25.8279 14.9793 25.8279 15.334V23.1363Z" fill="#FF6611"></path>
+                                            </svg>
+                                        </span>
+                                        <div>
+                                            <h5 class="figures-content-title">Transfiriendo Seguros</h5>
+                                            <p class="figures-content-p">
+                                                + 50.350 Puntos de venta
+                                                <br />
+                                                + 50.800 Usuarios en plataforma
+                                                <br />
+                                                + 4.752.000 Polizas expedidas y recaudadas anualmente
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="figures-image">
+                                    <img src="https://www.transfiriendo.com/wp-content/uploads/2022/02/Op.-laborales-1024x1024.png" alt="..."></img>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-differential">
+                            <div class="container-differential-elements">
+                                <div class="differential-text">
+                                    <h2 class="sub-title-4">Nuestro diferencial</h2>
+                                    <h4 class="text-3">Convertir cada problema en un espacio de oportunidad</h4>
+                                    <p class="differential-p">De manera integral, analizamos el problema con la oportunidad bajo diferentes miradas, por esa razón, en nuestra casa contamos con un equipo interdisciplinar de personas formadas en términos de tecnología, estrategia de negocios, diseño y demás dominios.</p>
+                                    <img src="https://www.transfiriendo.com/wp-content/uploads/2022/02/Transparente_Diagrama.png" alt="" />
+                                </div>
+                                <div class="differential-text-2">
+                                    <h6>Datos que nos hacen diferentes</h6>
+                                    <p>
+                                        <strong>
+                                            <span class="dot">•</span>
+                                        </strong>
+                                        Seguridad
+                                        <br />
+                                        Certificación de PCI DSS 3.2
+                                        <br />
+                                        <strong>
+                                            <span class="dot">•</span>
+                                        </strong>
+                                        Certificación en Sistema de Gestión de Seguridad
+                                        <br />
+                                        ISO 27001:2013
+                                        <br />
+                                        <strong>
+                                            <span class="dot">•</span>
+                                        </strong>
+                                        Certificación en sistema de Gestión de Calidad ISO
+                                        <br />
+                                        9001:2015
+                                        <br />
+                                        <strong>
+                                            <span class="dot">•</span>
+                                        </strong>
+                                        17 años de operación
+                                        <br />
+                                        Se ha garantizado la operación en línea de nuestras plataformas debido a nuestra alta capacidad de resiliencia.
+                                        <br />
+                                        <strong>
+                                            <span class="dot">•</span>
+                                        </strong>
+                                        Integración, Interoperabilidad e Integridad
+                                        <br />
+                                        <strong>
+                                            <span class="dot">•</span>
+                                        </strong>
+                                        Adaptabilidad Inmediata ante los cambios de ley y del negocio.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-partners">
+                            <div class="col-md-12 partners-text">
+                                <h2 class="sub-title-5">Nuestros Partners</h2>
+                                <h5 class="title-6">Nos complementan</h5>
+                            </div>
+                            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+                            <div class="swiper partnersSwiper">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide slider-partners">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-01-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slider-partners">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-02-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slider-partners">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-03-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slider-partners">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-04-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slider-partners">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-05-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slider-partners">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-06-180x180-1.jpg" />
+                                  </div>
+                                  <div class="swiper-slide slider-partners">
+                                      <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-11-180x180-1.jpg" />
+                                  </div>
+                                    <div class="swiper-slide slider-partners">
+                                        <img class="clients-image" src="https://www.transfiriendo.com/wp-content/uploads/2021/06/Logos-Transfiriendo-aliados-14-01-180x180-1.jpg" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next" />
+                                <div class="swiper-button-prev" />
+                                <div class="swiper-pagination" />
+                              </div>
+
+                            <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" />
+                            <script>
+                                var swiper = new Swiper(".partnersSwiper", {
+                                  rewind: true,
+                                  slidesPerView: 4,
+                                  loop: true,
+                                  spaceBetween: 0,
+                                  centeredSlides: false,
+                                  autoplay: {
+                                    delay: 6500,
+                                    disableOnInteraction: false,
+                                  },
+                                  pagination: {
+                                    el: ".swiper-pagination",
+                                    clickable: true,
+                                  },
+                                  navigation: {
+                                    nextEl: ".swiper-button-next",
+                                    prevEl: ".swiper-button-prev",
+                                  },
+                                });
+                              </script>
                         </div>
 
 

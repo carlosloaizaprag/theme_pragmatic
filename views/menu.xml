@@ -10,12 +10,58 @@
     <!--Menú Inicio-->
     <record id="menu_home" model="website.menu">
         <field name="name">Inicio</field>
-        <field name="url">/inicio-pragmatic</field>
+        <field name="url">/home-pragmatic</field>
         <field name="parent_id" search="[
             ('url', '=', '/default-main-menu'),
             ('website_id', '=', 1)]"/>
         <field name="website_id">1</field>
         <field name="sequence" type="int">1</field>
+    </record>
+
+    <!--Menú desplegable Servicios-->
+    <record id="menu_solutions" model="website.menu">
+        <field name="name">Soluciones</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" search="[
+            ('url', '=', '/default-main-menu'),
+            ('website_id', '=', 1)]"/>
+        <field name="sequence" type="int">3</field>
+    </record>
+
+    <!--Menú Software ERP-->
+    <record id="menu_solutions_one" model="website.menu">
+        <field name="name">Software ERP</field>
+        <field name="url">/Software-ERP</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="theme_pragmatic.menu_solutions"/>
+        <field name="sequence" type="int">1</field>
+    </record>
+
+    <!--Menú Software CRM-->
+    <record id="menu_solutions_two" model="website.menu">
+        <field name="name">Software CRM</field>
+        <field name="url">/Software-CRM</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="theme_pragmatic.menu_solutions"/>
+        <field name="sequence" type="int">2</field>
+    </record>
+
+    <!--Menú Consultorías-->
+    <record id="menu_solutions_three" model="website.menu">
+        <field name="name">Consultorías</field>
+        <field name="url">/consultorias</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="theme_pragmatic.menu_solutions"/>
+        <field name="sequence" type="int">3</field>
+    </record>
+
+     <!--Menú Monitoreo de Medios-->
+    <record id="menu_solutions_four" model="website.menu">
+        <field name="name">Monitoreo de Medios</field>
+        <field name="url">/monitoreo</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="theme_pragmatic.menu_solutions"/>
+        <field name="sequence" type="int">4</field>
     </record>
 
     <!--Menú Nosotros-->
