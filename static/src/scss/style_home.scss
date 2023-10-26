@@ -9,10 +9,6 @@
   height: 30vh;
   color: white;
   text-align: left;
-
-  @media screen and (max-width: 576px) {
-      height: 60vh;
-  }
 }
 
 .content {
@@ -81,18 +77,6 @@
   margin-left: auto;
   position: relative;
   padding-bottom: 50px;
-}
-
-.cards {
-    @media screen and (max-width: 576px) {
-        width: 414px;
-        padding-left: 45px;
-    }
-
-    @media screen and (max-width: 768px) {
-        width: 768px;
-        padding-left: 45px;
-    }
 }
 
 .card {
@@ -196,14 +180,6 @@ h5.card-title {
     background: url('https://www.transfiriendo.com/wp-content/uploads/2021/06/mapa.png') repeat fixed 100%;
     background-size: 70%;
     color: aliceblue;
-
-    @media screen and (max-width: 576px) {
-        background-size: 160%;
-    }
-
-    @media screen and (max-width: 768px) {
-        background-size: 140%;
-    }
 }
 
 .container-country-elements {
@@ -213,13 +189,6 @@ h5.card-title {
     margin-left: auto;
     position: relative;
     padding: 60px 0px 20px 0px;
-
-    @media screen and (max-width: 576px) {
-        max-width: none;
-        width: auto;
-        flex-direction: column;
-        padding: 0px 0px 40px 0px;
-    }
 }
 
 .country-text {
@@ -235,10 +204,6 @@ h5.card-title {
     font-weight: 500;
     margin-top: 150px;
     margin-bottom: 20px;
-
-    @media screen and (max-width: 768px) {
-        margin-top: 0;
-    }
 }
 
 .text-1 {
@@ -252,19 +217,6 @@ h5.card-title {
     padding: 10px;
 }
 
-.country-image-1 {
-    @media screen and (max-width: 576px) {
-        width: 394px;
-        height: 394px;
-    }
-
-    @media screen and (max-width: 768px) {
-        width: 364px;
-        height: 364px;
-        margin-top: 40px;
-    }
-}
-
 // About Content
 
 .about-home {
@@ -274,28 +226,10 @@ h5.card-title {
     margin-left: auto;
     position: relative;
     padding: 38px 0px 32px 0px;
-
-    @media screen and (max-width: 576px) {
-        max-width: none;
-        width: auto;
-        flex-direction: column;
-        padding: 40px 20px 40px 20px;
-    }
-
-    @media screen and (max-width: 768px) {
-        max-width: none;
-        width: auto;
-        flex-direction: column;
-        padding: 40px 20px 40px 20px;
-    }
 }
 
 .about-home-images {
     display: flex;
-
-    @media screen and (max-width: 576px) {
-        display: flex;
-    }
 }
 
 .about-image-1 {
@@ -307,16 +241,6 @@ h5.card-title {
     height: 252px;
     padding: 1em 1em 1em 1em;
     margin-bottom: 20px;
-
-    @media screen and (max-width: 576px) {
-        width: 177px;
-        height: 158px;
-    }
-
-    @media screen and (max-width: 768px) {
-        width: 339px !important;
-        height: 252px;
-    }
 }
 
 .about-image-2 {
@@ -327,16 +251,6 @@ h5.card-title {
     width: 265px;
     height: 252px;
     padding: 1em 1em 1em 1em;
-
-    @media screen and (max-width: 576px) {
-        width: 177px !important;
-        height: 158px !important;
-    }
-
-    @media screen and (max-width: 768px) {
-        width: 339px !important;
-        height: 252px !important;
-    }
 }
 
 .about-image-3 {
@@ -348,24 +262,10 @@ h5.card-title {
     height: 382px;
     padding: 1em 1em 1em 1em;
     margin-top: 50px;
-
-    @media screen and (max-width: 576px) {
-        width: 177px !important;
-        height: 252px !important;
-    }
-
-    @media screen and (max-width: 768px) {
-        width: 325px !important;
-        height: 382px !important;
-    }
 }
 
 .about-home-images-1 {
     padding: 0px 10px 0px 10px;
-
-    @media screen and (max-width: 576px) {
-        padding: 0px 10px 0px 0px !important;
-    }
 }
 
 .about-home-images-2 {
@@ -400,16 +300,6 @@ h5.card-title {
     align-items: start;
     justify-content: center;
     padding: 0px 0px 0px 40px;
-
-    @media screen and (max-width: 576px) {
-        padding: 0 !important;
-        margin-top: 40px !important;
-    }
-
-    @media screen and (max-width: 768px) {
-        padding: 0px 0px 0px 10px !important;
-        margin-top: 40px !important;
-    }
 }
 
 // xxxxxxxxxxxxxxxxxxxx
@@ -446,18 +336,6 @@ h5.card-title {
     margin-left: auto;
     position: relative;
     padding: 50px 0px 50px 0px;
-
-    @media screen and (max-width: 576px) {
-        display: flex !important;
-        flex-direction: column !important;
-        padding: 40px 20px 40px 20px !important;
-    }
-
-    @media screen and (max-width: 768px) {
-        display: flex !important;
-        flex-direction: column !important;
-        padding: 40px 20px 40px 20px !important;
-    }
 }
 
 .figures-text {
@@ -465,11 +343,6 @@ h5.card-title {
     align-items: center;
     width: 541px;
     padding: 0px 50px 0px 0px;
-
-    @media screen and (max-width: 576px) {
-        width: auto !important;
-        padding: 40px 20px 40px 20px !important;
-    }
 }
 
 .sub-title-3 {
@@ -495,67 +368,27 @@ h5.card-title {
     > img {
         width: 524px;
         height: 524px;
-
-        @media screen and (max-width: 576px) {
-            width: 374px !important;
-            height: 374px !important;
-        }
-
-        @media screen and (max-width: 768px) {
-            width: 704px !important;
-            height: 704px !important;
-        }
-    }
-
-    @media screen and (max-width: 576px) {
-        width: 374px !important;
-        height: 367px !important;
-        padding: 0 !important;
     }
 }
 
 .figures-content-1 {
     display: flex;
     flex-direction: row;
-
-    @media screen and (max-width: 576px) {
-        display: flex !important;
-        flex-direction: column !important;
-        text-align: center !important;
-    }
 }
 
 .figures-content-2 {
     display: flex;
     flex-direction: row;
-
-    @media screen and (max-width: 576px) {
-        display: flex !important;
-        flex-direction: column !important;
-        text-align: center !important;
-    }
 }
 
 .figures-content-3 {
     display: flex;
     flex-direction: row;
-
-    @media screen and (max-width: 576px) {
-        display: flex !important;
-        flex-direction: column !important;
-        text-align: center !important;
-    }
 }
 
 .figures-content-4 {
     display: flex;
     flex-direction: row;
-
-    @media screen and (max-width: 576px) {
-        display: flex !important;
-        flex-direction: column !important;
-        text-align: center !important;
-    }
 }
 
 .svg {
@@ -590,16 +423,6 @@ h5.card-title {
     margin-right: auto;
     margin-left: auto;
     position: relative;
-
-    @media screen and (max-width: 576px) {
-        display: flex !important;
-        flex-direction: column !important;
-    }
-
-    @media screen and (max-width: 768px) {
-        display: flex !important;
-        flex-direction: column !important;
-    }
 }
 
 .differential-text {
@@ -637,15 +460,6 @@ h5.card-title {
         width: 390px;
         height: 390px;
     }
-
-    @media screen and (max-width: 576px) {
-        width: 414px;
-        height: 981px;
-    }
-
-    @media screen and (max-width: 768px) {
-        width: auto;
-    }
 }
 
 .differential-text-2 {
@@ -680,14 +494,6 @@ h5.card-title {
      @media screen and (max-width: 992px) {
         height: 200px !important;
      }
-
-     @media screen and (max-width: 768px) {
-        height: 180px !important;
-     }
-
-     @media screen and (max-width: 576px) {
-        height: 160px !important;
-     }
 }
 
 .swiper-slide {
@@ -720,16 +526,6 @@ h5.card-title {
 .swiper-testimonials {
     width: 940px;
     height: 410px;
-
-    @media screen and (max-width: 576px) {
-        width: 374px !important;
-        height: 440px !important;
-    }
-
-    @media screen and (max-width: 768px) {
-        width: 474px !important;
-        height: 540px !important;
-    }
 }
 
 .swiper-image {
@@ -757,34 +553,12 @@ h5.card-title {
     @media screen and (max-width: 992px) {
       height: 160px !important;
     }
-
-    @media screen and (max-width: 768px) {
-      height: 140px !important;
-    }
-}
-
-.slide-clients {
-    @media screen and (max-width: 768px) {
-      width: 210px !important;
-    }
 }
 
 .clients-image {
     width: 180px;
     height: 180px;
     padding: 0px 40px 0px 40px;
-}
-
-@media (max-width: 768px) {
-  .swiper-slide {
-    padding: 0px 10px !important;
-  }
-
-  .clients-image {
-    width: 120px;
-    height: 120px;
-    padding: 0px 10px;
-  }
 }
 
 // Partners
@@ -814,31 +588,267 @@ h5.card-title {
     width: 1140px !important;
     height: 210px !important;
 
-    @media screen and (max-width: 576px) {
-        width: 414px !important;
-    }
-
-    @media screen and (max-width: 768px) {
-        width: 577px !important;
-    }
-
     @media screen and (max-width: 992px) {
         width: 677px !important;
     }
 }
 
-.slider-partners {
-    @media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
+
+    .cards {
+        width: 768px;
+        padding-left: 45px;
+    }
+
+    .parallax {
+        background-size: 140%;
+    }
+
+    .sub-title-2 {
+        margin-top: 0;
+    }
+
+    .country-image-1 {
+        width: 364px;
+        height: 364px;
+        margin-top: 40px;
+    }
+
+    .about-home {
+        max-width: none;
+        width: auto;
+        flex-direction: column;
+        padding: 40px 20px 40px 20px;
+    }
+
+    .about-image-1 {
+        width: 339px !important;
+        height: 252px;
+    }
+
+    .about-image-2 {
+        width: 339px !important;
+        height: 252px !important;
+    }
+
+    .about-image-3 {
+        width: 325px !important;
+        height: 382px !important;
+    }
+
+    .about-home-text {
+        padding: 0px 0px 0px 10px !important;
+        margin-top: 40px !important;
+    }
+
+    .figures-country-elements {
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 40px 20px 40px 20px !important;
+    }
+
+    .figures-image {
+
+        > img {
+            width: 704px !important;
+            height: 704px !important;
+        }
+    }
+
+    .container-differential-elements {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .differential-text {
+        width: auto;
+    }
+
+    .swiper {
+        height: 180px !important;
+    }
+
+    .swiper-testimonials {
+        width: 474px !important;
+        height: 540px !important;
+    }
+
+    .clientsSwiper {
+        height: 140px !important;
+    }
+
+    .slide-clients {
         width: 210px !important;
     }
 
-    @media screen and (max-width: 768px) {
+    .swiper-slide {
+        padding: 0px 10px !important;
+    }
+
+    .clients-image {
+        width: 120px;
+        height: 120px;
+        padding: 0px 10px;
+    }
+
+    .partnersSwiper {
+        width: 577px !important;
+    }
+
+    .slider-partners {
         width: 210px !important;
     }
 }
 
-.slide-my{
-    @media screen and (max-width: 576px) {
+
+@media screen and (max-width: 576px) {
+
+    .front-page {
+        height: 60vh;
+    }
+
+    .cards {
+        width: 576px;
+        padding-left: 45px;
+    }
+
+    .parallax {
+        background-size: 160%;
+    }
+
+    .container-country-elements {
+        max-width: none;
+        width: auto;
+        flex-direction: column;
+        padding: 0px 0px 40px 0px;
+    }
+
+    .country-text {
+        margin-top: 40px;
+    }
+
+    .country-image {
+        text-align: center;
+    }
+
+    .country-image-1 {
+        width: 394px;
+        height: 394px;
+    }
+
+    .about-home {
+        max-width: none;
+        width: auto;
+        flex-direction: column;
+        padding: 40px 20px 40px 20px;
+    }
+
+    .about-home-images {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-image-1 {
+        width: 177px !important;
+        height: 158px !important;
+    }
+
+    .about-image-2 {
+        width: 177px !important;
+        height: 158px !important;
+    }
+
+    .about-image-3 {
+        width: 177px !important;
+        height: 252px !important;
+    }
+
+    .about-home-images-1 {
+        padding: 0px 10px 0px 0px !important;
+    }
+
+    .about-home-text {
+        padding: 0 !important;
+        margin-top: 40px !important;
+    }
+
+    .figures-country-elements {
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 40px 20px 40px 20px !important;
+    }
+
+    .figures-text {
+        width: auto !important;
+        padding: 40px 20px 40px 20px !important;
+    }
+
+    .figures-image {
+
+        > img {
+            width: 374px !important;
+            height: 374px !important;
+        }
+
+        display: flex;
+        width: auto !important;
+        height: 367px !important;
+        padding: 0 !important;
+        justify-content: center;
+    }
+
+    .figures-content-1 {
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+
+    .figures-content-2 {
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+
+    .figures-content-3 {
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+
+    .figures-content-4 {
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+
+    .container-differential-elements {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .differential-text {
+        width: auto;
+        height: 981px;
+    }
+
+    .swiper {
+        height: 160px !important;
+    }
+
+    .swiper-testimonials {
+        width: 374px !important;
+        height: 440px !important;
+    }
+
+    .partnersSwiper {
+        width: 414px !important;
+    }
+
+    .slider-partners {
+        width: 210px !important;
+    }
+
+    .slide-my {
         width: 210px !important;
     }
 }
