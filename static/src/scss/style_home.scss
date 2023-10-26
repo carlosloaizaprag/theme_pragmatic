@@ -110,14 +110,8 @@
 
   @media screen and (max-width: 992px) {
         width: 270px;
-        height: 270px;
+        height: 400px;
   }
-}
-
-.card-body {
-    @media screen and (max-width: 992px) {
-        height: 130px;
-    }
 }
 
 .card:hover {
@@ -320,7 +314,7 @@ h5.card-title {
     }
 
     @media screen and (max-width: 768px) {
-        width: 339px;
+        width: 339px !important;
         height: 252px;
     }
 }
@@ -335,13 +329,13 @@ h5.card-title {
     padding: 1em 1em 1em 1em;
 
     @media screen and (max-width: 576px) {
-        width: 177px;
-        height: 158px;
+        width: 177px !important;
+        height: 158px !important;
     }
 
     @media screen and (max-width: 768px) {
-        width: 339px;
-        height: 252px;
+        width: 339px !important;
+        height: 252px !important;
     }
 }
 
@@ -356,13 +350,13 @@ h5.card-title {
     margin-top: 50px;
 
     @media screen and (max-width: 576px) {
-        width: 177px;
-        height: 252px;
+        width: 177px !important;
+        height: 252px !important;
     }
 
     @media screen and (max-width: 768px) {
-        width: 325px;
-        height: 382px;
+        width: 325px !important;
+        height: 382px !important;
     }
 }
 
@@ -370,7 +364,7 @@ h5.card-title {
     padding: 0px 10px 0px 10px;
 
     @media screen and (max-width: 576px) {
-        padding: 0px 10px 0px 0px;
+        padding: 0px 10px 0px 0px !important;
     }
 }
 
@@ -408,13 +402,13 @@ h5.card-title {
     padding: 0px 0px 0px 40px;
 
     @media screen and (max-width: 576px) {
-        padding: 0;
-        margin-top: 40px;
+        padding: 0 !important;
+        margin-top: 40px !important;
     }
 
     @media screen and (max-width: 768px) {
-        padding: 0px 0px 0px 10px;
-        margin-top: 40px;
+        padding: 0px 0px 0px 10px !important;
+        margin-top: 40px !important;
     }
 }
 
@@ -454,15 +448,15 @@ h5.card-title {
     padding: 50px 0px 50px 0px;
 
     @media screen and (max-width: 576px) {
-        display: flex;
-        flex-direction: column;
-        padding: 40px 20px 40px 20px;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 40px 20px 40px 20px !important;
     }
 
     @media screen and (max-width: 768px) {
-        display: flex;
-        flex-direction: column;
-        padding: 40px 20px 40px 20px;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 40px 20px 40px 20px !important;
     }
 }
 
@@ -473,8 +467,8 @@ h5.card-title {
     padding: 0px 50px 0px 0px;
 
     @media screen and (max-width: 576px) {
-        width: auto;
-        padding: 40px 20px 40px 20px;
+        width: auto !important;
+        padding: 40px 20px 40px 20px !important;
     }
 }
 
@@ -503,20 +497,20 @@ h5.card-title {
         height: 524px;
 
         @media screen and (max-width: 576px) {
-            width: 374px;
-            height: 374px;
+            width: 374px !important;
+            height: 374px !important;
         }
 
         @media screen and (max-width: 768px) {
-            width: 704px;
-            height: 704px;
+            width: 704px !important;
+            height: 704px !important;
         }
     }
 
     @media screen and (max-width: 576px) {
-        width: 374px;
-        height: 367px;
-        padding: 0;
+        width: 374px !important;
+        height: 367px !important;
+        padding: 0 !important;
     }
 }
 
@@ -525,9 +519,9 @@ h5.card-title {
     flex-direction: row;
 
     @media screen and (max-width: 576px) {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
     }
 }
 
@@ -536,9 +530,9 @@ h5.card-title {
     flex-direction: row;
 
     @media screen and (max-width: 576px) {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
     }
 }
 
@@ -547,9 +541,9 @@ h5.card-title {
     flex-direction: row;
 
     @media screen and (max-width: 576px) {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
     }
 }
 
@@ -558,9 +552,9 @@ h5.card-title {
     flex-direction: row;
 
     @media screen and (max-width: 576px) {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
     }
 }
 
@@ -598,13 +592,13 @@ h5.card-title {
     position: relative;
 
     @media screen and (max-width: 576px) {
-        display: flex;
-        flex-direction: column;
+        display: flex !important;
+        flex-direction: column !important;
     }
 
     @media screen and (max-width: 768px) {
-        display: flex;
-        flex-direction: column;
+        display: flex !important;
+        flex-direction: column !important;
     }
 }
 
@@ -680,19 +674,19 @@ h5.card-title {
     height: 304px;
 
      @media screen and (max-width: 1200px) {
-        height: 240px;
+        height: 240px !important;
      }
 
      @media screen and (max-width: 992px) {
-        height: 200px;
+        height: 200px !important;
      }
 
      @media screen and (max-width: 768px) {
-        height: 180px;
+        height: 180px !important;
      }
 
      @media screen and (max-width: 576px) {
-        height: 160px;
+        height: 160px !important;
      }
 }
 
@@ -728,13 +722,13 @@ h5.card-title {
     height: 410px;
 
     @media screen and (max-width: 576px) {
-        width: 374px;
-        height: 440px;
+        width: 374px !important;
+        height: 440px !important;
     }
 
     @media screen and (max-width: 768px) {
-        width: 474px;
-        height: 540px;
+        width: 474px !important;
+        height: 540px !important;
     }
 }
 
@@ -783,7 +777,7 @@ h5.card-title {
 
 @media (max-width: 768px) {
   .swiper-slide {
-    padding: 0px 10px;
+    padding: 0px 10px !important;
   }
 
   .clients-image {
@@ -826,6 +820,10 @@ h5.card-title {
 
     @media screen and (max-width: 768px) {
         width: 577px !important;
+    }
+
+    @media screen and (max-width: 992px) {
+        width: 677px !important;
     }
 }
 
