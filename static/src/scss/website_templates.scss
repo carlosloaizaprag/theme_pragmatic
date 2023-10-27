@@ -101,11 +101,7 @@ svg {
 
 .footer-img {
     margin: 50px 0px 50px 0px;
-
-    @media screen and (max-width: 576px) {
-        margin: 30px 0px 30px 0px;
-        text-align: center;
-    }
+    text-align: center;
 }
 
 input {

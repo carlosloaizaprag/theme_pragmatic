@@ -91,11 +91,6 @@
   height: 370px;
   width: 370px;
   padding: 20px;
-
-  @media screen and (max-width: 992px) {
-        width: 270px;
-        height: 400px;
-  }
 }
 
 .card:hover {
@@ -490,10 +485,6 @@ h5.card-title {
      @media screen and (max-width: 1200px) {
         height: 240px !important;
      }
-
-     @media screen and (max-width: 992px) {
-        height: 200px !important;
-     }
 }
 
 .swiper-slide {
@@ -549,10 +540,6 @@ h5.card-title {
     @media screen and (max-width: 1200px) {
       height: 180px !important;
     }
-
-    @media screen and (max-width: 992px) {
-      height: 160px !important;
-    }
 }
 
 .clients-image {
@@ -587,16 +574,83 @@ h5.card-title {
 .partnersSwiper {
     width: 1140px !important;
     height: 210px !important;
+}
 
-    @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
+
+    .front-page {
+        height: 40vh;
+    }
+
+    .cards {
+        width: 991px;
+    }
+
+    .card {
+        width: 270px;
+        height: 400px;
+    }
+
+    .swiper {
+        height: 200px !important;
+    }
+
+    .clientsSwiper {
+        height: 160px !important;
+    }
+
+    .partnersSwiper {
         width: 677px !important;
+    }
+
+    .swiper-testimonials {
+        width: 674px !important;
+        height: 540px !important;
+    }
+
+    .clientsSwiper {
+        height: 190px !important;
+    }
+
+    .slide-clients {
+        width: 250px !important;
+    }
+
+    .container-country-elements {
+        padding: 60px 20px 20px 20px;
+    }
+
+    .sub-title-2 {
+        margin-top: 60px;
+    }
+
+    .about-home {
+        padding: 38px 20px 32px 20px;
+    }
+
+    .figures-country-elements {
+        padding: 50px 20px 50px 20px;
+    }
+
+    .slider-partners {
+        width: auto !important;
     }
 }
 
 @media screen and (max-width: 768px) {
 
+    .front-page {
+        height: 50vh;
+    }
+
+    .card-container {
+        justify-content: center;
+    }
+
     .cards {
-        width: 768px;
+        display: flex;
+        flex-direction: column;
+        width: 576px;
         padding-left: 45px;
     }
 
@@ -622,17 +676,17 @@ h5.card-title {
     }
 
     .about-image-1 {
-        width: 339px !important;
+        width: 239px !important;
         height: 252px;
     }
 
     .about-image-2 {
-        width: 339px !important;
+        width: 239px !important;
         height: 252px !important;
     }
 
     .about-image-3 {
-        width: 325px !important;
+        width: 255px !important;
         height: 382px !important;
     }
 
@@ -645,14 +699,6 @@ h5.card-title {
         display: flex !important;
         flex-direction: column !important;
         padding: 40px 20px 40px 20px !important;
-    }
-
-    .figures-image {
-
-        > img {
-            width: 704px !important;
-            height: 704px !important;
-        }
     }
 
     .container-differential-elements {

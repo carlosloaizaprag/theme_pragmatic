@@ -8,10 +8,6 @@
     color: white;
     text-align: center;
     padding: 180px 0px 120px 0px;
-
-    @media screen and (max-width: 576px) {
-        height: 120vh;
-    }
 }
 
 .front-page-contact::before {
@@ -48,10 +44,6 @@
 
 .container-cards{
     display: flex;
-
-    @media screen and (max-width: 576px) {
-        flex-direction: column;
-    }
 }
 
 .content-contact-card {
@@ -69,10 +61,6 @@
     margin-left: auto;
     position: relative;
     padding: 38px 0px 32px 0px;
-
-    @media screen and (max-width: 576px) {
-        flex-direction: column;
-    }
 }
 
 .contact-form-text {
@@ -81,26 +69,11 @@
 
     > h2 {
         font-size: 32px;
-
-        @media screen and (max-width: 576px) {
-            text-align: center;
-        }
-    }
-
-    @media screen and (max-width: 576px) {
-        width: 100% !important;
-        padding-right: 0;
     }
 }
 
 .contact-form-content {
     width: 50%;
-
-    @media screen and (max-width: 576px) {
-        width: 90%;
-        margin-top: 50px;
-        margin-left: 20px;
-    }
 }
 
 .contact-form {
@@ -160,4 +133,67 @@
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+}
+
+@media screen and (max-width: 992px) {
+
+    .content-contact-card {
+        width: 240px;
+    }
+
+    .container-contact-form {
+        padding: 38px 20px 32px 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container-contact-form {
+        flex-direction: column;
+    }
+
+    .contact-form-text {
+        > h2 {
+            text-align: center;
+        }
+
+        width: 100% !important;
+        padding-right: 0;
+    }
+
+    .contact-form-content {
+        width: 90%;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .front-page-contact {
+        height: 120vh;
+    }
+
+    .container-cards {
+        flex-direction: column;
+    }
+
+    .container-contact-form {
+        flex-direction: column;
+    }
+
+    .contact-form-text {
+        > h2 {
+            text-align: center;
+        }
+
+        width: 100% !important;
+        padding-right: 0;
+    }
+
+    .contact-form-content {
+        width: 90%;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
 }
