@@ -21,7 +21,7 @@
                             <div class="content">
                                 <h1>Soluciones Integrales TIC para las PYME</h1>
                                 <h2>Somos un grupo empresarial de servicios Tecnológicos.</h2>
-                                <a href="#" class="video-button">Más Información</a>
+                                <a href="/contact" class="video-button">Más Información</a>
                             </div>
                         </header>
 
@@ -222,18 +222,20 @@
                               </script>
                         </div>
 
+                        <div class="space"></div>
+
                         <div class="home-carousel">
                             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
                             <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
-                                  <div class="swiper-slide slide-my"><img src="https://www.transfiriendo.com/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-26-at-10.37.09-AM.jpeg" /></div>
-                                  <div class="swiper-slide slide-my"><img src="https://www.transfiriendo.com/wp-content/uploads/2021/06/DSC_0764-scaled.jpg" /></div>
-                                  <div class="swiper-slide slide-my"><img src="https://www.transfiriendo.com/wp-content/uploads/2021/06/DSC_0557-scaled.jpg" /></div>
-                                  <div class="swiper-slide slide-my"><img src="https://www.transfiriendo.com/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-26-at-10.37.20-AM.jpeg" /></div>
-                                  <div class="swiper-slide slide-my"><img src="https://www.transfiriendo.com/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-26-at-10.37.09-AM.jpeg" /></div>
-                                  <div class="swiper-slide slide-my"><img src="https://www.transfiriendo.com/wp-content/uploads/2021/06/DSC_0764-scaled.jpg" /></div>
-                                  <div class="swiper-slide slide-my"><img src="https://www.transfiriendo.com/wp-content/uploads/2021/06/DSC_0557-scaled.jpg" /></div>
-                                  <div class="swiper-slide slide-my"><img src="https://www.transfiriendo.com/wp-content/uploads/2021/08/WhatsApp-Image-2021-08-26-at-10.37.20-AM.jpeg" /></div>
+                                  <div class="swiper-slide slide-my"><img src="theme_pragmatic/static/src/img/wallpaper-two.png" /></div>
+                                  <div class="swiper-slide slide-my"><img src="theme_pragmatic/static/src/img/wallpaper-one.png" /></div>
+                                  <div class="swiper-slide slide-my"><img src="theme_pragmatic/static/src/img/wallpaper-three.png" /></div>
+                                  <div class="swiper-slide slide-my"><img src="theme_pragmatic/static/src/img/wallpaper-one.png" /></div>
+                                  <div class="swiper-slide slide-my"><img src="theme_pragmatic/static/src/img/wallpaper-two.png" /></div>
+                                  <div class="swiper-slide slide-my"><img src="theme_pragmatic/static/src/img/wallpaper-one.png" /></div>
+                                  <div class="swiper-slide slide-my"><img src="theme_pragmatic/static/src/img/wallpaper-three.png" /></div>
+                                  <div class="swiper-slide slide-my"><img src="theme_pragmatic/static/src/img/wallpaper-one.png" /></div>
                                 </div>
                                 <div class="swiper-button-next" />
                                 <div class="swiper-button-prev" />
