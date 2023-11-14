@@ -20,8 +20,8 @@
                         <header class="front-page">
                             <div class="content">
                                 <h1>Soluciones Integrales TIC para las PYME</h1>
-                                <h2>Somos un grupo empresarial de servicios Tecnológicos.</h2>
-                                <a href="/contact" class="video-button">Más Información</a>
+                                <h2>Equipo multidisciplinario que te ofrece servicios tecnologicos.</h2>
+                                <a href="/contact" class="info-button">Más Información</a>
                             </div>
                         </header>
 
@@ -142,10 +142,7 @@
                                       <img class="clients-image" src="theme_pragmatic/static/src/img/umanizales.png" />
                                   </div>
                                   <div class="swiper-slide slide-clients">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/urt.png" />
-                                  </div>
-                                  <div class="swiper-slide slide-clients">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/logo-transfiriendo.png" />
+                                      <img class="clients-image img-transfiriendo" src="theme_pragmatic/static/src/img/logo-transfiriendo.png" />
                                   </div>
                                   <div class="swiper-slide slide-clients">
                                       <img class="clients-image" src="theme_pragmatic/static/src/img/logo-oncredit.png" />
@@ -157,22 +154,19 @@
                                       <img class="clients-image" src="theme_pragmatic/static/src/img/pura.png" />
                                   </div>
                                   <div class="swiper-slide slide-clients">
-                                      <img class="clients-image" src="aliado tecnologico" />
+                                      <img class="clients-image img-loggin" src="theme_pragmatic/static/src/img/loggin.png" />
                                   </div>
                                     <div class="swiper-slide slide-clients">
                                         <img class="clients-image" src="theme_pragmatic/static/src/img/bluma-design.png" />
                                     </div>
                                   <div class="swiper-slide slide-clients">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/logo-acopi.png" />
+                                      <img class="clients-image img-acopi" src="theme_pragmatic/static/src/img/logo-acopi.png" />
                                   </div>
                                   <div class="swiper-slide slide-clients">
                                       <img class="clients-image" src="theme_pragmatic/static/src/img/umanizales.png" />
                                   </div>
                                   <div class="swiper-slide slide-clients">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/urt.png" />
-                                  </div>
-                                  <div class="swiper-slide slide-clients">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/logo-transfiriendo.png" />
+                                      <img class="clients-image img-transfiriendo" src="theme_pragmatic/static/src/img/logo-transfiriendo.png" />
                                   </div>
                                   <div class="swiper-slide slide-clients">
                                       <img class="clients-image" src="theme_pragmatic/static/src/img/logo-oncredit.png" />
@@ -184,13 +178,13 @@
                                       <img class="clients-image" src="theme_pragmatic/static/src/img/pura.png" />
                                   </div>
                                   <div class="swiper-slide slide-clients">
-                                      <img class="clients-image" src="aliado tecnologico" />
+                                      <img class="clients-image img-loggin" src="theme_pragmatic/static/src/img/loggin.png" />
                                   </div>
                                     <div class="swiper-slide slide-clients">
                                         <img class="clients-image" src="theme_pragmatic/static/src/img/bluma-design.png" />
                                     </div>
                                   <div class="swiper-slide slide-clients">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/logo-acopi.png" />
+                                      <img class="clients-image img-acopi" src="theme_pragmatic/static/src/img/logo-acopi.png" />
                                   </div>
                                 </div>
                                 <div class="swiper-button-next" />
@@ -269,34 +263,11 @@
                         <div class="container-country parallax">
                             <div class="container-country-elements">
                                 <div class="country-text">
-                                    <h5 class="sub-title-2">Unificando mercados en América Latina</h5>
-                                    <h2 class="text-1">Conformado por cuatro empresas con presencia en <span style="color:#03A63C">Colombia, Argentina y Ecuador</span></h2>
+                                    <h2 class="text-1">Constituidos desde 2016 y con presencia en <span style="color:#03A63C">Manizales, Caldas.</span></h2>
                                 </div>
                                 <div class="country-image">
                                     <img class="country-image-1" src="theme_pragmatic/static/src/img/wallpaperpragma.png" alt="..." />
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="about-home">
-                            <div class="about-home-images">
-                                <div class="about-home-images-1">
-                                    <div class="about-image-1" />
-                                    <div class="about-image-2" />
-                                </div>
-                                <div class="about-home-images-2">
-                                    <div class="about-image-3" />
-                                </div>
-                            </div>
-                            <div class="about-home-text">
-                                <h6 class="about-company-text">Sobre nuestra compañía</h6>
-                                <h2 class="about-home-company">Pragmatic Ingenieria</h2>
-                                <p class="about-text">
-                                    Somos una empresa que facilita a las corporaciones la interacción de sus actores dentro de una cadena de valor.
-                                    <br />
-                                    <br />
-                                    Integramos procesos e información a través de soluciones tecnológicas innovadoras que ayudan a transitar el camino al consumidor final.
-                                </p>
                             </div>
                         </div>
 
@@ -317,10 +288,16 @@
                                       <img class="clients-image" src="theme_pragmatic/static/src/img/proyecten.png" />
                                   </div>
                                   <div class="swiper-slide slider-partners">
+                                      <img class="clients-image img-loggin" src="theme_pragmatic/static/src/img/loggin.png" />
+                                  </div>
+                                  <div class="swiper-slide slider-partners">
                                       <img class="clients-image" src="theme_pragmatic/static/src/img/logo-oncredit.png" />
                                   </div>
                                   <div class="swiper-slide slider-partners">
                                       <img class="clients-image" src="theme_pragmatic/static/src/img/proyecten.png" />
+                                  </div>
+                                  <div class="swiper-slide slider-partners">
+                                      <img class="clients-image img-loggin" src="theme_pragmatic/static/src/img/loggin.png" />
                                   </div>
                                 </div>
                                 <div class="swiper-button-next" />
@@ -332,7 +309,7 @@
                             <script>
                                 var swiper = new Swiper(".partnersSwiper", {
                                   rewind: true,
-                                  slidesPerView: 2,
+                                  slidesPerView: 3,
                                   loop: true,
                                   spaceBetween: 0,
                                   centeredSlides: false,
