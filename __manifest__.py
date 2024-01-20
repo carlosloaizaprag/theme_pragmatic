@@ -11,6 +11,7 @@
         'views/pages/blog.xml',
         'views/pages/404.xml',
         'views/pages/about_us.xml',
+        'views/pages/software_erp.xml',
         'views/menu.xml',
         'views/website_templates.xml',
         'views/presets.xml'

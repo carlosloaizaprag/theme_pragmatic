@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="page_software_erp" model="website.page">
+        <field name="name">Inicio</field>
+        <field name="is_published" eval="True"/>
+        <field name="key">theme_pragmatic.page_software_erp</field>
+        <field name="url">/software_erp</field>
+        <field name="type">qweb</field>
+        <field name="arch" type="xml">
+            <t t-name="theme_pragmatic.page_software_erp">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure">
+                        <link rel="stylesheet" href="/../static/src/scss/style_home.scss"/>
+                        <div class="container-country parallax">
+                            <div class="software_erp_container">
+                                <div class="container">
+                                    <div class="row align-items-center">
+                                        <div class="col-6">
+
+                                            <h1 class="title-1-service">
+                                                Más que una
+                                                <b>pasarela</b>, una solución de recaudo para tu empresa
+                                            </h1>
+                                            <h2 class="sub-title-1-service">
+                                                Recibe y concilia pagos de tus ventas de contado
+                                                y a crédito, para tu negocio y tus canales comerciales,
+                                                a través de nuestra solución innovadora y ajustada a tus procesos de
+                                                negocio
+                                            </h2>
+                                            <a href="/contact" class="info-button">Mas información</a>
+                                        </div>
+                                        <div class="col-6">
+                                            <img class="location"
+                                                 src="theme_pragmatic/static/src/img/software_erp/software_erp.png"
+                                                 weight="400"
+                                                 height="400" alt="location"/>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card-container-servicie text-center">
+                            <div class="row-service align-items-center">
+                                <div class="col-md-4">
+                                    <div class="card-servicie">
+                                        <h5 class="service-card-title">
+                                            Fácil integración
+                                        </h5>
+                                        <p class="sub-text-service">
+                                            Con tu software y las soluciones del ecosistema de pagos y antifraude de
+                                            mayor conveniencia.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-servicie">
+                                        <h5 class="service-card-title">
+                                            Consultoría y adaptación
+                                        </h5>
+                                        <p class="sub-text-service">
+                                            Entendemos tu proceso de negocio para implementar la mejor tecnología.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-servicie">
+                                        <h4 class="service-card-title">
+                                            Liquidación y conciliación
+                                        </h4>
+                                        <p class="sub-text-service">
+                                            Realizamos la liquidación de comisiones de tus canales. Así mismo, aplicamos
+                                            y conciliamos en línea todos tus recaudos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+</odoo>
