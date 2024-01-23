@@ -1,0 +1,206 @@
+
+.card-servicie-t {
+  background-color: #03A63C;
+  margin: 0px 0px 0px 15px;
+  text-align: center;
+  height: 170px;
+  flex: 1;
+  text-align: center;
+}
+
+.card-servicie-tt {
+  text-align: center;
+  height: 170px;
+  flex: 1;
+  text-align: center;
+}
+
+.card-servicie-ttt {
+  background-color: #03A63C;
+  margin: 0px 0px 0px 15px;
+  text-align: center;
+  height: 170px;
+  flex: 1;
+  text-align: center;
+}
+
+.row-service-I {
+  --gutter-x: 30px;
+  --gutter-y: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  margin: auto;
+}
+
+.row-service-II {
+  --gutter-x: 30px;
+  --gutter-y: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  margin: auto;
+}
+
+.row-service-III {
+  --gutter-x: 30px;
+  --gutter-y: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  margin: auto;
+}
+
+.mt-5-servive-II {
+  padding: 50px 0px 0px 0px;
+}
+
+.title-1-service-acor-I {
+  font-family: 'Helvetica', Sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  color: #1a1212;
+  text-align: left;
+}
+
+.sub-title-1-service-I {
+  font-family: Sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: #03A63C;
+  text-align: left;
+  padding: 50px 0px 0px 15px;
+}
+
+.col-md-12-service-I {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 100%;
+  padding: 0px 70px 0px 0px;
+}
+
+.container-service-II {
+  color: #666766;
+  background: #eae8e8;
+  padding: 0px 50px 0px 0px;
+}
+
+.title-1-service-II {
+  font-family: 'Helvetica', Sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+  padding: 30px 0px 50px 0px;
+  color: #03A63C;
+}
+
+.title-1-service-I {
+  font-family: 'Helvetica', Sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+  color: #03A63C;
+}
+
+// Tu archivo SCSS
+
+.accordion-button {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  font-family: Sans-serif;
+  font-size: 46px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  color: inherit;
+  text-align: left;
+  background-color: rgba(172, 220, 172, 0);
+  color: #03A63C;
+  border: 1px solid lightgrey;
+  overflow-anchor: none;
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out, border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out, border-radius 0.1s ease;
+
+  &:hover {
+    background-color: #03A63C;
+    color: #ffffff;
+    border-color: #03A63C;
+  }
+}
+
+.accordion-body {
+  padding: 1rem 1.25rem;
+  color: rgba(52, 51, 51, 0.91);
+}
+
+.card-tar-service {
+  padding: 35px;
+  flex: 1;
+  position: relative;
+}
+
+.card-tar-services {
+  padding: 35px 0px 0px 15px;
+  flex: 1;
+  position: relative;
+}
+
+.text-service {
+  color: #ffffff;
+}
+
+.text-service-I {
+  color: #03a63c;
+}
+
+.title-inf {
+  color: #1a1212;
+  text-align: center;
+  padding: 20px;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.sub-title-inf {
+  font-family: Sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: #03A63C;
+  text-align: center;
+  padding: 50px 0px 0px 0px;
+}
+
+.card-servicie-bloq {
+  background-color: #ffffff;
+  margin: 15px;
+  text-align: center;
+  height: 450px;
+  width: 555px;
+  flex: 1;
+  padding: 70px;
+  text-align: center;
+}
+
+.sub-title-service-inf {
+  font-family: 'Helvetica', Sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 90px 0px 125px;
+  color: #1a1212;
+}
+
+.text-service-inf {
+  font-family: 'Helvetica', Sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 10px 0px 10px;
+  color: #1a1212;
+}

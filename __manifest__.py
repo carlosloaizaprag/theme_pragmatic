@@ -23,7 +23,8 @@
         'theme_pragmatic/static/src/scss/website_templates.scss',
         'theme_pragmatic/static/src/scss/style_home.scss',
         'theme_pragmatic/static/src/scss/style_contact.scss',
-        'theme_pragmatic/static/src/scss/style_blog.scss'
+        'theme_pragmatic/static/src/scss/style_blog.scss',
+        'theme_pragmatic/static/src/scss/style_service.scss',
         ],
     },
 
