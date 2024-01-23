@@ -444,22 +444,20 @@
                                       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
                                 <div class="swiper clientsSwiper">
                                     <div class="swiper-wrapper">
-                                        <div class="swiper-slide slide-clients div-one">
-                                            <img
-                                                    src="/theme_pragmatic/static/src/img/payment/image-american.png"
-                                                    weight="40" height="80"/>
+                                        <div class="swiper-slide slide-clients">
+                                            <img class="clients-image "
+                                                 src="/theme_pragmatic/static/src/img/payment/image-american.png"/>
                                         </div>
                                         <div class="swiper-slide slide-clients">
                                             <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-banco-bogota.svg.png"/>
+                                                 src="/theme_pragmatic/static/src/img/payment/image-bnc-bogota.png"/>
                                         </div>
                                         <div class="swiper-slide slide-clients">
                                             <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-diners-club.png"/>
+                                                 src="/theme_pragmatic/static/src/img/payment/image-dinerclub.png"/>
                                         </div>
                                         <div class="swiper-slide slide-clients">
-                                            <img src="/theme_pragmatic/static/src/img/payment/image-mastercard.png"
-                                                 weight="20" height="20"/>/>
+                                            <img class="clients-image" src="/theme_pragmatic/static/src/img/payment/image-mastercard.png"/>
                                         </div>
                                         <div class="swiper-slide slide-clients">
                                             <img class="clients-image"
@@ -473,6 +471,7 @@
                                             <img class="clients-image"
                                                  src="/theme_pragmatic/static/src/img/payment/image-visa.png"/>
                                         </div>
+
                                     </div>
                                     <div class="swiper-button-next"/>
                                     <div class="swiper-button-prev"/>
