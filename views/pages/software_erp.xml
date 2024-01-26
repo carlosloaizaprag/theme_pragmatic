@@ -18,22 +18,24 @@
                                         <div class="col-6">
 
                                             <h1 class="title-1-service">
-                                                Más que una
-                                                <b>pasarela</b>, una solución de recaudo para tu empresa
+                                                Empieza a optimizar con Odoo la <b>Solución</b> integral para
+                                                empresas
+                                                <b>Modernas</b>
                                             </h1>
                                             <h2 class="sub-title-1-service">
-                                                Recibe y concilia pagos de tus ventas de contado
-                                                y a crédito, para tu negocio y tus canales comerciales,
-                                                a través de nuestra solución innovadora y ajustada a tus procesos de
-                                                negocio
+                                                Con Odoo, tu empresa se beneficia de una solución completa y flexible
+                                                que abarca desde la gestión de inventario hasta la contabilidad y los
+                                                recursos humanos. Esta plataforma integrada optimiza tus operaciones,
+                                                simplifica la toma de decisiones y impulsa la eficiencia y el
+                                                crecimiento empresarial.
                                             </h2>
                                             <a href="/contact" class="info-button">Mas información</a>
                                         </div>
                                         <div class="col-6">
-                                            <img class="location"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/software_erp.png"
+                                            <img class="location img-fluid mx-auto d-block"
+                                                 src="/theme_pragmatic/static/src/img/software_erp/image-graf-odoo.png"
                                                  weight="400"
-                                                 height="400" alt="location"/>
+                                                 height="450" alt="location"/>
                                         </div>
                                     </div>
                                 </div>
@@ -45,32 +47,34 @@
                                 <div class="col-md-4">
                                     <div class="card-servicie">
                                         <h5 class="service-card-title">
-                                            Fácil integración
+                                            Eficiencia Operativa
                                         </h5>
                                         <p class="sub-text-service">
-                                            Con tu software y las soluciones del ecosistema de pagos y antifraude de
-                                            mayor conveniencia.
+                                            Centralizas todas las operaciones en una sola plataforma, simplificando la
+                                            gestión y optimizando los flujos de trabajo.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="card-servicie">
                                         <h5 class="service-card-title">
-                                            Consultoría y adaptación
+                                            Flexibilidad Total
                                         </h5>
                                         <p class="sub-text-service">
-                                            Entendemos tu proceso de negocio para implementar la mejor tecnología.
+                                            Se adapta a tu empresa. Su estructura modular y personalizable te permite
+                                            ajustar el sistema según tus necesidades en evolución.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="card-servicie">
                                         <h4 class="service-card-title">
-                                            Liquidación y conciliación
+                                            Decisiones Informadas
                                         </h4>
                                         <p class="sub-text-service">
-                                            Realizamos la liquidación de comisiones de tus canales. Así mismo, aplicamos
-                                            y conciliamos en línea todos tus recaudos.
+                                            Ofrece datos en tiempo real para respaldar tus decisiones. Con
+                                            herramientas de informes, análisis y oportunidades
+                                            para el crecimiento empresarial.
                                         </p>
                                     </div>
                                 </div>
@@ -90,9 +94,9 @@
                                     <!-- Columna 1: Contiene la imagen -->
                                     <div class="col-md-6">
                                         <img class="location"
-                                             src="/theme_pragmatic/static/src/img/software_erp/image-erp.jpg"
+                                             src="/theme_pragmatic/static/src/img/software_erp/image-odoo-accordion.png"
                                              weight="300"
-                                             height="298" alt="location"/>
+                                             height="398" alt="location"/>
                                         <div class="col-md-12-service-I">
                                             <div class="row">
                                                 <div class="col-md-4 card-servicie-t">
@@ -144,15 +148,16 @@
                                                                     data-bs-target="#panelsStayOpen-collapseOne"
                                                                     aria-expanded="true"
                                                                     aria-controls="panelsStayOpen-collapseOne">
-                                                                Administramos y conciliamos
+                                                                Adaptabilidad y Escalabilidad
                                                             </button>
                                                         </h2>
                                                         <div id="panelsStayOpen-collapseOne"
                                                              class="accordion-collapse collapse show">
                                                             <div class="accordion-body">
-                                                                De forma centralizada, segura y eficiente el recaudo
-                                                                realizado a través de diferentes métodos (electrónico,
-                                                                transferencias, tarjetas de crédito, efectivo).
+                                                                Permite a las empresas adaptar la plataforma a sus
+                                                                necesidades específicas. Además, Odoo es altamente
+                                                                escalable, lo que significa que puede crecer junto con
+                                                                la empresa a medida que esta evoluciona y se expande.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -163,14 +168,16 @@
                                                                     data-bs-target="#panelsStayOpen-collapseTwo"
                                                                     aria-expanded="false"
                                                                     aria-controls="panelsStayOpen-collapseTwo">
-                                                                Gestionamos las suscripciones
+                                                                Acceso a Datos en Tiempo Real
                                                             </button>
                                                         </h2>
                                                         <div id="panelsStayOpen-collapseTwo"
                                                              class="accordion-collapse collapse">
                                                             <div class="accordion-body">
-                                                                Recordatorios, fechas de plazo, pagos periódicos,
-                                                                seguimiento y control de las facturas por cobrar.
+                                                                Con Odoo, las empresas tienen acceso a datos en tiempo
+                                                                real sobre todas las áreas de su negocio. Esto facilita
+                                                                la toma de decisiones informadas y permite una gestión
+                                                                más proactiva y eficaz.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -181,15 +188,16 @@
                                                                     data-bs-target="#panelsStayOpen-collapseThree"
                                                                     aria-expanded="false"
                                                                     aria-controls="panelsStayOpen-collapseThree">
-                                                                Logramos la estandarización de procesos
+                                                                Comercio Electrónico
                                                             </button>
                                                         </h2>
                                                         <div id="panelsStayOpen-collapseThree"
                                                              class="accordion-collapse collapse">
                                                             <div class="accordion-body">
-                                                                Reducción de tiempos de operación, costos y reprocesos;
-                                                                además, evitamos el error humano y aumentamos la
-                                                                efectividad en el cobro.
+                                                                Odoo ofrece una plataforma de comercio electrónico
+                                                                integral que permite a las empresas crear y gestionar
+                                                                tiendas en línea de manera efectiva, integrando la
+                                                                gestión de inventario, ventas y marketing.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -204,7 +212,7 @@
                             <div class="row justify-content-center align-items-start cards">
                                 <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
                                 <div class="col-md-12">
-                                    <h1 class="title-inf-I">Clientes ERP</h1>
+                                    <h1 class="title-inf-I">Empresas que han confiado en nosotros</h1>
                                 </div>
                             </div>
                             <div class="clients">
@@ -310,12 +318,11 @@
                                 <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
                                 <div class="col-md-12">
                                     <h4 class="sub-title-inf">Pragmatic</h4>
-                                    <h1 class="title-inf">Gestión de cuentas</h1>
-                                    <h4 class="sub-title-service-inf">Facilita la gestión de la cartera para los
-                                        clientes
-                                        y
-                                        equipos de soporte. Se integra con los sistemas del cliente y con cualquier
-                                        sistema de pago.
+                                    <h1 class="title-inf">Funcionalidades importantes</h1>
+                                    <h4 class="sub-title-service-inf">Odoo proporciona una solución completa e integrada
+                                        para la gestión de contabilidad, ventas, compras y puntos de venta, lo que
+                                        permite a las empresas optimizar sus operaciones y mejorar la eficiencia en
+                                        todas estas áreas.
                                     </h4>
                                 </div>
                             </div>
@@ -324,31 +331,29 @@
                                     <div class="col-6">
                                         <div class="card-servicie-bloq">
                                             <img class="location"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/image-recaudo.png"
+                                                 src="/theme_pragmatic/static/src/img/software_erp/image-contabilidad.png"
                                                  weight="80"
                                                  height="80" alt="location"/>
-                                            <h4>Portal de
-                                                Recaudos
-                                            </h4>
-                                            <p class="text-service-inf">Habilita a tus clientes y áreas de soporte para
-                                                que
-                                                puedan consultar y verificar el estado e histórico de las cuentas por
-                                                pagar. Nuestro sistema se integra y sincroniza con tus sistemas
-                                                contables o de ventas, aplicando y conciliando los pagos.
+                                            <h4 class="title-func">Contabilidad y Finanzas</h4>
+                                            <p class="text-service-inf">Ofrece una suite completa de herramientas
+                                                contables que incluyen gestión de facturas, conciliación bancaria,
+                                                generación de informes financieros, gestión de impuestos y control de
+                                                costos.
                                             </p>
                                         </div>
                                     </div>
                                     <div class="col-6 ">
                                         <div class="card-servicie-bloq">
                                             <img class="location"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/image-cobro.png"
+                                                 src="/theme_pragmatic/static/src/img/software_erp/image-hr.png"
                                                  weight="80"
                                                  height="80" alt="location"/>
-                                            <h4>Cobros recurrentes
-                                            </h4>
-                                            <p class="text-service-inf">Permite administrar cuándo y cómo realizará los
-                                                cobros. Ejecuta automáticamente los cobros por tarjeta o débito
-                                                automático.
+                                            <h4 class="title-func">Gestión de Recursos Humanos (RRHH)</h4>
+                                            <p class="text-service-inf">
+                                                Comercio Electrónico Proporciona una plataforma
+                                                de comercio electrónico integrada que permite a las empresas crear y
+                                                gestionar tiendas en línea, gestionar catálogos de productos, procesar
+                                                pedidos y gestionar pagos.
                                             </p>
                                         </div>
                                     </div>
@@ -359,26 +364,27 @@
                                     <div class="col-6 ">
                                         <div class="card-servicie-bloq">
                                             <img class="location"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/image-abono.png"
+                                                 src="/theme_pragmatic/static/src/img/software_erp/image-inventario.png"
                                                  weight="80"
                                                  height="80" alt="location"/>
-                                            <h4>Abonos parciales</h4>
-                                            <p class="text-service-inf">Administra los pagos parciales a las cuentas
-                                                comerciales aplicando y llevando el control de los saldos, estableciendo
-                                                montos mínimos.
+                                            <h4 class="title-func">Gestión de Inventarios</h4>
+                                            <p class="text-service-inf">Permite el seguimiento y
+                                                control completo del inventario, incluida la gestión de ubicaciones,
+                                                control de existencias, gestión de pedidos y seguimiento de movimientos
+                                                de inventario.
                                             </p>
                                         </div>
                                     </div>
                                     <div class="col-6 ">
                                         <div class="card-servicie-bloq">
                                             <img class="location"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/image-conciliacion.png"
+                                                 src="/theme_pragmatic/static/src/img/software_erp/image-shop.png"
                                                  weight="80"
                                                  height="80" alt="location"/>
-                                            <h4>Conciliación</h4>
-                                            <p class="text-service-inf">Realiza los cruces de diferentes fuentes de
-                                                información para encontrar diferencias, según las reglas de negocio
-                                                existentes.
+                                            <h4 class="title-func">Punto de Venta (POS)</h4>
+                                            <p class="text-service-inf">Ofrece una solución
+                                                completa de punto de venta que incluye gestión de productos,
+                                                procesamiento de pagos, gestión de clientes y control de caja.
                                             </p>
                                         </div>
                                     </div>
@@ -436,7 +442,7 @@
                             <div class="row justify-content-center align-items-start cards">
                                 <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
                                 <div class="col-md-12">
-                                    <h1 class="title-inf-I">Clientes ERP</h1>
+                                    <h1 class="title-inf-I">Medios de pago</h1>
                                 </div>
                             </div>
                             <div class="clients">
@@ -457,7 +463,8 @@
                                                  src="/theme_pragmatic/static/src/img/payment/image-dinerclub.png"/>
                                         </div>
                                         <div class="swiper-slide slide-clients">
-                                            <img class="clients-image" src="/theme_pragmatic/static/src/img/payment/image-mastercard.png"/>
+                                            <img class="clients-image"
+                                                 src="/theme_pragmatic/static/src/img/payment/image-mastercard.png"/>
                                         </div>
                                         <div class="swiper-slide slide-clients">
                                             <img class="clients-image"
