@@ -411,3 +411,50 @@
   margin-right: calc(-.5 * var(--gutter-x));
   margin-left: calc(-.5 * var(--gutter-x));
 }
+
+
+/*-----------------------------------APP MOVILES------------------------------------------*/
+
+.card-servicie-app {
+  background-color: #03A63C;
+  margin: 0px 0px 0px 15px;
+  text-align: center;
+  height: 176px;
+  flex: 1;
+  text-align: center;
+}
+
+.card-servicie-app-I {
+  background-color: #03A63C;
+  margin: 0px 0px 0px 15px;
+  text-align: center;
+  height: 176px;
+  flex: 1;
+  text-align: center;
+}
+
+.card-servicie-app-tt {
+  text-align: center;
+  height: 170px;
+  flex: 1;
+  text-align: center;
+}
+
+.card-tar-service-app {
+  flex: 1;
+  position: relative;
+}
+
+.text-service-app {
+    color: #ffffff;
+    padding: 50px 0px 0px 0px;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.text-service-app-I {
+    color: #03A63C;
+    padding: 50px 0px 0px 8px;
+    font-size: 21px;
+    font-weight: 700;
+}

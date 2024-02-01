@@ -21,7 +21,8 @@
                                                 Servicios Integrales de Desarrollo y Despliegue de Aplicaciones Móviles
                                             </h1>
                                             <h2 class="sub-title-1-service">
-                                                Las aplicaciones móviles se han convertido en una herramienta fundamental
+                                                Las aplicaciones móviles se han convertido en una herramienta
+                                                fundamental
                                                 para la interacción con los clientes y la optimización de los procesos
                                                 empresariales. Nuestra empresa ofrece un conjunto
                                                 completo de servicios para el desarrollo y despliegue de aplicaciones
@@ -32,7 +33,7 @@
                                         </div>
                                         <div class="col-6">
                                             <img class="location img-fluid mx-auto d-block"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/image-graf-odoo.png"
+                                                 src="/theme_pragmatic/static/src/img/app/image-app.png"
                                                  weight="400"
                                                  height="450" alt="location"/>
                                         </div>
@@ -41,50 +42,12 @@
 
                             </div>
                         </div>
-                        <div class="card-container-servicie text-center">
-                            <div class="row-service align-items-center">
-                                <div class="col-md-4">
-                                    <div class="card-servicie">
-                                        <h5 class="service-card-title">
-                                            Eficiencia Operativa
-                                        </h5>
-                                        <p class="sub-text-service">
-                                            Centralizas todas las operaciones en una sola plataforma, simplificando la
-                                            gestión y optimizando los flujos de trabajo.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="card-servicie">
-                                        <h5 class="service-card-title">
-                                            Flexibilidad Total
-                                        </h5>
-                                        <p class="sub-text-service">
-                                            Se adapta a tu empresa. Su estructura modular y personalizable te permite
-                                            ajustar el sistema según tus necesidades en evolución.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="card-servicie">
-                                        <h4 class="service-card-title">
-                                            Decisiones Informadas
-                                        </h4>
-                                        <p class="sub-text-service">
-                                            Ofrece datos en tiempo real para respaldar tus decisiones. Con
-                                            herramientas de informes, análisis y oportunidades
-                                            para el crecimiento empresarial.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
                         <div class="card-container-servicie-II">
                             <div class="row-service-I justify-content-center align-items-start cards">
                                 <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
                                 <div class="col-md-12">
-                                    <h1 class="title-1-service-II">Software ERP</h1>
+                                    <h1 class="title-1-service-II">Desarrollo y despliegue de Apps</h1>
                                 </div>
                             </div>
 
@@ -93,38 +56,26 @@
                                     <!-- Columna 1: Contiene la imagen -->
                                     <div class="col-md-6">
                                         <img class="location"
-                                             src="/theme_pragmatic/static/src/img/software_erp/image-odoo-accordion.png"
+                                             src="/theme_pragmatic/static/src/img/app/image-app-mobile.jpg"
                                              weight="300"
                                              height="398" alt="location"/>
                                         <div class="col-md-12-service-I">
                                             <div class="row">
-                                                <div class="col-md-4 card-servicie-t">
-                                                    <div class="card-tar-service">
-                                                        <img class="location"
-                                                             src="/theme_pragmatic/static/src/img/software_erp/image-facture.png"
-                                                             weight="40"
-                                                             height="40" alt="location"/>
-                                                        <p class="text-service">Facturación Electronica</p>
+                                                <div class="col-md-4 card-servicie-app-I ">
+                                                    <div class="card-tar-service-app">
+                                                        <p class="text-service-app">Experiencia personalizada</p>
                                                     </div>
                                                 </div>
                                                 <!-- Columna 2.2 -->
-                                                <div class="col-md-4 card-servicie-tt">
-                                                    <div class="card-tar-services">
-                                                        <img class="location"
-                                                             src="/theme_pragmatic/static/src/img/software_erp/image-diner.png"
-                                                             weight="60"
-                                                             height="60" alt="location"/>
-                                                        <p class="text-service-I">Ventas</p>
+                                                <div class="col-md-4 card-servicie-app-tt">
+                                                    <div class="card-tar-service-app">
+                                                        <p class="text-service-app-I">Funcionalidades integradas</p>
                                                     </div>
                                                 </div>
                                                 <!-- Columna 2.3 -->
-                                                <div class="col-md-4 card-servicie-ttt">
-                                                    <div class="card-tar-service">
-                                                        <img class="location"
-                                                             src="/theme_pragmatic/static/src/img/software_erp/image-facture.png"
-                                                             weight="40"
-                                                             height="40" alt="location"/>
-                                                        <p class="text-service">Punto de venta</p>
+                                                <div class="col-md-4 card-servicie-app">
+                                                    <div class="card-tar-service-app">
+                                                        <p class="text-service-app">Recopilación de datos y análisis</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -136,8 +87,8 @@
                                             <!-- Columna 2.1 -->
                                             <div class="col-md-12">
                                                 <div class="col-md-12">
-                                                    <h4 class="sub-title-1-service-I">Software ERP</h4>
-                                                    <h1 class="title-1-service-acor-I">¿Qué soluciones se ofrecen?</h1>
+                                                    <h4 class="sub-title-1-service-I">Aplicaciones Móviles</h4>
+                                                    <h1 class="title-1-service-acor-I">¿Qué ofrecemos?</h1>
                                                 </div>
                                                 <div class="accordion" id="accordionPanelsStayOpenExample">
                                                     <div class="accordion-item">
@@ -147,16 +98,17 @@
                                                                     data-bs-target="#panelsStayOpen-collapseOne"
                                                                     aria-expanded="true"
                                                                     aria-controls="panelsStayOpen-collapseOne">
-                                                                Adaptabilidad y Escalabilidad
+                                                                Análisis y Definición del Alcance
                                                             </button>
                                                         </h2>
                                                         <div id="panelsStayOpen-collapseOne"
                                                              class="accordion-collapse collapse show">
                                                             <div class="accordion-body">
-                                                                Permite a las empresas adaptar la plataforma a sus
-                                                                necesidades específicas. Además, Odoo es altamente
-                                                                escalable, lo que significa que puede crecer junto con
-                                                                la empresa a medida que esta evoluciona y se expande.
+                                                                Realización de un análisis exhaustivo de los requisitos
+                                                                y necesidades específicas de la organización.
+                                                                Definición clara del alcance del proyecto, incluyendo
+                                                                funcionalidades, plataformas de destino y objetivos
+                                                                empresariales.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -167,16 +119,19 @@
                                                                     data-bs-target="#panelsStayOpen-collapseTwo"
                                                                     aria-expanded="false"
                                                                     aria-controls="panelsStayOpen-collapseTwo">
-                                                                Acceso a Datos en Tiempo Real
+                                                                Desarrollo de Aplicaciones Multiplataforma y Nativas
                                                             </button>
                                                         </h2>
                                                         <div id="panelsStayOpen-collapseTwo"
                                                              class="accordion-collapse collapse">
                                                             <div class="accordion-body">
-                                                                Con Odoo, las empresas tienen acceso a datos en tiempo
-                                                                real sobre todas las áreas de su negocio. Esto facilita
-                                                                la toma de decisiones informadas y permite una gestión
-                                                                más proactiva y eficaz.
+                                                                Experiencia en el desarrollo de aplicaciones
+                                                                multiplataforma que funcionan en diferentes dispositivos
+                                                                y sistemas operativos.
+                                                                Capacidad para desarrollar aplicaciones nativas
+                                                                optimizadas para plataformas específicas como iOS y
+                                                                Android, aprovechando al máximo las características y
+                                                                funcionalidades de cada una.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -187,16 +142,82 @@
                                                                     data-bs-target="#panelsStayOpen-collapseThree"
                                                                     aria-expanded="false"
                                                                     aria-controls="panelsStayOpen-collapseThree">
-                                                                Comercio Electrónico
+                                                                Comunicación con Sensores y Circuitos Móviles
+                                                                Programables
                                                             </button>
                                                         </h2>
                                                         <div id="panelsStayOpen-collapseThree"
                                                              class="accordion-collapse collapse">
                                                             <div class="accordion-body">
-                                                                Odoo ofrece una plataforma de comercio electrónico
-                                                                integral que permite a las empresas crear y gestionar
-                                                                tiendas en línea de manera efectiva, integrando la
-                                                                gestión de inventario, ventas y marketing.
+                                                                Integración de sensores y dispositivos móviles
+                                                                programables para mejorar la funcionalidad y la
+                                                                interactividad de las aplicaciones.
+                                                                Desarrollo de soluciones que aprovechan la información
+                                                                proporcionada por sensores y circuitos móviles para
+                                                                ofrecer experiencias personalizadas y centradas en el
+                                                                usuario.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                    data-bs-toggle="collapse"
+                                                                    data-bs-target="#panelsStayOpen-collapseThree"
+                                                                    aria-expanded="false"
+                                                                    aria-controls="panelsStayOpen-collapseThree">
+                                                                Acompañamiento en el Despliegue de Tiendas de
+                                                                Aplicaciones
+                                                            </button>
+                                                        </h2>
+                                                        <div id="panelsStayOpen-collapseThree"
+                                                             class="accordion-collapse collapse">
+                                                            <div class="accordion-body">
+                                                                Asesoramiento y soporte durante el proceso de
+                                                                publicación y despliegue de aplicaciones en tiendas de
+                                                                aplicaciones como App Store y Google Play.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                    data-bs-toggle="collapse"
+                                                                    data-bs-target="#panelsStayOpen-collapseThree"
+                                                                    aria-expanded="false"
+                                                                    aria-controls="panelsStayOpen-collapseThree">
+                                                                Optimización y Mantenimiento Continuo
+                                                            </button>
+                                                        </h2>
+                                                        <div id="panelsStayOpen-collapseThree"
+                                                             class="accordion-collapse collapse">
+                                                            <div class="accordion-body">
+                                                                Monitoreo y análisis del rendimiento de las aplicaciones
+                                                                para identificar áreas de mejora y optimización.
+                                                                Implementación de actualizaciones y parches de seguridad
+                                                                para garantizar el funcionamiento óptimo y la seguridad
+                                                                de las aplicaciones a lo largo del tiempo.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                    data-bs-toggle="collapse"
+                                                                    data-bs-target="#panelsStayOpen-collapseThree"
+                                                                    aria-expanded="false"
+                                                                    aria-controls="panelsStayOpen-collapseThree">
+                                                                Cumplimiento de Estándares de Calidad y Seguridad
+                                                            </button>
+                                                        </h2>
+                                                        <div id="panelsStayOpen-collapseThree"
+                                                             class="accordion-collapse collapse">
+                                                            <div class="accordion-body">
+                                                                Adherencia a estándares de calidad y mejores prácticas
+                                                                en el desarrollo de software móvil.
+                                                                Implementación de medidas de seguridad robustas para
+                                                                proteger los datos y la privacidad de los usuarios,
+                                                                cumpliendo con las regulaciones y normativas aplicables.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -312,202 +333,7 @@
                             </div>
                         </div>
 
-                        <div class="container-service-II">
-                            <div class="row-service-I justify-content-center align-items-start cards">
-                                <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
-                                <div class="col-md-12">
-                                    <h4 class="sub-title-inf">Pragmatic</h4>
-                                    <h1 class="title-inf">Funcionalidades importantes</h1>
-                                    <h4 class="sub-title-service-inf">Odoo proporciona una solución completa e integrada
-                                        para la gestión de contabilidad, ventas, compras y puntos de venta, lo que
-                                        permite a las empresas optimizar sus operaciones y mejorar la eficiencia en
-                                        todas estas áreas.
-                                    </h4>
-                                </div>
-                            </div>
-                            <div class="container text-center">
-                                <div class="row align-items-start">
-                                    <div class="col-6">
-                                        <div class="card-servicie-bloq">
-                                            <img class="location"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/image-contabilidad.png"
-                                                 weight="80"
-                                                 height="80" alt="location"/>
-                                            <h4 class="title-func">Contabilidad y Finanzas</h4>
-                                            <p class="text-service-inf">Ofrece una suite completa de herramientas
-                                                contables que incluyen gestión de facturas, conciliación bancaria,
-                                                generación de informes financieros, gestión de impuestos y control de
-                                                costos.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-6 ">
-                                        <div class="card-servicie-bloq">
-                                            <img class="location"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/image-hr.png"
-                                                 weight="80"
-                                                 height="80" alt="location"/>
-                                            <h4 class="title-func">Gestión de Recursos Humanos (RRHH)</h4>
-                                            <p class="text-service-inf">
-                                                Comercio Electrónico Proporciona una plataforma
-                                                de comercio electrónico integrada que permite a las empresas crear y
-                                                gestionar tiendas en línea, gestionar catálogos de productos, procesar
-                                                pedidos y gestionar pagos.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <!-- Force next columns to break to new line at md breakpoint and up -->
-                                    <div class="w-100 d-none d-md-block"></div>
-
-                                    <div class="col-6 ">
-                                        <div class="card-servicie-bloq">
-                                            <img class="location"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/image-inventario.png"
-                                                 weight="80"
-                                                 height="80" alt="location"/>
-                                            <h4 class="title-func">Gestión de Inventarios</h4>
-                                            <p class="text-service-inf">Permite el seguimiento y
-                                                control completo del inventario, incluida la gestión de ubicaciones,
-                                                control de existencias, gestión de pedidos y seguimiento de movimientos
-                                                de inventario.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-6 ">
-                                        <div class="card-servicie-bloq">
-                                            <img class="location"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/image-shop.png"
-                                                 weight="80"
-                                                 height="80" alt="location"/>
-                                            <h4 class="title-func">Punto de Venta (POS)</h4>
-                                            <p class="text-service-inf">Ofrece una solución
-                                                completa de punto de venta que incluye gestión de productos,
-                                                procesamiento de pagos, gestión de clientes y control de caja.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <header class="front-page-service">
-                            <div class="card-container-service text-center">
-                                <div class="container-service-III text-center">
-                                    <div class="row align-items-center">
-                                        <div class="col-6">
-                                            <h1 class="title-1-service">
-                                                Proceso de cobro
-                                            </h1>
-                                            <h2 class="sub-title-1-service">
-                                                Recibe y concilia pagos de tus ventas de contado
-                                                y a crédito, para tu negocio y tus canales comerciales,
-                                                a través de nuestra solución innovadora y ajustada a tus procesos de
-                                                negocio
-                                            </h2>
-                                        </div>
-                                        <div class="col-6">
-                                            <img class="location"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/image-odoo-erp.png"
-                                                 weight="300"
-                                                 height="298" alt="location"/>
-                                        </div>
-                                    </div>
-                                    <div class="container-service-IIII text-center">
-                                        <div class="row align-items-center">
-                                            <div class="col-6">
-                                                <img class="location"
-                                                     src="/theme_pragmatic/static/src/img/software_erp/image-odoo-Integration.jpeg"
-                                                     weight="300"
-                                                     height="298" alt="location"/>
-                                            </div>
-                                            <div class="col-6">
-                                                <h1 class="title-1-service">
-                                                    Más que una
-                                                    <b>pasarela</b>, una solución de recaudo para tu empresa
-                                                </h1>
-                                                <h2 class="sub-title-1-service">
-                                                    Recibe y concilia pagos de tus ventas de contado
-                                                    y a crédito, para tu negocio y tus canales comerciales,
-                                                    a través de nuestra solución innovadora y ajustada a tus procesos de
-                                                    negocio
-                                                </h2>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </header>
-                        <div class="card-container-servicie-clients">
-                            <div class="row justify-content-center align-items-start cards">
-                                <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
-                                <div class="col-md-12">
-                                    <h1 class="title-inf-I">Medios de pago</h1>
-                                </div>
-                            </div>
-                            <div class="clients">
-                                <link rel="stylesheet"
-                                      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-                                <div class="swiper clientsSwiper">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image "
-                                                 src="/theme_pragmatic/static/src/img/payment/image-american.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-bnc-bogota.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-dinerclub.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-mastercard.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-nequi.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-pse.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-visa.png"/>
-                                        </div>
-
-                                    </div>
-                                    <div class="swiper-button-next"/>
-                                    <div class="swiper-button-prev"/>
-                                    <div class="swiper-pagination"/>
-                                </div>
-
-                                <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"/>
-                                <script>
-                                    var swiper = new Swiper(".clientsSwiper", {
-                                    rewind: true,
-                                    slidesPerView: 5,
-                                    loop: true,
-                                    spaceBetween: 0,
-                                    centeredSlides: false,
-                                    autoplay: {
-                                    delay: 6500,
-                                    disableOnInteraction: false,
-                                    },
-                                    pagination: {
-                                    el: ".swiper-pagination",
-                                    clickable: true,
-                                    },
-                                    navigation: {
-                                    nextEl: ".swiper-button-next",
-                                    prevEl: ".swiper-button-prev",
-                                    },
-                                    });
-                                </script>
-                            </div>
-                        </div>
+                        
                     </div>
                 </t>
             </t>
