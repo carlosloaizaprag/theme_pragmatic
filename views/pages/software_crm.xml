@@ -18,20 +18,18 @@
                                     <div class="row align-items-center">
                                         <div class="col-6">
                                             <h1 class="title-1-service">
-                                                Más que una
-                                                <b>pasarela</b>, una solución de recaudo para tu empresa
+                                                Eleva la experiencia del cliente con Odoo CRM
                                             </h1>
                                             <h2 class="sub-title-1-service">
-                                                Recibe y concilia pagos de tus ventas de contado
-                                                y a crédito, para tu negocio y tus canales comerciales,
-                                                a través de nuestra solución innovadora y ajustada a tus procesos de
-                                                negocio
+                                                Odoo CRM es una solución integral para la gestión de relaciones con los
+                                                clientes. Desde la captación hasta la fidelización, ofrece herramientas
+                                                poderosas para optimizar las interacciones y maximizar las ventas.
                                             </h2>
                                             <a href="/contact" class="info-button">Mas información</a>
                                         </div>
                                         <div class="col-6">
                                             <img class="location"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/software_erp.png"
+                                                 src="/theme_pragmatic/static/src/img/software_crm/image-inicio-crm.png"
                                                  weight="400"
                                                  height="400" alt="location"/>
                                         </div>
@@ -46,33 +44,36 @@
                                 <div class="col-md-4">
                                     <div class="card-servicie">
                                         <h5 class="service-card-title">
-                                            Fácil integración
+                                            Interfaz Integral
                                         </h5>
                                         <p class="sub-text-service">
-                                            Con tu software y las soluciones del ecosistema de pagos y antifraude de
-                                            mayor conveniencia.
+                                            Proporciona una interfaz completa que unifica la gestión de
+                                            clientes, ventas, inventario, facilitando la
+                                            colaboración entre equipos y la toma de decisiones informadas.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="card-servicie">
                                         <h5 class="service-card-title">
-                                            Consultoría y adaptación
+                                            Personalización Profunda
                                         </h5>
                                         <p class="sub-text-service">
-                                            Entendemos tu proceso de negocio para implementar la mejor tecnología.
+                                            Permite adaptar sus funcionalidades y procesos a las necesidades
+                                            específicas, asegurando una implementación que se alinee
+                                            con sus objetivos y flujos de trabajo.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="card-servicie">
                                         <h4 class="service-card-title">
-                                            Liquidación y conciliación
+                                            Automatización Inteligente
                                         </h4>
                                         <p class="sub-text-service">
-                                            Realizamos la liquidación de comisiones de tus canales. Así mismo,
-                                            aplicamos
-                                            y conciliamos en línea todos tus recaudos.
+                                            Permite automatizar procesos clave, como seguimiento de leads y programación
+                                            de actividades, para mejorar la productividad y la calidad del servicio al
+                                            cliente.
                                         </p>
                                     </div>
                                 </div>
@@ -84,43 +85,253 @@
                                     <!-- Columna 1: Contiene la imagen -->
                                     <div class="col-md-12">
                                         <img class="location"
-                                             src="/theme_pragmatic/static/src/img/software_erp/image-erp.jpg"
+                                             src="/theme_pragmatic/static/src/img/software_crm/image-banner-crm.png"
                                              weight="300"
-                                             height="675" alt="location"/>
+                                             height="480" alt="location"/>
                                         <div class="col-md-12-service-cmr-I">
                                             <div class="row-software-crm">
                                                 <div class="col-md-4 card-servicie-crm-t">
                                                     <div class="card-tar-service">
                                                         <img class="location"
-                                                             src="/theme_pragmatic/static/src/img/software_erp/image-facture.png"
+                                                             src="/theme_pragmatic/static/src/img/software_crm/image-clients-crm.png"
                                                              weight="40"
-                                                             height="40" alt="location"/>
-                                                        <p class="text-service">Facturación Electronica</p>
+                                                             height="80" alt="location"/>
+                                                        <p class="text-service">Gestión centralizada de clientes</p>
                                                     </div>
                                                 </div>
                                                 <!-- Columna 2.2 -->
                                                 <div class="col-md-4 card-servicie-crm-tt">
                                                     <div class="card-tar-services">
                                                         <img class="location"
-                                                             src="/theme_pragmatic/static/src/img/software_erp/image-diner.png"
+                                                             src="/theme_pragmatic/static/src/img/software_crm/image-analysis-crm.png"
                                                              weight="60"
-                                                             height="60" alt="location"/>
-                                                        <p class="text-service-I">Ventas</p>
+                                                             height="80" alt="location"/>
+                                                        <p class="text-service-banner">Análisis y reportes avanzados</p>
                                                     </div>
                                                 </div>
                                                 <!-- Columna 2.3 -->
                                                 <div class="col-md-4 card-servicie-crm-ttt">
                                                     <div class="card-tar-service">
                                                         <img class="location"
-                                                             src="/theme_pragmatic/static/src/img/software_erp/image-facture.png"
+                                                             src="/theme_pragmatic/static/src/img/software_crm/image-nube.png"
                                                              weight="40"
-                                                             height="40" alt="location"/>
-                                                        <p class="text-service">Punto de venta</p>
+                                                             height="80" alt="location"/>
+                                                        <p class="text-service">Acceso móvil y en la nube</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-container-servicie-clients_crm">
+                            <div class="row justify-content-center align-items-start cards">
+                                <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
+                                <div class="col-md-12">
+                                    <h1 class="title-inf-I">Empresas que han confiado en nosotros</h1>
+                                </div>
+                            </div>
+                            <div class="clients">
+                                <link rel="stylesheet"
+                                      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+                                <div class="swiper clientsSwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide slide-clients div-one">
+                                            <img class="clients-image"
+                                                 src="/theme_pragmatic/static/src/img/umanizales.png"/>
+                                        </div>
+                                        <div class="swiper-slide slide-clients">
+                                            <img class="clients-image img-transfiriendo"
+                                                 src="/theme_pragmatic/static/src/img/logo-transfiriendo.png"/>
+                                        </div>
+                                        <div class="swiper-slide slide-clients">
+                                            <img class="clients-image"
+                                                 src="/theme_pragmatic/static/src/img/logo-oncredit.png"/>
+                                        </div>
+                                        <div class="swiper-slide slide-clients">
+                                            <img class="clients-image"
+                                                 src="/theme_pragmatic/static/src/img/proyecten.png"/>
+                                        </div>
+                                        <div class="swiper-slide slide-clients">
+                                            <img class="clients-image" src="/theme_pragmatic/static/src/img/pura.png"/>
+                                        </div>
+                                        <div class="swiper-slide slide-clients">
+                                            <img class="clients-image img-loggin"
+                                                 src="/theme_pragmatic/static/src/img/loggin.png"/>
+                                        </div>
+                                        <div class="swiper-slide slide-clients">
+                                            <img class="clients-image"
+                                                 src="/theme_pragmatic/static/src/img/bluma-design.png"/>
+                                        </div>
+                                        <div class="swiper-slide slide-clients">
+                                            <img class="clients-image img-acopi"
+                                                 src="/theme_pragmatic/static/src/img/logo-acopi.png"/>
+                                        </div>
+                                        <div class="swiper-slide slide-clients">
+                                            <img class="clients-image"
+                                                 src="/theme_pragmatic/static/src/img/umanizales.png"/>
+                                        </div>
+                                        <div class="swiper-slide slide-clients">
+                                            <img class="clients-image img-transfiriendo"
+                                                 src="/theme_pragmatic/static/src/img/logo-transfiriendo.png"/>
+                                        </div>
+                                        <div class="swiper-slide slide-clients">
+                                            <img class="clients-image"
+                                                 src="/theme_pragmatic/static/src/img/logo-oncredit.png"/>
+                                        </div>
+                                        <div class="swiper-slide slide-clients">
+                                            <img class="clients-image"
+                                                 src="/theme_pragmatic/static/src/img/proyecten.png"/>
+                                        </div>
+                                        <div class="swiper-slide slide-clients">
+                                            <img class="clients-image" src="theme_pragmatic/static/src/img/pura.png"/>
+                                        </div>
+                                        <div class="swiper-slide slide-clients">
+                                            <img class="clients-image img-loggin"
+                                                 src="/theme_pragmatic/static/src/img/loggin.png"/>
+                                        </div>
+                                        <div class="swiper-slide slide-clients">
+                                            <img class="clients-image"
+                                                 src="/theme_pragmatic/static/src/img/bluma-design.png"/>
+                                        </div>
+                                        <div class="swiper-slide slide-clients">
+                                            <img class="clients-image img-acopi"
+                                                 src="/theme_pragmatic/static/src/img/logo-acopi.png"/>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next"/>
+                                    <div class="swiper-button-prev"/>
+                                    <div class="swiper-pagination"/>
+                                </div>
+
+                                <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"/>
+                                <script>
+                                    var swiper = new Swiper(".clientsSwiper", {
+                                    rewind: true,
+                                    slidesPerView: 5,
+                                    loop: true,
+                                    spaceBetween: 0,
+                                    centeredSlides: false,
+                                    autoplay: {
+                                    delay: 6500,
+                                    disableOnInteraction: false,
+                                    },
+                                    pagination: {
+                                    el: ".swiper-pagination",
+                                    clickable: true,
+                                    },
+                                    navigation: {
+                                    nextEl: ".swiper-button-next",
+                                    prevEl: ".swiper-button-prev",
+                                    },
+                                    });
+                                </script>
+                            </div>
+                        </div>
+
+                        <div class="software_crm_container">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-6">
+                                        <h1 class="title-1-service-crm">
+                                            Mas oportunidades y mejor seguimiento
+                                        </h1>
+                                        <h2 class="sub-title-1-service">
+                                            La vista Kanban organiza oportunidades por etapa. Arrástralas y suéltalas en
+                                            el pipeline para moverlas de etapa a etapa.
+                                            <br/>
+                                            <br/>
+                                            Cada oportunidad aparece como una tarjeta en una lista con toda la
+                                            información importante, y cada etapa te muestra un resumen general de tus
+                                            ingresos esperados.
+                                        </h2>
+                                    </div>
+                                    <div class="col-6">
+                                        <img class="location img-fluid mx-auto d-block"
+                                             src="/theme_pragmatic/static/src/img/software_crm/image-crm-odoo.png"
+                                             weight="400"
+                                             height="450" alt="location"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="container-service-II-crm">
+                            <div class="row-service-I justify-content-center align-items-start cards">
+                                <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
+                                <div class="col-md-12">
+                                    <h4 class="sub-title-inf">CRM ODOO</h4>
+                                    <h1 class="title-inf">Mejora tu grupo y ventas</h1>
+                                </div>
+                            </div>
+                            <div class="container text-center">
+                                <div class="row align-items-start">
+                                    <div class="col-4">
+                                        <div class="card-servicie-bloq-crm">
+                                            <h4 class="title-func">Programa llamadas y reuniones o el envío de correos y
+                                                presupuestos
+                                            </h4>
+                                            <p class="text-service-inf">Odoo se encarga de planificar la siguiente
+                                                actividad según la configuración que hayas elegido para tus ventas.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 ">
+                                        <div class="card-servicie-bloq-crm ">
+                                            <h4 class="title-func">La comunicación es clave</h4>
+                                            <p class="text-service-inf">Los correos electrónicos entrantes se añaden
+                                                automáticamente, y todo el contacto con tu equipo y tus
+                                                clientes se realizan desde un solo lugar, lo que garantiza un fácil
+                                                acceso a la información.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 ">
+                                        <div class="card-servicie-bloq-crm ">
+                                            <h4 class="title-func">Se integra con:
+                                            </h4>
+                                            <p class="text-service-inf">Correo electrónico, Chat en vivo,
+                                                SMS, VoIP.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Force next columns to break to new line at md breakpoint and up -->
+                                    <div class="w-100 d-none d-md-block"></div>
+
+                                    <div class="col-4 ">
+                                        <div class="card-servicie-bloq-crm ">
+                                            <h4 class="title-func">Crea presupuestos con aspecto profesional</h4>
+                                            <p class="text-service-inf">Selecciona tus productos del catálogo y deja que
+                                                Odoo se encargue de hacer todo el proceso.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 ">
+                                        <div class="card-servicie-bloq-crm ">
+                                            <h4 class="title-func">Las decisiones inteligentes
+                                            </h4>
+                                            <p class="text-service-inf">Se basan en datos precisos en tiempo real. Con
+                                                previsiones de ventas, análisis del rendimiento de los equipos y
+                                                tableros personalizados, obtendrás una visión más profunda de tus cifras
+                                                de ventas.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card-servicie-bloq-crm ">
+                                            <h4 class="title-func">Automatiza
+                                            </h4>
+                                            <p class="text-service-inf">la creación de leads, la asignación de
+                                                equipos, las actividades programadas y concéntrate en lo que realmente
+                                                importa.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <a href="https://www.odoo.com/es_ES/app/crm" class="info-button">Mas información</a>
                                 </div>
                             </div>
                         </div>

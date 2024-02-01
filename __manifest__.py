@@ -13,6 +13,9 @@
         'views/pages/about_us.xml',
         'views/pages/software_erp.xml',
         'views/pages/software_crm.xml',
+        'views/pages/consultorias.xml',
+        'views/pages/mobile_apps.xml',
+        'views/pages/development.xml',
         'views/menu.xml',
         'views/website_templates.xml',
         'views/presets.xml'

@@ -94,7 +94,7 @@
                                     <!-- Columna 1: Contiene la imagen -->
                                     <div class="col-md-6">
                                         <img class="location"
-                                             src="/theme_pragmatic/static/src/img/software_erp/image-odoo-accordion.png"
+                                             src="/theme_pragmatic/static/src/img/software_erp/image-erp-accordion.png"
                                              weight="300"
                                              height="398" alt="location"/>
                                         <div class="col-md-12-service-I">
@@ -317,7 +317,7 @@
                             <div class="row-service-I justify-content-center align-items-start cards">
                                 <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
                                 <div class="col-md-12">
-                                    <h4 class="sub-title-inf">Pragmatic</h4>
+                                    <h4 class="sub-title-inf">Pragmatic Ingeniería</h4>
                                     <h1 class="title-inf">Funcionalidades importantes</h1>
                                     <h4 class="sub-title-service-inf">Odoo proporciona una solución completa e integrada
                                         para la gestión de contabilidad, ventas, compras y puntos de venta, lo que
@@ -391,7 +391,7 @@
                                 </div>
                             </div>
                         </div>
-                        <header class="front-page-service">
+                        <!--<header class="front-page-service">
                             <div class="card-container-service text-center">
                                 <div class="container-service-III text-center">
                                     <div class="row align-items-center">
@@ -437,7 +437,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </header>
+                        </header>-->
                         <div class="card-container-servicie-clients">
                             <div class="row justify-content-center align-items-start cards">
                                 <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>

@@ -53,13 +53,13 @@
                                             <a class="dropdown-item" href="/software_crm">Software CRM</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="/contact">Consultorías</a>
+                                            <a class="dropdown-item" href="/consultoria">Consultorías</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="/contact">Aplicaciones Móviles</a>
+                                            <a class="dropdown-item" href="/mobile_apps">Aplicaciones Móviles</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="/contact">Desarrollos a la Medida</a>
+                                            <a class="dropdown-item" href="/development">Desarrollos a la Medida</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -152,19 +152,19 @@
                                     <div class="d-flex flex-row ">
                                         <div class="highlight-on-hover">
                                             <p class="p-service">
-                                                <a href="#">Software ERP</a>
+                                                <a href="/software_erp">Software ERP</a>
                                             </p>
                                             <p class="p-service">
-                                                <a href="#">Software CRM</a>
+                                                <a href="/software_crm">Software CRM</a>
                                             </p>
                                             <p class="p-service">
-                                                <a href="#">Consultorías</a>
+                                                <a href="/consultoria">Consultorías</a>
                                             </p>
                                             <p class="p-service">
-                                                <a href="#">Aplicaciones Móviles</a>
+                                                <a href="/mobile_apps">Aplicaciones Móviles</a>
                                             </p>
                                             <p class="p-service">
-                                                <a href="#">Desarrollos a la Medida</a>
+                                                <a href="/development">Desarrollos a la Medida</a>
                                             </p>
                                         </div>
                                     </div>

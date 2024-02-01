@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="page_consultoria" model="website.page">
+        <field name="name">Inicio</field>
+        <field name="is_published" eval="True"/>
+        <field name="key">theme_pragmatic.page_consultoria</field>
+        <field name="url">/consultoria</field>
+        <field name="type">qweb</field>
+        <field name="arch" type="xml">
+            <t t-name="theme_pragmatic.page_consultoria">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure">
+                        <link rel="stylesheet" href="/../static/src/scss/style_home.scss"/>
+                        <div class="container-country parallax">
+                            <div class="software_erp_container">
+                                <div class="container">
+                                    <div class="row align-items-center">
+                                        <div class="col-6">
+
+                                            <h1 class="title-1-service">
+                                                Crecimiento digital: Acompañamiento profesional para
+                                                empresas.
+                                            </h1>
+                                            <h2 class="sub-title-1-service text-align: justify;">
+                                                La Transformación Digital ha emergido
+                                                para aquellas organizaciones que desean mantenerse relevantes,
+                                                competitivas y ágiles en un mercado en constante evolución. En este
+                                                contexto, Pragmatic Ingeniería ofrece un servicio integral
+                                                de acompañamiento a empresas en sus procesos de Transformación Digital.
+                                            </h2>
+                                            <a href="/contact" class="info-button">Mas información</a>
+                                        </div>
+                                        <div class="col-6">
+                                            <img class="location img-fluid mx-auto d-block"
+                                                 src="/theme_pragmatic/static/src/img/consultoria/image-consult-online.png"
+                                                 weight="400"
+                                                 height="450" alt="location"/>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card-container-servicie text-center">
+                            <div class="row-service align-items-center">
+                                <div class="col-md-4">
+                                    <div class="card-servicie-consult">
+                                        <h5 class="service-card-title">
+                                            Proporción de orientación estratégica y apoyo práctico a empresas durante su
+                                            proceso de transformación digital.
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-servicie-consult">
+                                        <h5 class="service-card-title">
+                                            Establecimiento de marcos de trabajo y procesos para una implementación
+                                            efectiva.
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-servicie-consult">
+                                        <h4 class="service-card-title">
+                                            Garantización de la alineación de la infraestructura con los requisitos
+                                            operativos
+                                            y estratégicos de la empresa.
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-service-consult">
+                            <div class="row-service-I justify-content-center align-items-start cards">
+                                <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
+                                <div class="col-md-12">
+                                    <h4 class="sub-title-inf">Consultoriá</h4>
+                                    <h1 class="title-inf">Beneficios y acompañamiento</h1>
+                                </div>
+                            </div>
+                            <div class="container text-center">
+                                <div class="row align-items-start">
+                                    <div class="col-12">
+                                        <div class="card-servicie-bloq-consult">
+                                            <div class="row-consult  align-items-center">
+                                                <div class="col-6">
+                                                    <h1 class="title-1-service-consult ">
+                                                        Acompañamiento en Procesos de Transformación Digital
+                                                    </h1>
+                                                    <h2 class="sub-title-1-service text-align: justify;">
+                                                        Se proporciona orientación estratégica y apoyo práctico a
+                                                        empresas
+                                                        durante su proceso de transformación digital.
+                                                        <br/>
+                                                        <br/>
+                                                        Ayuda a definir y ejecutar estrategias que integran tecnologías
+                                                        digitales en todos los aspectos del negocio.
+                                                        <br/>
+                                                        <br/>
+                                                        Facilitación a la adaptación al cambio y maximiza el valor de
+                                                        las
+                                                        iniciativas digitales.
+                                                    </h2>
+                                                    <a href="/contact" class="info-button">Mas información</a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <img class="location img-fluid mx-auto d-block"
+                                                         src="/theme_pragmatic/static/src/img/consultoria/image-consult.png"
+                                                         weight="400"
+                                                         height="450" alt="location"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Force next columns to break to new line at md breakpoint and up -->
+                                    <div class="w-100 d-none d-md-block"></div>
+
+                                    <div class="col-12 ">
+                                        <div class="card-servicie-bloq-consult">
+                                            <div class="row align-items-center">
+                                                <div class="col-6">
+                                                    <h1 class="title-1-service-consult">
+                                                        Definición de Metodologías y Gestión de Equipos
+                                                    </h1>
+                                                    <h2 class="sub-title-1-service text-align: justify;">
+                                                        Se establecen marcos de trabajo y procesos para una
+                                                        implementación
+                                                        efectiva.
+                                                        <br/>
+                                                        <br/>
+                                                        Coordina equipos y actividades para garantizar una ejecución
+                                                        eficiente y una alineación con los objetivos estratégicos.
+                                                        <br/>
+                                                        <br/>
+                                                        Optimiza la colaboración y el flujo de trabajo para alcanzar
+                                                        resultados óptimos.
+                                                    </h2>
+                                                    <a href="/contact" class="info-button">Mas información</a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <img class="location img-fluid mx-auto d-block"
+                                                         src="/theme_pragmatic/static/src/img/consultoria/image-group-consult.png"
+                                                         weight="400"
+                                                         height="450" alt="location"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="w-100 d-none d-md-block"></div>
+
+                                    <div class="col-12 ">
+                                        <div class="card-servicie-bloq-consult">
+                                            <div class="row align-items-center">
+                                                <div class="col-6">
+                                                    <h1 class="title-1-service-consult">
+                                                        Colocación de Profesionales Idóneos
+                                                    </h1>
+                                                    <h2 class="sub-title-1-service text-align: justify;">
+                                                        Colocar un profesional idóneo en el servicio asegura que cuenten
+                                                        con el conocimiento y la
+                                                        experiencia necesarios para guiar y ejecutar con éxito sus
+                                                        iniciativas de transformación.
+                                                        <br/>
+                                                        <br/>
+                                                        Estos profesionales tienen conocimiento en la
+                                                        tecnología de la información, la gestión de proyectos, la
+                                                        arquitectura empresarial y la consultoría, y están capacitados
+                                                        para adaptarse a las necesidades específicas de cada
+                                                        organización.
+                                                    </h2>
+                                                    <a href="/contact" class="info-button">Mas información</a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <img class="location img-fluid mx-auto d-block"
+                                                         src="/theme_pragmatic/static/src/img/consultoria/image-consult-client.png"
+                                                         weight="400"
+                                                         height="450" alt="location"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+</odoo>

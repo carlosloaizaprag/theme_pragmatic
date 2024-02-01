@@ -89,6 +89,11 @@
   padding: 0px 50px 0px 0px;
 }
 
+.container-service-II-crm {
+  color: #666766;
+  background: #eae8e8;
+}
+
 .title-1-service-II {
   font-family: 'Helvetica', Sans-serif;
   font-size: 46px;
@@ -155,6 +160,14 @@
 
 .text-service {
   color: #ffffff;
+  padding: 20px 0px 0px 0px;
+  font-size: 22px;
+}
+
+.text-service-banner {
+  color: #1a1212;
+  padding: 20px 0px 0px 0px;
+  font-size: 22px;
 }
 
 .text-service-I {
@@ -269,7 +282,7 @@
 
 .row-software-crm {
   --gutter-x: 30px;
-  --gutter-y: 400px;
+  --gutter-y: 200px;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -300,7 +313,8 @@
 }
 
 .card-servicie-crm-tt {
-  background-color: #ffffff;
+  color: #666766;
+  background: #eae8e8;
   text-align: center;
   height: 230px;
   flex: 1;
@@ -316,6 +330,84 @@
   margin: 0px 15px 0px 0px;
 }
 
-.title-func{
+.title-func {
   margin: 15px 0px 0px 0px;
+}
+
+.software_crm_container {
+  background-color: rgb(141, 224, 171);
+  padding: 50px 0px 50px 0px;
+}
+
+.card-container-servicie-clients_crm {
+  padding: 0px 0px 60px 0px;
+}
+
+.title-1-service-crm {
+  font-family: 'Helvetica', Sans-serif;
+  font-size: 46px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 50px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.card-servicie-bloq-crm {
+  background-color: #ffffff;
+  margin: 15px;
+  text-align: center;
+  height: 360px;
+  width: 360px;
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+}
+
+/*-----------------------------------CONSULTORIAS------------------------------------------*/
+
+.card-servicie-consult {
+  background-color: #1a1212;
+  margin: 15px;
+  text-align: center;
+  height: 200px;
+  width: 360px;
+  padding: 40px 30px 0px 30px;
+  flex: 1;
+  text-align: center;
+}
+
+.title-1-service-consult {
+  font-family: 'Helvetica', Sans-serif;
+  font-size: 46px;
+  font-weight: 500;
+  text-align: center;
+  color: #03A63C;
+  text-align: left;
+}
+
+.card-servicie-bloq-consult {
+  background-color: #ffffff;
+  margin: 15px;
+  text-align: center;
+  flex: 1;
+  padding: 60px;
+  text-align: center;
+}
+
+.container-service-consult {
+  color: #666766;
+  background: #eae8e8;
+}
+
+.row-consult {
+  --gutter-y: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--gutter-y));
+  margin-right: calc(-.5 * var(--gutter-x));
+  margin-left: calc(-.5 * var(--gutter-x));
 }
