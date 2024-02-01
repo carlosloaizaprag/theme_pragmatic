@@ -18,22 +18,21 @@
                                         <div class="col-6">
 
                                             <h1 class="title-1-service">
-                                                Empieza a optimizar con Odoo la <b>Solución</b> integral para
-                                                empresas
-                                                <b>Modernas</b>
+                                                Ejecución Integral de desarrollo a Medida
                                             </h1>
                                             <h2 class="sub-title-1-service">
-                                                Con Odoo, tu empresa se beneficia de una solución completa y flexible
-                                                que abarca desde la gestión de inventario hasta la contabilidad y los
-                                                recursos humanos. Esta plataforma integrada optimiza tus operaciones,
-                                                simplifica la toma de decisiones y impulsa la eficiencia y el
-                                                crecimiento empresarial.
+                                                Nuestro servicio de desarrollo a medida ofrece un enfoque para
+                                                la realización de proyectos, abarcando todas las
+                                                etapas del proceso: desde la concepción inicial hasta el despliegue
+                                                final. Con experiencia en una amplia gama de lenguajes, como Angular,
+                                                React, Node.js, Java y Python, nos dedicamos a transformar sus ideas en
+                                                soluciones digitales funcionales, seguras y eficientes.
                                             </h2>
                                             <a href="/contact" class="info-button">Mas información</a>
                                         </div>
                                         <div class="col-6">
                                             <img class="location img-fluid mx-auto d-block"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/image-graf-odoo.png"
+                                                 src="/theme_pragmatic/static/src/img/development/image-desarrollo.png"
                                                  weight="400"
                                                  height="450" alt="location"/>
                                         </div>
@@ -45,36 +44,38 @@
                         <div class="card-container-servicie text-center">
                             <div class="row-service align-items-center">
                                 <div class="col-md-4">
-                                    <div class="card-servicie">
+                                    <div class="card-servicie-develop">
                                         <h5 class="service-card-title">
-                                            Eficiencia Operativa
+                                            Personalización Total
                                         </h5>
                                         <p class="sub-text-service">
-                                            Centralizas todas las operaciones en una sola plataforma, simplificando la
-                                            gestión y optimizando los flujos de trabajo.
+                                            El desarrollo puede adaptarse completamente a los procesos,
+                                            flujos de trabajo y requisitos únicos de la organización, lo que resulta en
+                                            una solución altamente eficiente y efectiva.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="card-servicie">
+                                    <div class="card-servicie-develop">
                                         <h5 class="service-card-title">
-                                            Flexibilidad Total
+                                            Escalabilidad y Flexibilidad
                                         </h5>
                                         <p class="sub-text-service">
-                                            Se adapta a tu empresa. Su estructura modular y personalizable te permite
-                                            ajustar el sistema según tus necesidades en evolución.
+                                            Esto significa que la solución puede crecer con la organización, agregando
+                                            nuevas funcionalidades, integraciones y capacidades a medida que surgen
+                                            nuevas oportunidades o desafíos.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="card-servicie">
+                                    <div class="card-servicie-develop">
                                         <h4 class="service-card-title">
-                                            Decisiones Informadas
+                                            Control Total sobre la Tecnología
                                         </h4>
                                         <p class="sub-text-service">
-                                            Ofrece datos en tiempo real para respaldar tus decisiones. Con
-                                            herramientas de informes, análisis y oportunidades
-                                            para el crecimiento empresarial.
+                                            la empresa tiene control total sobre la tecnología utilizada, lo que permite
+                                            seleccionar las herramientas y plataformas que mejor se adapten a sus
+                                            necesidades y preferencias.
                                         </p>
                                     </div>
                                 </div>
@@ -85,7 +86,7 @@
                             <div class="row-service-I justify-content-center align-items-start cards">
                                 <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
                                 <div class="col-md-12">
-                                    <h1 class="title-1-service-II">Software ERP</h1>
+                                    <h1 class="title-1-service-II">Desarrollo a la Medida</h1>
                                 </div>
                             </div>
 
@@ -94,42 +95,9 @@
                                     <!-- Columna 1: Contiene la imagen -->
                                     <div class="col-md-6">
                                         <img class="location"
-                                             src="/theme_pragmatic/static/src/img/software_erp/image-odoo-accordion.png"
+                                             src="/theme_pragmatic/static/src/img/development/image-accordion-deve.jpg"
                                              weight="300"
                                              height="398" alt="location"/>
-                                        <div class="col-md-12-service-I">
-                                            <div class="row">
-                                                <div class="col-md-4 card-servicie-t">
-                                                    <div class="card-tar-service">
-                                                        <img class="location"
-                                                             src="/theme_pragmatic/static/src/img/software_erp/image-facture.png"
-                                                             weight="40"
-                                                             height="40" alt="location"/>
-                                                        <p class="text-service">Facturación Electronica</p>
-                                                    </div>
-                                                </div>
-                                                <!-- Columna 2.2 -->
-                                                <div class="col-md-4 card-servicie-tt">
-                                                    <div class="card-tar-services">
-                                                        <img class="location"
-                                                             src="/theme_pragmatic/static/src/img/software_erp/image-diner.png"
-                                                             weight="60"
-                                                             height="60" alt="location"/>
-                                                        <p class="text-service-I">Ventas</p>
-                                                    </div>
-                                                </div>
-                                                <!-- Columna 2.3 -->
-                                                <div class="col-md-4 card-servicie-ttt">
-                                                    <div class="card-tar-service">
-                                                        <img class="location"
-                                                             src="/theme_pragmatic/static/src/img/software_erp/image-facture.png"
-                                                             weight="40"
-                                                             height="40" alt="location"/>
-                                                        <p class="text-service">Punto de venta</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                     <!-- Columna 2: Contiene tres columnas debajo de la imagen -->
                                     <div class="col-md-6">
@@ -137,8 +105,8 @@
                                             <!-- Columna 2.1 -->
                                             <div class="col-md-12">
                                                 <div class="col-md-12">
-                                                    <h4 class="sub-title-1-service-I">Software ERP</h4>
-                                                    <h1 class="title-1-service-acor-I">¿Qué soluciones se ofrecen?</h1>
+                                                    <h4 class="sub-title-1-service-develop">Desarrollo a la Medida</h4>
+                                                    <h1 class="title-1-service-acor-I">Beneficios para el cliente</h1>
                                                 </div>
                                                 <div class="accordion" id="accordionPanelsStayOpenExample">
                                                     <div class="accordion-item">
@@ -148,16 +116,16 @@
                                                                     data-bs-target="#panelsStayOpen-collapseOne"
                                                                     aria-expanded="true"
                                                                     aria-controls="panelsStayOpen-collapseOne">
-                                                                Adaptabilidad y Escalabilidad
+                                                                Solución adaptada a necesidades Específicas
                                                             </button>
                                                         </h2>
                                                         <div id="panelsStayOpen-collapseOne"
                                                              class="accordion-collapse collapse show">
                                                             <div class="accordion-body">
-                                                                Permite a las empresas adaptar la plataforma a sus
-                                                                necesidades específicas. Además, Odoo es altamente
-                                                                escalable, lo que significa que puede crecer junto con
-                                                                la empresa a medida que esta evoluciona y se expande.
+                                                                la solución aborda problemas concretos y proporciona
+                                                                funcionalidades exactamente como se requieren, lo que
+                                                                resulta en una herramienta altamente efectiva y
+                                                                relevante para la empresa.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -168,16 +136,17 @@
                                                                     data-bs-target="#panelsStayOpen-collapseTwo"
                                                                     aria-expanded="false"
                                                                     aria-controls="panelsStayOpen-collapseTwo">
-                                                                Acceso a Datos en Tiempo Real
+                                                                Mejora de la Eficiencia y Productividad
                                                             </button>
                                                         </h2>
                                                         <div id="panelsStayOpen-collapseTwo"
                                                              class="accordion-collapse collapse">
                                                             <div class="accordion-body">
-                                                                Con Odoo, las empresas tienen acceso a datos en tiempo
-                                                                real sobre todas las áreas de su negocio. Esto facilita
-                                                                la toma de decisiones informadas y permite una gestión
-                                                                más proactiva y eficaz.
+                                                                Al automatizar tareas, eliminar redundancias y mejorar
+                                                                la comunicación, el desarrollo a medida puede aumentar
+                                                                la eficiencia y la productividad de la organización, lo
+                                                                que conduce a un uso más efectivo de los recursos y
+                                                                ahorros significativos de tiempo y dinero.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -188,16 +157,15 @@
                                                                     data-bs-target="#panelsStayOpen-collapseThree"
                                                                     aria-expanded="false"
                                                                     aria-controls="panelsStayOpen-collapseThree">
-                                                                Comercio Electrónico
+                                                                Mayor Flexibilidad y Escalabilidad
                                                             </button>
                                                         </h2>
                                                         <div id="panelsStayOpen-collapseThree"
                                                              class="accordion-collapse collapse">
                                                             <div class="accordion-body">
-                                                                Odoo ofrece una plataforma de comercio electrónico
-                                                                integral que permite a las empresas crear y gestionar
-                                                                tiendas en línea de manera efectiva, integrando la
-                                                                gestión de inventario, ventas y marketing.
+                                                                Esta flexibilidad garantiza que la aplicación siga
+                                                                siendo relevante y útil a medida que la empresa crece y
+                                                                se enfrenta a nuevos desafíos.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -212,7 +180,7 @@
                             <div class="row justify-content-center align-items-start cards">
                                 <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
                                 <div class="col-md-12">
-                                    <h1 class="title-inf-I">Empresas que han confiado en nosotros</h1>
+                                    <h1 class="title-inf-develop">Se manejan lenguajes como:</h1>
                                 </div>
                             </div>
                             <div class="clients">
@@ -221,66 +189,44 @@
                                 <div class="swiper clientsSwiper">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide slide-clients div-one">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/umanizales.png"/>
+                                            <img class="develop-image"
+                                                 src="/theme_pragmatic/static/src/img/development/image-angular.png"/>
                                         </div>
                                         <div class="swiper-slide slide-clients">
-                                            <img class="clients-image img-transfiriendo"
-                                                 src="/theme_pragmatic/static/src/img/logo-transfiriendo.png"/>
+                                            <img class="develop-image img-transfiriendo"
+                                                 src="/theme_pragmatic/static/src/img/development/image-java.png"/>
                                         </div>
                                         <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/logo-oncredit.png"/>
+                                            <img class="develop-image"
+                                                 src="/theme_pragmatic/static/src/img/development/image-node.png"/>
                                         </div>
                                         <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/proyecten.png"/>
+                                            <img class="develop-image"
+                                                 src="/theme_pragmatic/static/src/img/development/image-python.png"/>
                                         </div>
                                         <div class="swiper-slide slide-clients">
-                                            <img class="clients-image" src="/theme_pragmatic/static/src/img/pura.png"/>
+                                            <img class="develop-image"
+                                                 src="/theme_pragmatic/static/src/img/development/image-react.png"/>
+                                        </div>
+                                        <div class="swiper-slide slide-clients div-one">
+                                            <img class="develop-image"
+                                                 src="/theme_pragmatic/static/src/img/development/image-angular.png"/>
                                         </div>
                                         <div class="swiper-slide slide-clients">
-                                            <img class="clients-image img-loggin"
-                                                 src="/theme_pragmatic/static/src/img/loggin.png"/>
+                                            <img class="develop-image img-transfiriendo"
+                                                 src="/theme_pragmatic/static/src/img/development/image-java.png"/>
                                         </div>
                                         <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/bluma-design.png"/>
+                                            <img class="develop-image"
+                                                 src="/theme_pragmatic/static/src/img/development/image-node.png"/>
                                         </div>
                                         <div class="swiper-slide slide-clients">
-                                            <img class="clients-image img-acopi"
-                                                 src="/theme_pragmatic/static/src/img/logo-acopi.png"/>
+                                            <img class="develop-image"
+                                                 src="/theme_pragmatic/static/src/img/development/image-python.png"/>
                                         </div>
                                         <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/umanizales.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image img-transfiriendo"
-                                                 src="/theme_pragmatic/static/src/img/logo-transfiriendo.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/logo-oncredit.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/proyecten.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image" src="theme_pragmatic/static/src/img/pura.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image img-loggin"
-                                                 src="/theme_pragmatic/static/src/img/loggin.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/bluma-design.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image img-acopi"
-                                                 src="/theme_pragmatic/static/src/img/logo-acopi.png"/>
+                                            <img class="develop-image"
+                                                 src="/theme_pragmatic/static/src/img/development/image-react.png"/>
                                         </div>
                                     </div>
                                     <div class="swiper-button-next"/>
@@ -318,42 +264,33 @@
                                 <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
                                 <div class="col-md-12">
                                     <h4 class="sub-title-inf">Pragmatic</h4>
-                                    <h1 class="title-inf">Funcionalidades importantes</h1>
-                                    <h4 class="sub-title-service-inf">Odoo proporciona una solución completa e integrada
-                                        para la gestión de contabilidad, ventas, compras y puntos de venta, lo que
-                                        permite a las empresas optimizar sus operaciones y mejorar la eficiencia en
-                                        todas estas áreas.
-                                    </h4>
+                                    <h1 class="title-inf">Proceso de Desarrollo</h1>
                                 </div>
                             </div>
                             <div class="container text-center">
                                 <div class="row align-items-start">
                                     <div class="col-6">
-                                        <div class="card-servicie-bloq">
+                                        <div class="card-servicie-bloq-develop">
                                             <img class="location"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/image-contabilidad.png"
+                                                 src="/theme_pragmatic/static/src/img/development/image-planificacion.png"
                                                  weight="80"
                                                  height="80" alt="location"/>
-                                            <h4 class="title-func">Contabilidad y Finanzas</h4>
-                                            <p class="text-service-inf">Ofrece una suite completa de herramientas
-                                                contables que incluyen gestión de facturas, conciliación bancaria,
-                                                generación de informes financieros, gestión de impuestos y control de
-                                                costos.
+                                            <h4 class="title-func">Concepción y Planificación</h4>
+                                            <p class="text-service-inf">Definición de objetivos, requisitos y alcance
+                                                del proyecto.
                                             </p>
                                         </div>
                                     </div>
                                     <div class="col-6 ">
-                                        <div class="card-servicie-bloq">
+                                        <div class="card-servicie-bloq-develop">
                                             <img class="location"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/image-hr.png"
+                                                 src="/theme_pragmatic/static/src/img/development/image-diseño.png"
                                                  weight="80"
                                                  height="80" alt="location"/>
-                                            <h4 class="title-func">Gestión de Recursos Humanos (RRHH)</h4>
+                                            <h4 class="title-func">Diseño</h4>
                                             <p class="text-service-inf">
-                                                Comercio Electrónico Proporciona una plataforma
-                                                de comercio electrónico integrada que permite a las empresas crear y
-                                                gestionar tiendas en línea, gestionar catálogos de productos, procesar
-                                                pedidos y gestionar pagos.
+                                                Creación de la arquitectura, interfaz de usuario y experiencia de
+                                                usuario.
                                             </p>
                                         </div>
                                     </div>
@@ -362,153 +299,60 @@
                                     <div class="w-100 d-none d-md-block"></div>
 
                                     <div class="col-6 ">
-                                        <div class="card-servicie-bloq">
+                                        <div class="card-servicie-bloq-develop">
                                             <img class="location"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/image-inventario.png"
+                                                 src="/theme_pragmatic/static/src/img/development/image-implementacion.png"
                                                  weight="80"
                                                  height="80" alt="location"/>
-                                            <h4 class="title-func">Gestión de Inventarios</h4>
-                                            <p class="text-service-inf">Permite el seguimiento y
-                                                control completo del inventario, incluida la gestión de ubicaciones,
-                                                control de existencias, gestión de pedidos y seguimiento de movimientos
-                                                de inventario.
+                                            <h4 class="title-func">Implementación</h4>
+                                            <p class="text-service-inf">Codificación y desarrollo de la
+                                                aplicación web utilizando los lenguajes y tecnologías adecuadas.
                                             </p>
                                         </div>
                                     </div>
                                     <div class="col-6 ">
-                                        <div class="card-servicie-bloq">
+                                        <div class="card-servicie-bloq-develop">
                                             <img class="location"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/image-shop.png"
+                                                 src="/theme_pragmatic/static/src/img/development/image-prueba.png"
                                                  weight="80"
                                                  height="80" alt="location"/>
-                                            <h4 class="title-func">Punto de Venta (POS)</h4>
-                                            <p class="text-service-inf">Ofrece una solución
-                                                completa de punto de venta que incluye gestión de productos,
-                                                procesamiento de pagos, gestión de clientes y control de caja.
+                                            <h4 class="title-func">Pruebas</h4>
+                                            <p class="text-service-inf">Verificación y validación de la
+                                                funcionalidad, rendimiento y seguridad de la aplicación.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="w-100 d-none d-md-block"></div>
+
+                                    <div class="col-6 ">
+                                        <div class="card-servicie-bloq-develop">
+                                            <img class="location"
+                                                 src="/theme_pragmatic/static/src/img/development/image-despliegue.png"
+                                                 weight="80"
+                                                 height="80" alt="location"/>
+                                            <h4 class="title-func">Despliegue</h4>
+                                            <p class="text-service-inf">Instalación y configuración de la aplicación en
+                                                un entorno de producción para su uso público.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 ">
+                                        <div class="card-servicie-bloq-develop">
+                                            <img class="location"
+                                                 src="/theme_pragmatic/static/src/img/development/image-mejora.png"
+                                                 weight="80"
+                                                 height="80" alt="location"/>
+                                            <h4 class="title-func">Reviciones y mejoras continuas.</h4>
+                                            <p class="text-service-inf">Procesos fundamentales que garantizan que el
+                                                desarrollo a medida de aplicaciones web sea ágil, adaptable y centrado
+                                                en el cliente.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <header class="front-page-service">
-                            <div class="card-container-service text-center">
-                                <div class="container-service-III text-center">
-                                    <div class="row align-items-center">
-                                        <div class="col-6">
-                                            <h1 class="title-1-service">
-                                                Proceso de cobro
-                                            </h1>
-                                            <h2 class="sub-title-1-service">
-                                                Recibe y concilia pagos de tus ventas de contado
-                                                y a crédito, para tu negocio y tus canales comerciales,
-                                                a través de nuestra solución innovadora y ajustada a tus procesos de
-                                                negocio
-                                            </h2>
-                                        </div>
-                                        <div class="col-6">
-                                            <img class="location"
-                                                 src="/theme_pragmatic/static/src/img/software_erp/image-odoo-erp.png"
-                                                 weight="300"
-                                                 height="298" alt="location"/>
-                                        </div>
-                                    </div>
-                                    <div class="container-service-IIII text-center">
-                                        <div class="row align-items-center">
-                                            <div class="col-6">
-                                                <img class="location"
-                                                     src="/theme_pragmatic/static/src/img/software_erp/image-odoo-Integration.jpeg"
-                                                     weight="300"
-                                                     height="298" alt="location"/>
-                                            </div>
-                                            <div class="col-6">
-                                                <h1 class="title-1-service">
-                                                    Más que una
-                                                    <b>pasarela</b>, una solución de recaudo para tu empresa
-                                                </h1>
-                                                <h2 class="sub-title-1-service">
-                                                    Recibe y concilia pagos de tus ventas de contado
-                                                    y a crédito, para tu negocio y tus canales comerciales,
-                                                    a través de nuestra solución innovadora y ajustada a tus procesos de
-                                                    negocio
-                                                </h2>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </header>
-                        <div class="card-container-servicie-clients">
-                            <div class="row justify-content-center align-items-start cards">
-                                <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
-                                <div class="col-md-12">
-                                    <h1 class="title-inf-I">Medios de pago</h1>
-                                </div>
-                            </div>
-                            <div class="clients">
-                                <link rel="stylesheet"
-                                      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-                                <div class="swiper clientsSwiper">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image "
-                                                 src="/theme_pragmatic/static/src/img/payment/image-american.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-bnc-bogota.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-dinerclub.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-mastercard.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-nequi.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-pse.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="clients-image"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-visa.png"/>
-                                        </div>
 
-                                    </div>
-                                    <div class="swiper-button-next"/>
-                                    <div class="swiper-button-prev"/>
-                                    <div class="swiper-pagination"/>
-                                </div>
-
-                                <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"/>
-                                <script>
-                                    var swiper = new Swiper(".clientsSwiper", {
-                                    rewind: true,
-                                    slidesPerView: 5,
-                                    loop: true,
-                                    spaceBetween: 0,
-                                    centeredSlides: false,
-                                    autoplay: {
-                                    delay: 6500,
-                                    disableOnInteraction: false,
-                                    },
-                                    pagination: {
-                                    el: ".swiper-pagination",
-                                    clickable: true,
-                                    },
-                                    navigation: {
-                                    nextEl: ".swiper-button-next",
-                                    prevEl: ".swiper-button-prev",
-                                    },
-                                    });
-                                </script>
-                            </div>
-                        </div>
                     </div>
                 </t>
             </t>

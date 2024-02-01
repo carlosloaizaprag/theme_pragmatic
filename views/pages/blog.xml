@@ -14,101 +14,49 @@
                 <t t-call="website.layout">
                     <div id="wrap" class="oe_structure">
                         <link rel="stylesheet" href="/../static/src/scss/style_blog.scss"/>
-
-                        <!--<header class="front-page-blog">
-                            <div class="content-blog">
-                                <h2>Blog Pragmatic</h2>
-                                <h3>
-                                    En este espacio nuestro equipo comparte
-                                    <br />
-                                    su conocimiento para que todos se enriquezcan y estén actualizados periódicamente.
-                                </h3>
+                        <header class="front-page-contact">
+                            <div class="card-container-blog text-center">
+                                <div class="col-md-12">
+                                    <h1 class="title-1">Blog Pragmatic Ingeniería</h1>
+                                    <h5 class="card-title-blog text-center">Descubre aqui un espacio para aprender y
+                                        adquirir mas informacion de nuestros servicios.
+                                    </h5>
+                                </div>
                             </div>
                         </header>
 
-                        <div class="card-container">
-                            <div class="row justify-content-center align-items-center">
-
-                                    <div class="card card-blog">
-                                        <div class="ico-card-blog">
-                                            <div class="card-badge">Soluciones</div>
-                                        </div>
+                        <div class="container text-center">
+                            <div class="row-blog align-items-center">
+                                <div class="col">
+                                    <div class="card-blog" style="width: 18rem;">
+                                        <img src="/theme_pragmatic/static/src/img/blog/image-facturacion.jpg"
+                                             class="card-img-top" alt="location"/>
                                         <div class="card-body">
-                                            <a class="card-title-blog" href="#">SU PLATAFORMA DE SOPORTE EN TRANSFIRIENDO</a>
-                                        </div>
-                                        <div class="card-footer">
-                                            <span>marzo 31, 2023</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="card card-blog">
-                                        <div class="ico-card-blog">
-                                            <div class="card-badge">Soluciones</div>
-                                        </div>
-                                        <div class="card-body">
-                                            <a class="card-title-blog" href="#">SU PLATAFORMA DE SOPORTE EN TRANSFIRIENDO</a>
-                                        </div>
-                                        <div class="card-footer">
-                                            <span>marzo 31, 2023</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="card card-blog">
-                                        <div class="ico-card-blog">
-                                            <div class="card-badge">Soluciones</div>
-                                        </div>
-                                        <div class="card-body">
-                                            <a class="card-title-blog" href="#">SU PLATAFORMA DE SOPORTE EN TRANSFIRIENDO</a>
-                                        </div>
-                                        <div class="card-footer">
-                                            <span>marzo 31, 2023</span>
-                                        </div>
-                                    </div>
-
-                                <div class="row justify-content-center align-items-center">
-
-                                    <div class="card card-blog">
-                                        <div class="ico-card-blog">
-                                            <div class="card-badge">Soluciones</div>
-                                        </div>
-                                        <div class="card-body">
-                                            <a class="card-title-blog" href="#">SU PLATAFORMA DE SOPORTE EN TRANSFIRIENDO</a>
-                                        </div>
-                                        <div class="card-footer">
-                                            <span>marzo 31, 2023</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="card card-blog">
-                                        <div class="ico-card-blog">
-                                            <div class="card-badge">Soluciones</div>
-                                        </div>
-                                        <div class="card-body">
-                                            <a class="card-title-blog" href="#">SU PLATAFORMA DE SOPORTE EN TRANSFIRIENDO</a>
-                                        </div>
-                                        <div class="card-footer">
-                                            <span>marzo 31, 2023</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="card card-blog">
-                                        <div class="ico-card-blog">
-                                            <div class="card-badge">Soluciones</div>
-                                        </div>
-                                        <div class="card-body">
-                                            <a class="card-title-blog" href="#">SU PLATAFORMA DE SOPORTE EN TRANSFIRIENDO</a>
-                                        </div>
-                                        <div class="card-footer">
-                                            <span>marzo 31, 2023</span>
+                                            <h5 class="card-title">Facturación Electronica</h5>
+                                            <a href="#" class="btn btn-blog">Más info.</a>
                                         </div>
                                     </div>
                                 </div>
-
-
-
+                                <div class="col">
+                                    <div class="card-blog" style="width: 18rem;">
+                                        <img src="/theme_pragmatic/static/src/img/blog/wompiLogo.png" class="card-img-top" alt="..."/>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Pasarela de pago</h5>
+                                            <a href="#" class="btn btn-blog">Más info.</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card-blog" style="width: 18rem;">
+                                        <img src="/theme_pragmatic/static/src/img/blog/image-tec.jpg" class="card-img-top" alt="..."/>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nuevas Tecnologias</h5>
+                                            <a href="#" class="btn btn-blog">Más info.</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-
-                        </div>-->
+                        </div>
 
                     </div>
                 </t>
