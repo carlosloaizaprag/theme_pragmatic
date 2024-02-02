@@ -271,6 +271,70 @@
   object-fit: cover;
 }
 
+.clients-image-erp {
+  width: 120px;
+  height: 120px;
+  padding: 0px 10px;
+}
+
+.swiper-slide-erp img {
+  display: block;
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+
+.sub-title-1-service-erp {
+  font-family: Sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
+
+.title-service-erp {
+  font-family: 'Helvetica', Sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+.info-button-erp {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #03a63c;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.info-button-erp:hover {
+  background-color: #acdcac;
+  text-decoration: none;
+  color: #03a63c;
+}
+
+.card-servicie-erp {
+  background-color: #03a63cd9;
+  margin: 0px 0px 0px 15px;
+  text-align: center;
+  height: 170px;
+  width: 581px;
+  flex: 1;
+  text-align: center;
+  margin: 0px 0px 0px 8px;
+}
+
 /*-----------------------------------SOFTWARE CRM------------------------------------------*/
 
 .clients-image-service {
