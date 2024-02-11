@@ -16,7 +16,7 @@
                             <div class="software_erp_container">
                                 <div class="container">
                                     <div class="row align-items-center">
-                                        <div class="col-6">
+                                        <div class="col-12 col-sm-6">
                                             <h1 class="title-1-service">
                                                 Eleva la experiencia del cliente con Odoo CRM
                                             </h1>
@@ -27,8 +27,8 @@
                                             </h2>
                                             <a href="/contact" class="info-button">Mas información</a>
                                         </div>
-                                        <div class="col-6">
-                                            <img class="location"
+                                        <div class="col-12 col-sm-6">
+                                            <img class="location img-fluid mx-auto d-block"
                                                  src="/theme_pragmatic/static/src/img/software_crm/image-inicio-crm.png"
                                                  weight="400"
                                                  height="400" alt="location"/>
@@ -40,7 +40,7 @@
 
                         </div>
                         <div class="card-container-servicie text-center">
-                            <div class="row-service align-items-center">
+                            <div class="row-service align-items-center justify-content-center justify-content-lg-between gap-5 gap-lg-0 w-100">
                                 <div class="col-md-4">
                                     <div class="card-servicie">
                                         <h5 class="service-card-title">
@@ -83,13 +83,13 @@
                             <div class="container-service-crm-II mt-5-servive-II">
                                 <div class="row-service-II justify-content-center">
                                     <!-- Columna 1: Contiene la imagen -->
-                                    <div class="col-md-12">
-                                        <img class="location"
+                                    <div class="col-12 col-sm-12 col-md-12">
+                                        <img class="location img-fluid mx-auto d-block"
                                              src="/theme_pragmatic/static/src/img/software_crm/image-banner-crm.png"
                                              weight="300"
                                              height="480" alt="location"/>
                                         <div class="col-md-12-service-cmr-I">
-                                            <div class="row-software-crm">
+                                            <div class="row-software-crm align-items-center justify-content-center justify-content-lg-between gap-5 gap-lg-0 w-100">
                                                 <div class="col-md-4 card-servicie-crm-t">
                                                     <div class="card-tar-service">
                                                         <img class="location"
@@ -129,8 +129,8 @@
 
                         <div class="software_crm_container">
                             <div class="container">
-                                <div class="row align-items-center">
-                                    <div class="col-6">
+                                <div class="row align-items-center ">
+                                    <div class="col-12 col-sm-6">
                                         <h1 class="title-1-service-crm">
                                             Mas oportunidades y mejor seguimiento
                                         </h1>
@@ -144,7 +144,7 @@
                                             ingresos esperados.
                                         </h2>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-12 col-sm-6">
                                         <img class="location img-fluid mx-auto d-block"
                                              src="/theme_pragmatic/static/src/img/software_crm/image-crm-odoo.png"
                                              weight="400"
@@ -156,7 +156,7 @@
                         </div>
 
                         <div class="container-service-II-crm">
-                            <div class="row-service-I justify-content-center align-items-start cards">
+                            <div class="row-service-I justify-content-center align-items-start">
                                 <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
                                 <div class="col-md-12">
                                     <h4 class="sub-title-inf">CRM ODOO</h4>
@@ -164,8 +164,8 @@
                                 </div>
                             </div>
                             <div class="container text-center">
-                                <div class="row align-items-start">
-                                    <div class="col-4">
+                                <div class="row align-items-start justify-content-center justify-content-lg-between gap-5 gap-lg-0 w-100">
+                                    <div class="col-12 col-sm-6 col-md-4 col-4">
                                         <div class="card-servicie-bloq-crm">
                                             <h4 class="title-func">Programa llamadas y reuniones o el envío de correos y
                                                 presupuestos
@@ -175,7 +175,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-4 ">
+                                    <div class="col-12 col-sm-6 col-md-4 col-4">
                                         <div class="card-servicie-bloq-crm ">
                                             <h4 class="title-func">La comunicación es clave</h4>
                                             <p class="text-service-inf">Los correos electrónicos entrantes se añaden
@@ -185,7 +185,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-4 ">
+                                    <div class="col-12 col-sm-6 col-md-4 col-4">
                                         <div class="card-servicie-bloq-crm ">
                                             <h4 class="title-func">Se integra con:
                                             </h4>
@@ -198,7 +198,7 @@
                                     <!-- Force next columns to break to new line at md breakpoint and up -->
                                     <div class="w-100 d-none d-md-block"></div>
 
-                                    <div class="col-4 ">
+                                    <div class="col-12 col-sm-6 col-md-4 col-4">
                                         <div class="card-servicie-bloq-crm ">
                                             <h4 class="title-func">Crea presupuestos con aspecto profesional</h4>
                                             <p class="text-service-inf">Selecciona tus productos del catálogo y deja que
@@ -206,7 +206,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-4 ">
+                                    <div class="col-12 col-sm-6 col-md-4 col-4">
                                         <div class="card-servicie-bloq-crm ">
                                             <h4 class="title-func">Las decisiones inteligentes
                                             </h4>
@@ -217,7 +217,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-12 col-sm-6 col-md-4 col-4">
                                         <div class="card-servicie-bloq-crm ">
                                             <h4 class="title-func">Automatiza
                                             </h4>

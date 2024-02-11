@@ -16,7 +16,6 @@
                                 <div class="container">
                                     <div class="row align-items-center">
                                         <div class="col-12 col-sm-6">
-
                                             <h1 class="title-1-service">
                                                 Empieza a optimizar con Odoo la <b>Solución</b> integral para
                                                 empresas
@@ -43,7 +42,7 @@
                             </div>
                         </div>
                         <div class="card-container-servicie text-center">
-                            <div class="row-service align-items-center">
+                            <div class="row-service align-items-center justify-content-center justify-content-sm-between justify-content-lg-between gap-5 gap-lg-0 w-100">
                                 <div class="col-md-4">
                                     <div class="card-servicie">
                                         <h5 class="service-card-title">
@@ -72,7 +71,7 @@
                                             Decisiones Informadas
                                         </h4>
                                         <p class="sub-text-service">
-                                            Ofrece datos en tiempo real para respaldar tus decisiones. Con
+                                            Ofrece datos en tiempo real. Con
                                             herramientas de informes, análisis y oportunidades
                                             para el crecimiento empresarial.
                                         </p>
@@ -82,27 +81,31 @@
                         </div>
 
                         <div class="card-container-servicie-II">
-                            <div class="row-service-I justify-content-center align-items-start cards">
+                            <div class="row-service-I justify-content-center align-items-start">
                                 <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
                                 <div class="col-md-12">
-                                    <h1 class="title-1-service-II">Software ERP</h1>
+                                    <h1 class="title-1-service-II align-items-center justify-content-center">Software
+                                        ERP
+                                    </h1>
                                 </div>
                             </div>
 
                             <div class="container-service-II mt-5-servive-II">
                                 <div class="row-service-II justify-content-center">
                                     <!-- Columna 1: Contiene la imagen -->
-                                    <div class="col-md-6">
-                                        <img class="location"
+                                    <div class="col-12 col-sm-6 col-md-6 align-items-center justify-content-center">
+                                        <img class="location img-fluid mx-auto d-block"
                                              src="/theme_pragmatic/static/src/img/software_erp/image-erp-accordion.png"
                                              weight="300"
                                              height="398" alt="location"/>
-                                        <div class="col-md-12-service-I">
-                                            <div class="card-servicie-erp">
+                                        <div class="col-md-12-service-I ">
+                                            <div class="card-servicie-erp img-fluid mx-auto d-block">
                                                 <h4 class="sub-title-1-service-erp">Conocemas acerca de esta Tecnología
                                                 </h4>
                                                 <h1 class="title-service-erp">Odoo ERP</h1>
-                                                <a href="https://www.odoo.com/es_ES" class="info-button-erp">Mas información</a>
+                                                <a href="https://www.odoo.com/es_ES" class="info-button-erp">Mas
+                                                    información
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -185,9 +188,9 @@
                         </div>
 
                         <div class="container-service-II">
-                            <div class="row-service-I justify-content-center align-items-start cards">
+                            <div class="row-service-I justify-content-center align-items-start">
                                 <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
-                                <div class="col-md-12">
+                                <div class="col-12 col-sm-12 col-md-12 ">
                                     <h4 class="sub-title-inf">Pragmatic Ingeniería</h4>
                                     <h1 class="title-inf">Funcionalidades importantes</h1>
                                     <h4 class="sub-title-service-inf">Odoo proporciona una solución completa e integrada
@@ -198,9 +201,9 @@
                                 </div>
                             </div>
                             <div class="container text-center">
-                                <div class="row align-items-start">
-                                    <div class="col-6">
-                                        <div class="card-servicie-bloq">
+                                <div class="row align-items-start justify-content-center justify-content-sm-between justify-content-lg-between gap-5 gap-lg-0 w-100">
+                                    <div class="col-12 col-sm-6 col-md-6">
+                                        <div class="card-servicie-bloq text-center">
                                             <img class="location"
                                                  src="/theme_pragmatic/static/src/img/software_erp/image-contabilidad.png"
                                                  weight="80"
@@ -213,7 +216,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-6 ">
+                                    <div class="col-6">
                                         <div class="card-servicie-bloq">
                                             <img class="location"
                                                  src="/theme_pragmatic/static/src/img/software_erp/image-hr.png"
@@ -232,7 +235,7 @@
                                     <!-- Force next columns to break to new line at md breakpoint and up -->
                                     <div class="w-100 d-none d-md-block"></div>
 
-                                    <div class="col-6 ">
+                                    <div class="col-6">
                                         <div class="card-servicie-bloq">
                                             <img class="location"
                                                  src="/theme_pragmatic/static/src/img/software_erp/image-inventario.png"
@@ -246,7 +249,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-6 ">
+                                    <div class="col-6">
                                         <div class="card-servicie-bloq">
                                             <img class="location"
                                                  src="/theme_pragmatic/static/src/img/software_erp/image-shop.png"

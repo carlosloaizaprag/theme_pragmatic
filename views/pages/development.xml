@@ -15,7 +15,7 @@
                             <div class="software_erp_container">
                                 <div class="container">
                                     <div class="row align-items-center">
-                                        <div class="col-6">
+                                        <div class="col-12 col-sm-6">
 
                                             <h1 class="title-1-service">
                                                 Ejecución Integral de desarrollo a Medida
@@ -30,7 +30,7 @@
                                             </h2>
                                             <a href="/contact" class="info-button">Mas información</a>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-12 col-sm-6">
                                             <img class="location img-fluid mx-auto d-block"
                                                  src="/theme_pragmatic/static/src/img/development/image-desarrollo.png"
                                                  weight="400"
@@ -42,8 +42,8 @@
                             </div>
                         </div>
                         <div class="card-container-servicie text-center">
-                            <div class="row-service align-items-center">
-                                <div class="col-md-4">
+                            <div class="row-service align-items-center justify-content-center justify-content-lg-between gap-5 gap-lg-0 w-100">
+                                <div class="col-12 col-sm-6 col-md-4 col-4">
                                     <div class="card-servicie-develop">
                                         <h5 class="service-card-title">
                                             Personalización Total
@@ -55,7 +55,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-12 col-sm-6 col-md-4 col-4">
                                     <div class="card-servicie-develop">
                                         <h5 class="service-card-title">
                                             Escalabilidad y Flexibilidad
@@ -67,7 +67,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-12 col-sm-6 col-md-4 col-4">
                                     <div class="card-servicie-develop">
                                         <h4 class="service-card-title">
                                             Control Total sobre la Tecnología
@@ -83,7 +83,7 @@
                         </div>
 
                         <div class="card-container-servicie-II">
-                            <div class="row-service-I justify-content-center align-items-start cards">
+                            <div class="row-service-I justify-content-center align-items-start ">
                                 <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
                                 <div class="col-md-12">
                                     <h1 class="title-1-service-II">Desarrollo a la Medida</h1>
@@ -94,7 +94,7 @@
                                 <div class="row-service-II justify-content-center">
                                     <!-- Columna 1: Contiene la imagen -->
                                     <div class="col-md-6">
-                                        <img class="location"
+                                        <img class="location img-fluid mx-auto d-block"
                                              src="/theme_pragmatic/static/src/img/development/image-accordion-deve.jpg"
                                              weight="300"
                                              height="398" alt="location"/>
@@ -177,7 +177,7 @@
                             </div>
                         </div>
                         <div class="card-container-servicie-clients">
-                            <div class="row justify-content-center align-items-start cards">
+                            <div class="row justify-content-center align-items-start ">
                                 <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
                                 <div class="col-md-12">
                                     <h1 class="title-inf-develop">Se manejan lenguajes como:</h1>
@@ -260,7 +260,7 @@
                         </div>
 
                         <div class="container-service-II">
-                            <div class="row-service-I justify-content-center align-items-start cards">
+                            <div class="row-service-I justify-content-center align-items-start">
                                 <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
                                 <div class="col-md-12">
                                     <h4 class="sub-title-inf">Pragmatic</h4>
@@ -268,8 +268,8 @@
                                 </div>
                             </div>
                             <div class="container text-center">
-                                <div class="row align-items-start">
-                                    <div class="col-6">
+                                <div class="row align-items-start justify-content-center justify-content-lg-between gap-5 gap-lg-0 w-100">
+                                    <div class="col-12 col-sm-6 col-md-6 col-6">
                                         <div class="card-servicie-bloq-develop">
                                             <img class="location"
                                                  src="/theme_pragmatic/static/src/img/development/image-planificacion.png"
@@ -281,7 +281,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-6 ">
+                                    <div class="col-12 col-sm-6 col-md-6 col-6">
                                         <div class="card-servicie-bloq-develop">
                                             <img class="location"
                                                  src="/theme_pragmatic/static/src/img/development/image-diseño.png"
@@ -298,7 +298,7 @@
                                     <!-- Force next columns to break to new line at md breakpoint and up -->
                                     <div class="w-100 d-none d-md-block"></div>
 
-                                    <div class="col-6 ">
+                                    <div class="col-12 col-sm-6 col-md-6 col-6 ">
                                         <div class="card-servicie-bloq-develop">
                                             <img class="location"
                                                  src="/theme_pragmatic/static/src/img/development/image-implementacion.png"
@@ -310,9 +310,9 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-6 ">
+                                    <div class="col-12 col-sm-6 col-md-6 col-6">
                                         <div class="card-servicie-bloq-develop">
-                                            <img class="location"
+                                            <img class="location "
                                                  src="/theme_pragmatic/static/src/img/development/image-prueba.png"
                                                  weight="80"
                                                  height="80" alt="location"/>
@@ -324,7 +324,7 @@
                                     </div>
                                     <div class="w-100 d-none d-md-block"></div>
 
-                                    <div class="col-6 ">
+                                    <div class="col-12 col-sm-6 col-md-6 col-6">
                                         <div class="card-servicie-bloq-develop">
                                             <img class="location"
                                                  src="/theme_pragmatic/static/src/img/development/image-despliegue.png"
@@ -336,9 +336,9 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-6 ">
+                                    <div class="col-12 col-sm-6 col-md-6 col-6">
                                         <div class="card-servicie-bloq-develop">
-                                            <img class="location"
+                                            <img class="location "
                                                  src="/theme_pragmatic/static/src/img/development/image-mejora.png"
                                                  weight="80"
                                                  height="80" alt="location"/>

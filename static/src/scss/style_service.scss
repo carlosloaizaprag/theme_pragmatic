@@ -48,14 +48,11 @@
   --gutter-x: 30px;
   --gutter-y: 0;
   display: -webkit-box;
+  padding: 0px 0px 0px 30px;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
   margin: auto;
-}
-
-.mt-5-servive-II {
-  padding: 50px 0px 0px 0px;
 }
 
 .title-1-service-acor-I {
@@ -80,13 +77,11 @@
   -webkit-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 100%;
-  padding: 0px 70px 0px 0px;
 }
 
 .container-service-II {
   color: #666766;
   background: #eae8e8;
-  padding: 0px 50px 0px 0px;
 }
 
 .container-service-II-crm {
@@ -102,6 +97,18 @@
   padding: 30px 0px 50px 0px;
   color: #03A63C;
 }
+
+@media (min-width: 576px) {
+  .title-1-service-II {
+    font-family: 'Helvetica', Sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 0;
+    color: #03A63C;
+  }
+}
+
 
 .title-1-service-I {
   font-family: 'Helvetica', Sans-serif;
@@ -196,11 +203,22 @@
   margin: 15px;
   text-align: center;
   height: 450px;
-  width: 555px;
+  width: 540px;
   flex: 1;
   padding: 70px;
-  text-align: center;
 }
+
+@media (max-width: 576px) {
+  .card-servicie-bloq {
+    background-color: #ffffff;
+    text-align: center;
+    max-height: 418px;
+    max-width: 318px;
+    padding: 25px;
+    flex: 1;
+  }
+}
+
 
 .sub-title-service-inf {
   font-family: 'Helvetica', Sans-serif;
@@ -329,11 +347,12 @@
   margin: 0px 0px 0px 15px;
   text-align: center;
   height: 170px;
-  width: 581px;
+  width: 594px;
   flex: 1;
   text-align: center;
   margin: 0px 0px 0px 8px;
 }
+
 
 /*-----------------------------------SOFTWARE CRM------------------------------------------*/
 
@@ -426,6 +445,30 @@
   flex: 1;
   padding: 40px;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .card-servicie-bloq-crm {
+    background-color: #ffffff;
+    margin: 15px;
+    text-align: center;
+    width: 270px;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-servicie-bloq-crm {
+    background-color: #ffffff;
+    margin: 15px;
+    text-align: center;
+    width: 270px;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
 }
 
 /*-----------------------------------CONSULTORIAS------------------------------------------*/
@@ -562,8 +605,6 @@
   background-color: #ffffff;
   margin: 15px;
   text-align: center;
-  height: 274px;
-  width: 555px;
   flex: 1;
   padding: 29px;
   text-align: center;
