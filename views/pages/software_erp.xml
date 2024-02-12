@@ -15,7 +15,7 @@
                             <div class="software_erp_container">
                                 <div class="container">
                                     <div class="row align-items-center">
-                                        <div class="col-12 col-sm-6">
+                                        <div class="col-12 col-sm-12 col-lg-6 col-sm-6">
                                             <h1 class="title-1-service">
                                                 Empieza a optimizar con Odoo la <b>Solución</b> integral para
                                                 empresas
@@ -30,7 +30,7 @@
                                             </h2>
                                             <a href="/contact" class="info-button">Mas información</a>
                                         </div>
-                                        <div class="col-12 col-sm-6">
+                                        <div class="col-12 col-sm-12 col-lg-6 col-sm-6">
                                             <img class="location img-fluid mx-auto d-block"
                                                  src="/theme_pragmatic/static/src/img/software_erp/image-graf-odoo.png"
                                                  weight="400"
@@ -94,13 +94,14 @@
                                 <div class="row-service-II justify-content-center">
                                     <!-- Columna 1: Contiene la imagen -->
                                     <div class="col-12 col-sm-6 col-md-6 align-items-center justify-content-center">
-                                        <img class="location img-fluid mx-auto d-block"
+                                        <img class="location img-fluid"
+                                             style="height:;"
                                              src="/theme_pragmatic/static/src/img/software_erp/image-erp-accordion.png"
                                              weight="300"
                                              height="398" alt="location"/>
                                         <div class="col-md-12-service-I ">
                                             <div class="card-servicie-erp img-fluid mx-auto d-block">
-                                                <h4 class="sub-title-1-service-erp">Conocemas acerca de esta Tecnología
+                                                <h4 class="sub-title-1-service-erp">Conoce más acerca de esta Tecnología
                                                 </h4>
                                                 <h1 class="title-service-erp">Odoo ERP</h1>
                                                 <a href="https://www.odoo.com/es_ES" class="info-button-erp">Mas
@@ -193,16 +194,16 @@
                                 <div class="col-12 col-sm-12 col-md-12 ">
                                     <h4 class="sub-title-inf">Pragmatic Ingeniería</h4>
                                     <h1 class="title-inf">Funcionalidades importantes</h1>
-                                    <h4 class="sub-title-service-inf">Odoo proporciona una solución completa e integrada
+                                    <p class="sub-title-service-inf">Odoo proporciona una solución completa e integrada
                                         para la gestión de contabilidad, ventas, compras y puntos de venta, lo que
                                         permite a las empresas optimizar sus operaciones y mejorar la eficiencia en
                                         todas estas áreas.
-                                    </h4>
+                                    </p>
                                 </div>
                             </div>
                             <div class="container text-center">
-                                <div class="row align-items-start justify-content-center justify-content-sm-between justify-content-lg-between gap-5 gap-lg-0 w-100">
-                                    <div class="col-12 col-sm-6 col-md-6">
+                                <div class="row mx-0 justify-content-center justify-content-sm-between justify-content-lg-between w-100">
+                                    <div class="col-12 col-sm-12 col-lg-6 col-xl-6 col-6">
                                         <div class="card-servicie-bloq text-center">
                                             <img class="location"
                                                  src="/theme_pragmatic/static/src/img/software_erp/image-contabilidad.png"
@@ -216,7 +217,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-12 col-sm-12 col-lg-6 col-xl-6 col-6">
                                         <div class="card-servicie-bloq">
                                             <img class="location"
                                                  src="/theme_pragmatic/static/src/img/software_erp/image-hr.png"
@@ -231,11 +232,7 @@
                                             </p>
                                         </div>
                                     </div>
-
-                                    <!-- Force next columns to break to new line at md breakpoint and up -->
-                                    <div class="w-100 d-none d-md-block"></div>
-
-                                    <div class="col-6">
+                                    <div class="col-12 col-sm-12 col-lg-6 col-xl-6 col-6">
                                         <div class="card-servicie-bloq">
                                             <img class="location"
                                                  src="/theme_pragmatic/static/src/img/software_erp/image-inventario.png"
@@ -249,7 +246,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-12 col-sm-12 col-lg-6 col-xl-6 col-6">
                                         <div class="card-servicie-bloq">
                                             <img class="location"
                                                  src="/theme_pragmatic/static/src/img/software_erp/image-shop.png"
@@ -265,78 +262,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!--<div class="card-container-servicie-clients">
-                            <div class="row justify-content-center align-items-start cards">
-                                <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
-                                <div class="col-md-12">
-                                    <h1 class="title-inf-I">Medios de pago</h1>
-                                </div>
-                            </div>
-                            <div class="clients">
-                                <link rel="stylesheet"
-                                      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-                                <div class="swiper clientsSwiper">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide-erp slide-clients">
-                                            <img class="clients-image-erp "
-                                                 src="/theme_pragmatic/static/src/img/payment/image-american.png"/>
-                                        </div>
-                                        <div class="swiper-slide-erp slide-clients">
-                                            <img class="clients-image-erp"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-bnc-bogota.png"/>
-                                        </div>
-                                        <div class="swiper-slide-erp slide-clients">
-                                            <img class="clients-image-erp"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-dinerclub.png"/>
-                                        </div>
-                                        <div class="swiper-slide-erp slide-clients">
-                                            <img class="clients-image-erp"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-mastercard.png"/>
-                                        </div>
-                                        <div class="swiper-slide-erp slide-clients">
-                                            <img class="clients-image-erp"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-nequi.png"/>
-                                        </div>
-                                        <div class="swiper-slide-erp slide-clients">
-                                            <img class="clients-image-erp"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-pse.png"/>
-                                        </div>
-                                        <div class="swiper-slide-erp slide-clients">
-                                            <img class="clients-image-erp"
-                                                 src="/theme_pragmatic/static/src/img/payment/image-visa.png"/>
-                                        </div>
-
-                                    </div>
-                                    <div class="swiper-button-next"/>
-                                    <div class="swiper-button-prev"/>
-                                    <div class="swiper-pagination"/>
-                                </div>
-
-                                <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"/>
-                                <script>
-                                    var swiper = new Swiper(".clientsSwiper", {
-                                    rewind: true,
-                                    slidesPerView: 5,
-                                    loop: true,
-                                    spaceBetween: 0,
-                                    centeredSlides: false,
-                                    autoplay: {
-                                    delay: 6500,
-                                    disableOnInteraction: false,
-                                    },
-                                    pagination: {
-                                    el: ".swiper-pagination",
-                                    clickable: true,
-                                    },
-                                    navigation: {
-                                    nextEl: ".swiper-button-next",
-                                    prevEl: ".swiper-button-prev",
-                                    },
-                                    });
-                                </script>
-                            </div>
-                        </div>-->
                     </div>
                 </t>
             </t>

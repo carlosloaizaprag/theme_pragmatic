@@ -44,16 +44,6 @@
   margin: auto;
 }
 
-.row-service-III {
-  --gutter-x: 30px;
-  --gutter-y: 0;
-  display: -webkit-box;
-  padding: 0px 0px 0px 30px;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  margin: auto;
-}
 
 .title-1-service-acor-I {
   font-family: 'Helvetica', Sans-serif;
@@ -184,8 +174,8 @@
 .title-inf {
   color: #1a1212;
   text-align: center;
+  font-size: 2.5rem;
   padding: 20px;
-  font-size: 46px;
   font-weight: 700;
 }
 
@@ -200,31 +190,19 @@
 
 .card-servicie-bloq {
   background-color: #ffffff;
-  margin: 15px;
+  margin: 5px;
   text-align: center;
-  height: 450px;
-  width: 540px;
+  min-height: 326px;
+  max-width: 540px;
   flex: 1;
-  padding: 70px;
-}
-
-@media (max-width: 576px) {
-  .card-servicie-bloq {
-    background-color: #ffffff;
-    text-align: center;
-    max-height: 418px;
-    max-width: 318px;
-    padding: 25px;
-    flex: 1;
-  }
+  padding: 20px;
 }
 
 
 .sub-title-service-inf {
   font-family: 'Helvetica', Sans-serif;
-  font-size: 20px;
   text-align: center;
-  padding: 10px 90px 0px 125px;
+  padding: 20px;
   color: #1a1212;
 }
 
@@ -344,13 +322,10 @@
 
 .card-servicie-erp {
   background-color: #03a63cd9;
-  margin: 0px 0px 0px 15px;
   text-align: center;
-  height: 170px;
-  width: 594px;
+  min-height: 171px;
+  max-width: 666px;
   flex: 1;
-  text-align: center;
-  margin: 0px 0px 0px 8px;
 }
 
 
@@ -364,16 +339,8 @@
 
 
 .row-software-crm {
-  --gutter-x: 30px;
-  --gutter-y: 200px;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-top: calc(-1 * var(--gutter-y));
-  margin-right: calc(-.5 * var(--gutter-x));
-  margin-left: calc(-.5 * var(--gutter-x));
 }
 
 .col-md-12-service-crm-I {
@@ -400,7 +367,6 @@
   background: #eae8e8;
   text-align: center;
   height: 230px;
-  flex: 1;
   text-align: center;
 }
 
@@ -410,7 +376,6 @@
   height: 230px;
   flex: 1;
   text-align: center;
-  margin: 0px 15px 0px 0px;
 }
 
 .title-func {
@@ -438,55 +403,28 @@
 
 .card-servicie-bloq-crm {
   background-color: #ffffff;
-  margin: 15px;
+  margin: 7px;
   text-align: center;
-  height: 360px;
-  width: 360px;
+  min-height: 255px;
+  min-width: 360px;
   flex: 1;
-  padding: 40px;
-  text-align: center;
+  padding: 20px;
 }
 
-@media (min-width: 768px) {
-  .card-servicie-bloq-crm {
-    background-color: #ffffff;
-    margin: 15px;
-    text-align: center;
-    width: 270px;
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-  }
-}
-
-@media (min-width: 992px) {
-  .card-servicie-bloq-crm {
-    background-color: #ffffff;
-    margin: 15px;
-    text-align: center;
-    width: 270px;
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-  }
-}
 
 /*-----------------------------------CONSULTORIAS------------------------------------------*/
 
 .card-servicie-consult {
   background-color: #1a1212;
-  margin: 15px;
+  margin: 2px;
   text-align: center;
-  height: 200px;
-  width: 360px;
-  padding: 40px 30px 0px 30px;
-  flex: 1;
-  text-align: center;
+  min-height: 135px;
+  padding: 10px;
+  min-width: 220px;
 }
 
 .title-1-service-consult {
   font-family: 'Helvetica', Sans-serif;
-  font-size: 46px;
   font-weight: 500;
   text-align: center;
   color: #03A63C;
@@ -524,26 +462,21 @@
 
 .card-servicie-app {
   background-color: #03A63C;
-  margin: 0px 0px 0px 15px;
   text-align: center;
   height: 176px;
-  flex: 1;
   text-align: center;
 }
 
 .card-servicie-app-I {
   background-color: #03A63C;
-  margin: 0px 0px 0px 15px;
   text-align: center;
   height: 176px;
-  flex: 1;
   text-align: center;
 }
 
 .card-servicie-app-tt {
   text-align: center;
   height: 170px;
-  flex: 1;
   text-align: center;
 }
 
@@ -583,13 +516,11 @@
 
 .card-servicie-develop {
   background-color: #1a1212;
-  margin: 15px;
+  margin: 5px;
   text-align: center;
-  height: 295px;
-  width: 360px;
-  padding: 40px 30px 0px 30px;
+  min-height: 200px;
+  padding: 15px;
   flex: 1;
-  text-align: center;
 }
 
 .sub-title-1-service-develop {
@@ -607,5 +538,5 @@
   text-align: center;
   flex: 1;
   padding: 29px;
-  text-align: center;
+  min-height: 290px;
 }

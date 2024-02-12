@@ -15,7 +15,7 @@
                             <div class="software_erp_container">
                                 <div class="container">
                                     <div class="row align-items-center">
-                                        <div class="col-12 col-sm-6">
+                                        <div class="col-12 col-sm-12 col-lg-6 col-sm-6">
 
                                             <h1 class="title-1-service">
                                                 Servicios Integrales de Desarrollo y Despliegue de Aplicaciones Móviles
@@ -31,7 +31,7 @@
                                             </h2>
                                             <a href="/contact" class="info-button">Mas información</a>
                                         </div>
-                                        <div class="col-12 col-sm-6">
+                                        <div class="col-12 col-sm-12 col-lg-6 col-sm-6">
                                             <img class="location img-fluid mx-auto d-block"
                                                  src="/theme_pragmatic/static/src/img/app/image-app.png"
                                                  weight="400"
@@ -54,26 +54,26 @@
                             <div class="container-service-II mt-5-servive-II">
                                 <div class="row-service-II justify-content-center">
                                     <!-- Columna 1: Contiene la imagen -->
-                                    <div class="col-12 col-sm-6 col-md-6 align-items-center justify-content-center">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-6   align-items-center justify-content-center">
                                         <img class="location img-fluid mx-auto d-block"
                                              src="/theme_pragmatic/static/src/img/app/image-app-mobile.jpg"
                                              weight="300"
                                              height="398" alt="location"/>
-                                        <div class="col-md-12-service-I">
-                                            <div class="row">
-                                                <div class="col-md-4 card-servicie-app-I ">
+                                        <div class="col-md-12">
+                                            <div class="row mx-0">
+                                                <div class="col-12 col-md-4 card-servicie-app-I ">
                                                     <div class="card-tar-service-app">
                                                         <p class="text-service-app">Experiencia personalizada</p>
                                                     </div>
                                                 </div>
                                                 <!-- Columna 2.2 -->
-                                                <div class="col-md-4 card-servicie-app-tt">
+                                                <div class="col-12 col-md-4 card-servicie-app-tt">
                                                     <div class="card-tar-service-app">
                                                         <p class="text-service-app-I">Funcionalidades integradas</p>
                                                     </div>
                                                 </div>
                                                 <!-- Columna 2.3 -->
-                                                <div class="col-md-4 card-servicie-app">
+                                                <div class="col-12 col-md-4 card-servicie-app">
                                                     <div class="card-tar-service-app">
                                                         <p class="text-service-app">Recopilación de datos y análisis</p>
                                                     </div>
@@ -333,7 +333,7 @@
                             </div>
                         </div>
 
-                        
+
                     </div>
                 </t>
             </t>
