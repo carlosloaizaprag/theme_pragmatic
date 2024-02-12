@@ -94,11 +94,9 @@
                                 <div class="row-service-II justify-content-center">
                                     <!-- Columna 1: Contiene la imagen -->
                                     <div class="col-12 col-sm-6 col-md-6 align-items-center justify-content-center">
-                                        <img class="location img-fluid"
-                                             style="height:;"
+                                        <img style="object-fit:cover; width:100%"
                                              src="/theme_pragmatic/static/src/img/software_erp/image-erp-accordion.png"
-                                             weight="300"
-                                             height="398" alt="location"/>
+                                             alt="location"/>
                                         <div class="col-md-12-service-I ">
                                             <div class="card-servicie-erp img-fluid mx-auto d-block">
                                                 <h4 class="sub-title-1-service-erp">Conoce más acerca de esta Tecnología
