@@ -71,7 +71,11 @@
                                 </li>
                             </ul>
 
-                            <button type="button" href="/contact" class="btn-contactus">Iniciar Sesión</button>
+                            <a href="/web/login">
+                                <button type="button" class="btn-contactus nav-link">Iniciar Sesión
+                                </button>
+                            </a>
+
                         </div>
                     </div>
                 </nav>
@@ -183,8 +187,8 @@
                     </div>
                 </div>
             </xpath>
-            <xpath expr="//div[hasclass('o_footer_copyright')]" position="replace">
-            </xpath>
+            <!-- <xpath expr="//div[hasclass('o_footer_copyright')]" position="replace">
+            </xpath>-->
         </field>
     </record>
 </odoo>
