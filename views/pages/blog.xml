@@ -50,7 +50,7 @@
                                     <div class="card-blog" style="width: 18rem;">
                                         <img src="/theme_pragmatic/static/src/img/blog/image-tec.jpg" class="card-img-top" alt="..."/>
                                         <div class="card-body">
-                                            <h5 class="card-title">Nuevas Tecnologias</h5>
+                                            <h5 class="card-title">Nuevas Tecnologías</h5>
                                             <a href="#" class="btn btn-blog">Más info.</a>
                                         </div>
                                     </div>

@@ -72,7 +72,7 @@
                             </ul>
 
                             <a href="/web/login">
-                                <button type="button" class="btn-contactus nav-link">Iniciar Sesión
+                                <button type="button" class="btn-contactus nav-link" groups="base.group_public">Iniciar Sesión
                                 </button>
                             </a>
 

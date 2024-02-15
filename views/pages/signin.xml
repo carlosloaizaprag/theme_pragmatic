@@ -71,7 +71,7 @@
                                         </p>
 
                                         <div t-attf-class="clearfix oe_login_buttons text-center mb-1 {{'pt-2' if form_small else 'pt-3'}}">
-                                            <button type="submit" class="btn btn-primary btn-block">
+                                            <button type="submit" class="btn btn-primary btn-block" >
                                                 Iniciar Sesión
                                             </button>
                                             <div class="o_login_auth"/>
