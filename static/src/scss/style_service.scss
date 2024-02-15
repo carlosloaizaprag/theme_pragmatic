@@ -405,21 +405,22 @@
   background-color: #ffffff;
   margin: 7px;
   text-align: center;
-  min-height: 255px;
+  min-height: 275px;
   min-width: 360px;
   flex: 1;
   padding: 20px;
 }
 
 
+
 /*-----------------------------------CONSULTORIAS------------------------------------------*/
 
 .card-servicie-consult {
-  background-color: #1a1212;
+  background-color: #03A63C;
   margin: 2px;
   text-align: center;
-  min-height: 135px;
-  padding: 10px;
+  min-height: 155px;
+  padding: 20px;
   min-width: 220px;
 }
 
@@ -515,11 +516,11 @@
 }
 
 .card-servicie-develop {
-  background-color: #1a1212;
+  background-color: #03A63C;
   margin: 5px;
   text-align: center;
   min-height: 200px;
-  padding: 15px;
+  padding: 20px;
   flex: 1;
 }
 
@@ -537,6 +538,6 @@
   margin: 15px;
   text-align: center;
   flex: 1;
-  padding: 29px;
-  min-height: 290px;
+  padding: 20px;
+  min-height: 270px;
 }

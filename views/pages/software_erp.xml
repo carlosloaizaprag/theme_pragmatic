@@ -42,7 +42,7 @@
                             </div>
                         </div>
                         <div class="card-container-servicie text-center">
-                            <div class="row-service align-items-center justify-content-center justify-content-sm-between justify-content-lg-between gap-5 gap-lg-0 w-100">
+                            <div class="row-service align-items-center justify-content-center justify-content-sm-between justify-content-lg-between gap-5 gap-lg-0 ">
                                 <div class="col-md-4">
                                     <div class="card-servicie">
                                         <h5 class="service-card-title">
@@ -54,7 +54,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 ">
                                     <div class="card-servicie">
                                         <h5 class="service-card-title">
                                             Flexibilidad Total
@@ -65,7 +65,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 ">
                                     <div class="card-servicie">
                                         <h4 class="service-card-title">
                                             Decisiones Informadas

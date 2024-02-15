@@ -42,7 +42,7 @@
                             </div>
                         </div>
                         <div class="card-container-servicie text-center">
-                            <div class="row-service align-items-center justify-content-center justify-content-lg-between gap-5 gap-lg-0 w-100">
+                            <div class="row-service align-items-center justify-content-center justify-content-lg-between gap-5 gap-lg-0">
                                 <div class="col-12 col-sm-6 col-md-4 col-4">
                                     <div class="card-servicie-develop">
                                         <h5 class="service-card-title">
@@ -269,7 +269,7 @@
                             </div>
                             <div class="container text-center">
                                 <div class="row align-items-start justify-content-center justify-content-lg-between gap-5 gap-lg-0">
-                                    <div class="col-12 col-sm-6 col-md-6 col-6">
+                                    <div class="col-12 col-sm-6 col-md-6 col-6 px-0">
                                         <div class="card-servicie-bloq-develop">
                                             <img class="location"
                                                  src="/theme_pragmatic/static/src/img/development/image-planificacion.png"
@@ -281,7 +281,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-sm-6 col-md-6 col-6">
+                                    <div class="col-12 col-sm-6 col-md-6 col-6 px-0">
                                         <div class="card-servicie-bloq-develop">
                                             <img class="location"
                                                  src="/theme_pragmatic/static/src/img/development/image-diseño.png"
@@ -298,7 +298,7 @@
                                     <!-- Force next columns to break to new line at md breakpoint and up -->
                                     <div class="w-100 d-none d-md-block"></div>
 
-                                    <div class="col-12 col-sm-6 col-md-6 col-6 ">
+                                    <div class="col-12 col-sm-6 col-md-6 col-6 px-0">
                                         <div class="card-servicie-bloq-develop">
                                             <img class="location"
                                                  src="/theme_pragmatic/static/src/img/development/image-implementacion.png"
@@ -310,7 +310,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-sm-6 col-md-6 col-6">
+                                    <div class="col-12 col-sm-6 col-md-6 col-6 px-0">
                                         <div class="card-servicie-bloq-develop">
                                             <img class="location "
                                                  src="/theme_pragmatic/static/src/img/development/image-prueba.png"
@@ -324,7 +324,7 @@
                                     </div>
                                     <div class="w-100 d-none d-md-block"></div>
 
-                                    <div class="col-12 col-sm-6 col-md-6 col-6">
+                                    <div class="col-12 col-sm-6 col-md-6 col-6 px-0">
                                         <div class="card-servicie-bloq-develop">
                                             <img class="location"
                                                  src="/theme_pragmatic/static/src/img/development/image-despliegue.png"
@@ -336,7 +336,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-sm-6 col-md-6 col-6">
+                                    <div class="col-12 col-sm-6 col-md-6 col-6 px-0">
                                         <div class="card-servicie-bloq-develop">
                                             <img class="location "
                                                  src="/theme_pragmatic/static/src/img/development/image-mejora.png"

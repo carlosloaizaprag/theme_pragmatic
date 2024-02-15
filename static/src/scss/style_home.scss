@@ -560,14 +560,14 @@ h5.card-title-foorter {
 }
 
 .card-servicie {
-  background-color: #1a1212;
+  background-color: #03a63c;
   text-align: center;
   max-height: 310px;
   max-width: 360px;
   min-width: 280px;
   padding: 40px 30px 40px 30px;
   flex: 1;
-  text-align: center;
+  margin: 5px;
 }
 
 .sub-text-service {
@@ -605,7 +605,7 @@ h5.card-title-foorter {
 
 @media (min-width: 576px) {
   .card-servicie {
-    background-color: #1a1212;
+    background-color: #03a63c;
     text-align: center;
     max-height: 270px;
     max-width: 360px;
@@ -617,12 +617,11 @@ h5.card-title-foorter {
 
 @media (min-width: 992px) {
   .card-servicie {
-    background-color: #1a1212;
+    background-color: #03a63c;
     text-align: center;
     min-width: 255px;
     padding: 20px 20px 20px 20px;
     flex: 1;
     text-align: center;
-    margin: 0px 20px 0px 0px;
   }
 }
