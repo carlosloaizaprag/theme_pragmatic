@@ -108,29 +108,20 @@
 
 .card-container {
   background: #ffffff;
-  max-width: 1240px;
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
   padding-bottom: 50px;
 }
 
-.card {
+.card-home {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s, box-shadow 0.3s;
-  margin: 0;
-  margin-top: 60px;
-  margin-right: 15px;
   text-align: center;
-  height: 370px;
-  width: 370px;
+  width: 350px;
   padding: 20px;
 }
 
-.card:hover {
+.card-home:hover {
   transform: translateY(-8px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -157,13 +148,13 @@ h5.card-title-foorter {
   padding: 20px;
 }
 
-.card:hover .boton {
+.card-home:hover .boton {
   background-color: #f2f2f2; /* Cambia el fondo del botón al hacer hover */
   color: #03A63C; /* Cambia el color del texto del botón al hacer hover */
   border: 2px solid #03A63C; /* Cambia el borde del botón al hacer hover */
 }
 
-.card:hover .ico-card {
+.card-home:hover .ico-card {
   background: #03A63C;
   color: #FFFFFF;
 }
@@ -181,6 +172,21 @@ h5.card-title-foorter {
   font-weight: 700;
   text-align: center;
   color: #111111;
+}
+
+.sub-title-1-home {
+  font-family: 'Helvetica', Sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  color: #111111;
+  padding: 40px;
+  background-color: #eae8e8;
+}
+
+.stile-title {
+  background-color: #eae8e8;
+  padding: 40px;
 }
 
 .space {
@@ -224,6 +230,7 @@ h5.card-title-foorter {
   font-family: 'Helvetica', Sans-serif;
   font-size: 46px;
   font-weight: 700;
+  padding: 30px;
 }
 
 .country-image {
@@ -238,17 +245,12 @@ h5.card-title-foorter {
 // Swiper
 
 .swiper {
-  width: auto;
-  height: 304px;
-
-  @media screen and (max-width: 1200px) {
-    height: 240px !important;
-  }
+  width: 100%;
+  height: 100%;
 }
 
 .swiper-slide {
   text-align: center;
-  font-size: 18px;
   background: #fff;
   display: flex;
   justify-content: flex-start;
@@ -259,7 +261,7 @@ h5.card-title-foorter {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .swiper-button-next, .swiper-button-prev {
@@ -272,13 +274,6 @@ h5.card-title-foorter {
 
 // Clients
 
-.clientsSwiper {
-  height: 210px !important;
-
-  @media screen and (max-width: 1200px) {
-    height: 180px !important;
-  }
-}
 
 .clients-image {
   object-fit: scale-down !important;
@@ -297,6 +292,7 @@ h5.card-title-foorter {
   font-weight: 700;
   text-align: center;
   color: #111111;
+  background-color: #eae8e8;
 }
 
 .title-6 {
@@ -306,6 +302,7 @@ h5.card-title-foorter {
   text-align: center;
   margin-bottom: 5px;
   color: #03A63C;
+  background-color: #eae8e8;
 }
 
 .partnersSwiper {
@@ -561,14 +558,29 @@ h5.card-title-foorter {
 }
 
 .card-servicie {
-  background-color: #03a63c;
-  text-align: center;
-  max-height: 310px;
-  max-width: 360px;
-  min-width: 280px;
-  padding: 40px 30px 40px 30px;
-  flex: 1;
+  min-width: 255px;
+  min-height: 216px;
+  padding: 20px;
   margin: 5px;
+  flex: 1;
+  text-align: center;
+  background-color: rgba(0, 128, 0, 0.5);
+  transition: background-color 0.3s;
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-servicie-crm {
+  min-width: 255px;
+  min-height: 216px;
+  padding: 20px;
+  margin: 5px;
+  flex: 1;
+  text-align: center;
+  background-color: rgba(0, 128, 0, 0.5);
+  transition: background-color 0.3s;
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .sub-text-service {
@@ -604,25 +616,7 @@ h5.card-title-foorter {
   margin-right: 95px;
 }
 
-@media (min-width: 576px) {
-  .card-servicie {
-    background-color: #03a63c;
-    text-align: center;
-    max-height: 270px;
-    max-width: 360px;
-    padding: 40px 30px 40px 30px;
-    flex: 1;
-    text-align: center;
-  }
-}
-
-@media (min-width: 992px) {
-  .card-servicie {
-    background-color: #03a63c;
-    text-align: center;
-    min-width: 255px;
-    padding: 20px 20px 20px 20px;
-    flex: 1;
-    text-align: center;
-  }
+.imagin-home {
+  width: 50px; /* ancho deseado */
+  height: auto;
 }

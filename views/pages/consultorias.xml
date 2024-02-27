@@ -45,27 +45,27 @@
                             <div class="row-service align-items-center justify-content-center justify-content-lg-between gap-5 gap-lg-0 ">
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-4">
                                     <div class="card-servicie-consult">
-                                        <h5 class="service-card-title">
+                                        <p class="sub-text-service">
                                             Proporción de orientación estratégica y apoyo práctico a empresas durante su
                                             proceso de transformación digital.
-                                        </h5>
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-4">
                                     <div class="card-servicie-consult">
-                                        <h5 class="service-card-title">
+                                        <p class="sub-text-service">
                                             Establecimiento de marcos de trabajo y procesos para una implementación
                                             efectiva.
-                                        </h5>
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-4">
                                     <div class="card-servicie-consult">
-                                        <h4 class="service-card-title">
+                                        <p class="sub-text-service">
                                             Garantización de la alineación de la infraestructura con los requisitos
                                             operativos
                                             y estratégicos de la empresa.
-                                        </h4>
+                                        </p>
                                     </div>
                                 </div>
                             </div>

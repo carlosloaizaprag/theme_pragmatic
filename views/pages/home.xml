@@ -15,8 +15,6 @@
 
                 <t t-call="website.layout">
                     <div id="wrap" class="oe_structure">
-                        <link rel="stylesheet" href="/../static/src/scss/style_home.scss"/>
-
                         <header class="front-page">
                             <div class="content">
                                 <h1>Soluciones Integrales TIC para las PYME</h1>
@@ -27,314 +25,251 @@
 
 
                         <div class="card-container">
-                            <div class="row justify-content-center align-items-center cards">
+                            <div class="d-flex flex-column justify-content-center align-items-start">
 
                                 <div class="col-md-12">
-                                    <h1 class="title-1">¿En qué podemos ayudarte?</h1>
+                                    <h1 class="title-1-service-II align-items-center justify-content-center">¿En qué
+                                        podemos ayudarte?
+                                    </h1>
                                 </div>
+                            </div>
+                            <div class="container">
+                                <div class="row gap-4 justify-content-center">
 
-                                    <div class="card">
+                                    <div class="card-home">
                                         <div class="ico-card">
-                                            <i class="fa fa-cogs" aria-hidden="true" />
+                                            <i class="fa fa-cogs" aria-hidden="true"/>
                                         </div>
                                         <div class="card-body">
                                             <h5 class="card-title">Software ERP</h5>
                                             <p class="card-text">
-                                                Integra y gestiona todas las funciones empresariales en un solo sistema, mejorando la eficiencia y facilitando la toma de decisiones.
+                                                Integra y gestiona todas las funciones empresariales en un solo
+                                                sistema,
+                                                mejorando la eficiencia y facilitando la toma de decisiones.
                                             </p>
                                             <div class="d-grid gap-2 d-md-block">
-                                                <a href="/contact">
+                                                <a href="/software_erp">
                                                     <button class="boton" type="button">Más Información</button>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="card">
+
+                                    <div class="card-home">
                                         <div class="ico-card">
-                                            <i class="fa fa-handshake-o" aria-hidden="true" />
+                                            <i class="fa fa-handshake-o" aria-hidden="true"/>
                                         </div>
                                         <div class="card-body">
                                             <h5 class="card-title">Software CRM</h5>
-                                            <p class="card-text">
-                                                Gestiona relaciones con clientes para mejorar interacciones y aumentar ventas.
+                                            <p class="card-text" style="height:96px">
+                                                Gestiona relaciones con clientes para mejorar interacciones y
+                                                aumentar
+                                                ventas.
                                             </p>
 
                                         </div>
                                         <div class="d-grid gap-2 d-md-block">
-                                            <a href="/contact">
+                                            <a href="/software_crm">
                                                 <button class="boton" type="button">Más Información</button>
                                             </a>
                                         </div>
                                     </div>
 
-                                    <div class="card">
+
+                                    <div class="card-home">
                                         <div class="ico-card">
-                                            <i class="fa fa-users" aria-hidden="true" />
+                                            <i class="fa fa-users" aria-hidden="true"/>
                                         </div>
                                         <div class="card-body">
                                             <h5 class="card-title">Consultorías</h5>
                                             <p class="card-text">
-                                                Servicios especializados y expertos para ayudar a empresas a resolver problemas, mejorar procesos y tomar decisiones estratégicas.
+                                                Servicios especializados y expertos para ayudar a empresas a
+                                                resolver
+                                                problemas,
+                                                mejorar procesos y tomar decisiones estratégicas.
                                             </p>
                                             <div class="d-grid gap-2 d-md-block">
-                                                <a href="/contact">
+                                                <a href="/consultorias">
                                                     <button class="boton" type="button">Más Información</button>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
 
-                                <div class="row justify-content-center align-items-center cards">
 
-                                    <div class="card">
+                                    <div class="card-home">
                                         <div class="ico-card">
-                                            <i class="fa fa-mobile" aria-hidden="true" />
+                                            <i class="fa fa-mobile" aria-hidden="true"/>
                                         </div>
                                         <div class="card-body">
                                             <h5 class="card-title">Aplicaciones Móviles</h5>
                                             <p class="card-text">
-                                                Programas para smartphones que ofrecen funciones diversas para mejorar la experiencia del usuario y brindar servicios en cualquier momento y lugar.
+                                                Programas para smartphones que ofrecen funciones diversas para
+                                                mejorar
+                                                la
+                                                experiencia del usuario y brindar servicios en cualquier momento y
+                                                lugar.
                                             </p>
                                             <div class="d-grid gap-2 d-md-block">
-                                                <a href="/contact">
+                                                <a href="/mobile_apps">
                                                     <button class="boton" type="button">Más Información</button>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="card">
+
+                                    <div class="card-home">
                                         <div class="ico-card">
-                                            <i class="fa fa-code" aria-hidden="true" />
+                                            <i class="fa fa-code" aria-hidden="true"/>
                                         </div>
                                         <div class="card-body">
                                             <h5 class="card-title">Desarrollos a la Medida</h5>
                                             <p class="card-text">
-                                                Soluciones de software personalizadas, creadas específicamente para satisfacer las necesidades únicas de una empresa o individuo.
+                                                Soluciones de software personalizadas, creadas específicamente para
+                                                satisfacer las necesidades únicas de una empresa o individuo.
                                             </p>
                                             <div class="d-grid gap-2 d-md-block">
-                                                <a href="/contact">
+                                                <a href="/development">
                                                     <button class="boton" type="button">Más Información</button>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-
-
                             </div>
-
                         </div>
 
-                        <div class="carousel-header">
+                        <div class="home-carousel-1">
                             <div class="col-md-12">
-                                <h2 class="sub-title-1">Compañías que han confiado en nosotros</h2>
+                                <h2 class="sub-title-1-home">Compañías que han confiado en nosotros</h2>
                             </div>
-                        </div>
-
-                        <div class="clients">
-                            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-                            <div class="swiper clientsSwiper">
+                            <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
-                                  <div class="swiper-slide slide-clients div-one">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/umanizales.png" />
-                                  </div>
-                                  <div class="swiper-slide slide-clients">
-                                      <img class="clients-image img-transfiriendo" src="theme_pragmatic/static/src/img/logo-transfiriendo.png" />
-                                  </div>
-                                  <div class="swiper-slide slide-clients">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/logo-oncredit.png" />
-                                  </div>
-                                  <div class="swiper-slide slide-clients">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/proyecten.png" />
-                                  </div>
-                                  <div class="swiper-slide slide-clients">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/pura.png" />
-                                  </div>
-                                  <div class="swiper-slide slide-clients">
-                                      <img class="clients-image img-loggin" src="theme_pragmatic/static/src/img/loggin.png" />
-                                  </div>
-                                    <div class="swiper-slide slide-clients">
-                                        <img class="clients-image" src="theme_pragmatic/static/src/img/bluma-design.png" />
+                                    <div class="swiper-slide">
+                                        <img src="theme_pragmatic/static/src/img/logos/umanizales.png"/>
                                     </div>
-                                  <div class="swiper-slide slide-clients">
-                                      <img class="clients-image img-acopi" src="theme_pragmatic/static/src/img/logo-acopi.png" />
-                                  </div>
-                                  <div class="swiper-slide slide-clients">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/umanizales.png" />
-                                  </div>
-                                  <div class="swiper-slide slide-clients">
-                                      <img class="clients-image img-transfiriendo" src="theme_pragmatic/static/src/img/logo-transfiriendo.png" />
-                                  </div>
-                                  <div class="swiper-slide slide-clients">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/logo-oncredit.png" />
-                                  </div>
-                                  <div class="swiper-slide slide-clients">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/proyecten.png" />
-                                  </div>
-                                  <div class="swiper-slide slide-clients">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/pura.png" />
-                                  </div>
-                                  <div class="swiper-slide slide-clients">
-                                      <img class="clients-image img-loggin" src="theme_pragmatic/static/src/img/loggin.png" />
-                                  </div>
-                                    <div class="swiper-slide slide-clients">
-                                        <img class="clients-image" src="theme_pragmatic/static/src/img/bluma-design.png" />
+                                    <div class="swiper-slide">
+                                        <img src="theme_pragmatic/static/src/img/logos/transfiriendo.png"/>
                                     </div>
-                                  <div class="swiper-slide slide-clients">
-                                      <img class="clients-image img-acopi" src="theme_pragmatic/static/src/img/logo-acopi.png" />
-                                  </div>
+                                    <div class="swiper-slide">
+                                        <img src="theme_pragmatic/static/src/img/logos/oncredit.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="theme_pragmatic/static/src/img/logos/proyecten.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="theme_pragmatic/static/src/img/logos/pura.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="theme_pragmatic/static/src/img/logos/loggin.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="theme_pragmatic/static/src/img/logos/bluma.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="theme_pragmatic/static/src/img/logos/acopi.png"/>
+                                    </div>
                                 </div>
-                                <div class="swiper-button-next" />
-                                <div class="swiper-button-prev" />
-                                <div class="swiper-pagination" />
-                              </div>
+                                <div class="swiper-pagination"/>
+                            </div>
 
-                            <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" />
-                            <script>
-                                var swiper = new Swiper(".clientsSwiper", {
-                                  rewind: true,
-                                  slidesPerView: 5,
-                                  loop: true,
-                                  spaceBetween: 0,
-                                  centeredSlides: false,
-                                  autoplay: {
-                                    delay: 6500,
-                                    disableOnInteraction: false,
-                                  },
-                                  pagination: {
-                                    el: ".swiper-pagination",
-                                    clickable: true,
-                                  },
-                                  navigation: {
-                                    nextEl: ".swiper-button-next",
-                                    prevEl: ".swiper-button-prev",
-                                  },
-                                });
-                              </script>
                         </div>
 
-                        <div class="space"></div>
+                        <div class="space" style="height: 120px"></div>
 
-                        <div class="home-carousel">
+                        <div class="home-carousel-2">
                             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
                             <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
-                                  <div class="swiper-slide slide-my"><img src="theme_pragmatic/static/src/img/wallpaper-two.png" /></div>
-                                  <div class="swiper-slide slide-my"><img src="theme_pragmatic/static/src/img/wallpaper-one.png" /></div>
-                                  <div class="swiper-slide slide-my"><img src="theme_pragmatic/static/src/img/wallpaper-three.png" /></div>
-                                  <div class="swiper-slide slide-my"><img src="theme_pragmatic/static/src/img/wallpaper-one.png" /></div>
-                                  <div class="swiper-slide slide-my"><img src="theme_pragmatic/static/src/img/wallpaper-two.png" /></div>
-                                  <div class="swiper-slide slide-my"><img src="theme_pragmatic/static/src/img/wallpaper-one.png" /></div>
-                                  <div class="swiper-slide slide-my"><img src="theme_pragmatic/static/src/img/wallpaper-three.png" /></div>
-                                  <div class="swiper-slide slide-my"><img src="theme_pragmatic/static/src/img/wallpaper-one.png" /></div>
+                                    <div class="swiper-slide">
+                                        <img src="theme_pragmatic/static/src/img/wallpaper-two.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="theme_pragmatic/static/src/img/wallpaper-one.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="theme_pragmatic/static/src/img/wallpaper-three.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="theme_pragmatic/static/src/img/wallpaper-one.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="theme_pragmatic/static/src/img/wallpaper-two.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="theme_pragmatic/static/src/img/wallpaper-one.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="theme_pragmatic/static/src/img/wallpaper-three.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="theme_pragmatic/static/src/img/wallpaper-one.png"/>
+                                    </div>
                                 </div>
-                                <div class="swiper-button-next" />
-                                <div class="swiper-button-prev" />
-                                <div class="swiper-pagination" />
-                              </div>
-
-                            <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" />
-                            <script>
-                                var swiper = new Swiper(".mySwiper", {
-                                  rewind: true,
-                                  slidesPerView: 4,
-                                  loop: true,
-                                  spaceBetween: 0,
-                                  centeredSlides: false,
-                                  autoplay: {
-                                    delay: 3500,
-                                    disableOnInteraction: false,
-                                  },
-                                  pagination: {
-                                    el: ".swiper-pagination",
-                                    clickable: true,
-                                  },
-                                  navigation: {
-                                    nextEl: ".swiper-button-next",
-                                    prevEl: ".swiper-button-prev",
-                                  },
-                                });
-                              </script>
+                                <div class="swiper-button-next"/>
+                                <div class="swiper-button-prev"/>
+                                <div class="swiper-pagination"/>
+                            </div>
                         </div>
 
                         <div class="container-country parallax">
-                            <div class="container-country-elements">
-                                <div class="country-text">
-                                    <h2 class="text-1">Constituidos desde 2016 y con presencia en <span style="color:#03A63C">Manizales, Caldas.</span></h2>
-                                </div>
-                                <div class="country-image">
-                                    <img class="country-image-1" src="theme_pragmatic/static/src/img/wallpaperpragma.png" alt="..." />
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-sm-12 col-lg-6 col-sm-6">
+                                        <h2 class="text-1">Constituidos desde 2016 y con presencia en
+                                            <span style="color:#03A63C">Manizales, Caldas.</span>
+                                        </h2>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-lg-6 col-sm-6">
+                                        <img class="location img-fluid mx-auto d-block"
+                                             src="theme_pragmatic/static/src/img/wallpaperpragma.png" alt="..."/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="space"></div>
-
-                        <div class="container-partners">
-                            <div class="col-md-12 partners-text">
+                        <div class="home-carousel-3">
+                            <div class="col-md-12 stile-title">
                                 <h2 class="sub-title-5">Nuestros Aliados</h2>
                                 <h5 class="title-6">Nos complementan</h5>
                             </div>
                             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-                            <div class="swiper partnersSwiper">
+                            <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
-                                  <div class="swiper-slide slider-partners">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/logo-oncredit.png" />
-                                  </div>
-                                  <div class="swiper-slide slider-partners">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/proyecten.png" />
-                                  </div>
-                                  <div class="swiper-slide slider-partners">
-                                      <img class="clients-image img-loggin" src="theme_pragmatic/static/src/img/loggin.png" />
-                                  </div>
-                                  <div class="swiper-slide slider-partners">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/logo-oncredit.png" />
-                                  </div>
-                                  <div class="swiper-slide slider-partners">
-                                      <img class="clients-image" src="theme_pragmatic/static/src/img/proyecten.png" />
-                                  </div>
-                                  <div class="swiper-slide slider-partners">
-                                      <img class="clients-image img-loggin" src="theme_pragmatic/static/src/img/loggin.png" />
-                                  </div>
+                                    <div class="swiper-slide">
+                                        <img class="imagin-home"
+                                             src="theme_pragmatic/static/src/img/logos/oncredit.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="imagin-home"
+                                             src="theme_pragmatic/static/src/img/logos/proyecten.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="imagin-home"
+                                             src="theme_pragmatic/static/src/img/logos/loggin.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="imagin-home"
+                                             src="theme_pragmatic/static/src/img/logos/oncredit.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="imagin-home"
+                                             src="theme_pragmatic/static/src/img/logos/proyecten.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img class="imagin-home"
+                                             src="theme_pragmatic/static/src/img/logos/loggin.png"/>
+                                    </div>
                                 </div>
-                                <div class="swiper-button-next" />
-                                <div class="swiper-button-prev" />
-                                <div class="swiper-pagination" />
-                              </div>
-
-                            <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" />
-                            <script>
-                                var swiper = new Swiper(".partnersSwiper", {
-                                  rewind: true,
-                                  slidesPerView: 3,
-                                  loop: true,
-                                  spaceBetween: 0,
-                                  centeredSlides: false,
-                                  autoplay: {
-                                    delay: 6500,
-                                    disableOnInteraction: false,
-                                  },
-                                  pagination: {
-                                    el: ".swiper-pagination",
-                                    clickable: true,
-                                  },
-                                  navigation: {
-                                    nextEl: ".swiper-button-next",
-                                    prevEl: ".swiper-button-prev",
-                                  },
-                                });
-                              </script>
+                                <div class="swiper-pagination"/>
+                            </div>
                         </div>
-
-
                     </div>
-
-
+                    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"/>
+                    <script src="/theme_pragmatic/static/src/js/carousel.js"/>
                 </t>
-
             </t>
         </field>
     </record>

@@ -176,87 +176,48 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-container-servicie-clients">
-                            <div class="row justify-content-center align-items-start ">
-                                <link rel="stylesheet" href="/../static/src/scss/style_service.scss"/>
-                                <div class="col-md-12">
-                                    <h1 class="title-inf-develop">Se manejan lenguajes como:</h1>
-                                </div>
-                            </div>
-                            <div class="clients">
-                                <link rel="stylesheet"
-                                      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-                                <div class="swiper clientsSwiper">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide slide-clients div-one">
-                                            <img class="develop-image"
-                                                 src="/theme_pragmatic/static/src/img/development/image-angular.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="develop-image img-transfiriendo"
-                                                 src="/theme_pragmatic/static/src/img/development/image-java.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="develop-image"
-                                                 src="/theme_pragmatic/static/src/img/development/image-node.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="develop-image"
-                                                 src="/theme_pragmatic/static/src/img/development/image-python.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="develop-image"
-                                                 src="/theme_pragmatic/static/src/img/development/image-react.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients div-one">
-                                            <img class="develop-image"
-                                                 src="/theme_pragmatic/static/src/img/development/image-angular.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="develop-image img-transfiriendo"
-                                                 src="/theme_pragmatic/static/src/img/development/image-java.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="develop-image"
-                                                 src="/theme_pragmatic/static/src/img/development/image-node.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="develop-image"
-                                                 src="/theme_pragmatic/static/src/img/development/image-python.png"/>
-                                        </div>
-                                        <div class="swiper-slide slide-clients">
-                                            <img class="develop-image"
-                                                 src="/theme_pragmatic/static/src/img/development/image-react.png"/>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-button-next"/>
-                                    <div class="swiper-button-prev"/>
-                                    <div class="swiper-pagination"/>
-                                </div>
 
-                                <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"/>
-                                <script>
-                                    var swiper = new Swiper(".clientsSwiper", {
-                                    rewind: true,
-                                    slidesPerView: 5,
-                                    loop: true,
-                                    spaceBetween: 0,
-                                    centeredSlides: false,
-                                    autoplay: {
-                                    delay: 6500,
-                                    disableOnInteraction: false,
-                                    },
-                                    pagination: {
-                                    el: ".swiper-pagination",
-                                    clickable: true,
-                                    },
-                                    navigation: {
-                                    nextEl: ".swiper-button-next",
-                                    prevEl: ".swiper-button-prev",
-                                    },
-                                    });
-                                </script>
+                        <div class="home-carousel-1">
+                            <div class="col-md-12">
+                                <h2 class="sub-title-1-home">Compañías que han confiado en nosotros</h2>
                             </div>
+                            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="/theme_pragmatic/static/src/img/development/image-angular.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/theme_pragmatic/static/src/img/development/image-java.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/theme_pragmatic/static/src/img/development/image-node.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/theme_pragmatic/static/src/img/development/image-python.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/theme_pragmatic/static/src/img/development/image-react.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/theme_pragmatic/static/src/img/development/image-angular.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/theme_pragmatic/static/src/img/development/image-java.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/theme_pragmatic/static/src/img/development/image-node.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/theme_pragmatic/static/src/img/development/image-python.png"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/theme_pragmatic/static/src/img/development/image-react.png"/>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"/>
+                            </div>
+
                         </div>
 
                         <div class="container-service-II">
@@ -354,6 +315,8 @@
                         </div>
 
                     </div>
+                    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"/>
+                    <script src="/theme_pragmatic/static/src/js/carousel.js"/>
                 </t>
             </t>
         </field>

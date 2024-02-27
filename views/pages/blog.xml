@@ -14,7 +14,7 @@
                 <t t-call="website.layout">
                     <div id="wrap" class="oe_structure">
                         <link rel="stylesheet" href="/../static/src/scss/style_blog.scss"/>
-                        <header class="front-page-contact">
+                        <header class="parallax">
                             <div class="card-container-blog text-center">
                                 <div class="col-md-12">
                                     <h1 class="title-1">Blog Pragmatic Ingeniería</h1>

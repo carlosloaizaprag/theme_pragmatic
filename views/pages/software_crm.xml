@@ -42,7 +42,7 @@
                         <div class="card-container-servicie text-center">
                             <div class="row-service align-items-center justify-content-center justify-content-lg-between gap-5 gap-lg-0 ">
                                 <div class="col-md-4">
-                                    <div class="card-servicie">
+                                    <div class="card-servicie-crm">
                                         <h5 class="service-card-title">
                                             Interfaz Integral
                                         </h5>
@@ -54,7 +54,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="card-servicie">
+                                    <div class="card-servicie-crm">
                                         <h5 class="service-card-title">
                                             Personalización Profunda
                                         </h5>
@@ -66,7 +66,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="card-servicie">
+                                    <div class="card-servicie-crm">
                                         <h4 class="service-card-title">
                                             Automatización Inteligente
                                         </h4>

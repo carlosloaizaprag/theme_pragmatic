@@ -15,7 +15,7 @@
                     <div id="wrap" class="oe_structure">
                         <link rel="stylesheet" href="/../static/src/scss/style_contact.scss"/>
 
-                        <header class="front-page-contact">
+                        <header class="parallax">
                             <div class="card-container-contactus text-center">
                                 <div class="col-md-12">
                                     <h1 class="title-1">Contáctanos</h1>
